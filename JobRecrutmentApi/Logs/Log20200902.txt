@@ -1,0 +1,7 @@
+02-Sep-2020 10:35:06.944 +06:00 [INF] User profile is available. Using 'C:\Users\himu\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+02-Sep-2020 10:35:10.474 +06:00 [INF] Request starting HTTP/1.1 GET http://localhost:58364/swagger/index.html  
+02-Sep-2020 10:35:10.474 +06:00 [INF] Request starting HTTP/1.1 DEBUG http://localhost:58364/  0
+02-Sep-2020 10:35:10.580 +06:00 [INF] Request finished in 131.3375ms 200 
+02-Sep-2020 10:35:11.335 +06:00 [INF] Request finished in 889.085ms 200 text/html
+02-Sep-2020 10:35:11.967 +06:00 [INF] Request starting HTTP/1.1 GET http://localhost:58364/swagger/v1.0/swagger.json  
+02-Sep-2020 10:35:12.986 +06:00 [INF] Request finished in 1018.6776ms 200 application/json;charset=utf-8

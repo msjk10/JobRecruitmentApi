@@ -1,0 +1,172 @@
+28-Jun-2020 13:04:39.628 +06:00 [INF] User profile is available. Using 'C:\Users\himu1\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+28-Jun-2020 13:04:42.823 +06:00 [INF] Request starting HTTP/1.1 DEBUG http://localhost:58364/  0
+28-Jun-2020 13:04:42.823 +06:00 [INF] Request starting HTTP/1.1 GET http://localhost:58364/api/values  
+28-Jun-2020 13:04:42.902 +06:00 [INF] Request finished in 79.3024ms 200 
+28-Jun-2020 13:06:14.764 +06:00 [ERR] An unhandled exception has occurred while executing the request
+System.IO.FileNotFoundException: Could not find file 'E:\Himel\Invogue\Job Recrument Application\JobRecrutmentApi\JobRecrutmentApi\bin\Debug\netcoreapp2.0\JobRecrutmentApi.xml'.
+File name: 'E:\Himel\Invogue\Job Recrument Application\JobRecrutmentApi\JobRecrutmentApi\bin\Debug\netcoreapp2.0\JobRecrutmentApi.xml'
+   at System.IO.FileStream.OpenHandle(FileMode mode, FileShare share, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   at System.Xml.XmlDownloadManager.GetStream(Uri uri, ICredentials credentials, IWebProxy proxy, RequestCachePolicy cachePolicy)
+   at System.Xml.XmlUrlResolver.GetEntity(Uri absoluteUri, String role, Type ofObjectToReturn)
+   at System.Xml.XmlTextReaderImpl.OpenUrl()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.XPath.XPathDocument.LoadFromReader(XmlReader reader, XmlSpace space)
+   at System.Xml.XPath.XPathDocument..ctor(String uri, XmlSpace space)
+   at Microsoft.Extensions.DependencyInjection.SwaggerGenOptionsExtensions.<>c__DisplayClass23_0.<IncludeXmlComments>b__0()
+   at Microsoft.Extensions.DependencyInjection.SwaggerGenOptionsExtensions.IncludeXmlComments(SwaggerGenOptions swaggerGenOptions, Func`1 xmlDocFactory, Boolean includeControllerXmlComments)
+   at JobRecrutmentApi.Startup.<>c.<ConfigureServices>b__8_2(SwaggerGenOptions c) in E:\Himel\Invogue\Job Recrument Application\JobRecrutmentApi\JobRecrutmentApi\Startup.cs:line 104
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)
+   at System.Lazy`1.ExecutionAndPublication(LazyHelper executionAndPublication, Boolean useDefaultConstructor)
+   at System.Lazy`1.CreateValue()
+   at Swashbuckle.AspNetCore.SwaggerGen.ConfigureSchemaRegistryOptions..ctor(IServiceProvider serviceProvider, IOptions`1 swaggerGenOptionsAccessor)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitTransient(TransientCallSite transientCallSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitIEnumerable(IEnumerableCallSite enumerableCallSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitTransient(TransientCallSite transientCallSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScoped(ScopedCallSite scopedCallSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitTransient(TransientCallSite transientCallSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitTransient(TransientCallSite transientCallSite, ServiceProviderEngineScope scope)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.GetService(IServiceProvider sp, Type type, Type middleware)
+   at lambda_method(Closure , Object , HttpContext , IServiceProvider )
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.<Invoke>d__7.MoveNext()
+28-Jun-2020 13:06:15.674 +06:00 [INF] Request finished in 92867.5272ms 500 text/html; charset=utf-8
+28-Jun-2020 13:06:16.514 +06:00 [INF] Request starting HTTP/1.1 GET http://localhost:58364/favicon.ico  
+28-Jun-2020 13:06:16.536 +06:00 [ERR] An unhandled exception has occurred while executing the request
+System.IO.FileNotFoundException: Could not find file 'E:\Himel\Invogue\Job Recrument Application\JobRecrutmentApi\JobRecrutmentApi\bin\Debug\netcoreapp2.0\JobRecrutmentApi.xml'.
+File name: 'E:\Himel\Invogue\Job Recrument Application\JobRecrutmentApi\JobRecrutmentApi\bin\Debug\netcoreapp2.0\JobRecrutmentApi.xml'
+   at System.IO.FileStream.OpenHandle(FileMode mode, FileShare share, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   at System.Xml.XmlDownloadManager.GetStream(Uri uri, ICredentials credentials, IWebProxy proxy, RequestCachePolicy cachePolicy)
+   at System.Xml.XmlUrlResolver.GetEntity(Uri absoluteUri, String role, Type ofObjectToReturn)
+   at System.Xml.XmlTextReaderImpl.OpenUrl()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.XPath.XPathDocument.LoadFromReader(XmlReader reader, XmlSpace space)
+   at System.Xml.XPath.XPathDocument..ctor(String uri, XmlSpace space)
+   at Microsoft.Extensions.DependencyInjection.SwaggerGenOptionsExtensions.<>c__DisplayClass23_0.<IncludeXmlComments>b__0()
+   at Microsoft.Extensions.DependencyInjection.SwaggerGenOptionsExtensions.IncludeXmlComments(SwaggerGenOptions swaggerGenOptions, Func`1 xmlDocFactory, Boolean includeControllerXmlComments)
+   at JobRecrutmentApi.Startup.<>c.<ConfigureServices>b__8_2(SwaggerGenOptions c) in E:\Himel\Invogue\Job Recrument Application\JobRecrutmentApi\JobRecrutmentApi\Startup.cs:line 104
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Lazy`1.CreateValue()
+   at Swashbuckle.AspNetCore.SwaggerGen.ConfigureSchemaRegistryOptions..ctor(IServiceProvider serviceProvider, IOptions`1 swaggerGenOptionsAccessor)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitTransient(TransientCallSite transientCallSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitIEnumerable(IEnumerableCallSite enumerableCallSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitTransient(TransientCallSite transientCallSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScoped(ScopedCallSite scopedCallSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitTransient(TransientCallSite transientCallSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitTransient(TransientCallSite transientCallSite, ServiceProviderEngineScope scope)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.GetService(IServiceProvider sp, Type type, Type middleware)
+   at lambda_method(Closure , Object , HttpContext , IServiceProvider )
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.<Invoke>d__7.MoveNext()
+28-Jun-2020 13:06:16.719 +06:00 [INF] Request finished in 204.9652ms 500 text/html; charset=utf-8
+28-Jun-2020 13:10:49.004 +06:00 [INF] User profile is available. Using 'C:\Users\himu1\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+28-Jun-2020 13:10:50.521 +06:00 [INF] Request starting HTTP/1.1 DEBUG http://localhost:58364/  0
+28-Jun-2020 13:10:50.521 +06:00 [INF] Request starting HTTP/1.1 GET http://localhost:58364/api/values  
+28-Jun-2020 13:10:50.589 +06:00 [INF] Request finished in 92.3269ms 200 
+28-Jun-2020 13:12:38.134 +06:00 [INF] User profile is available. Using 'C:\Users\himu1\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+28-Jun-2020 13:12:39.494 +06:00 [INF] Request starting HTTP/1.1 DEBUG http://localhost:58364/  0
+28-Jun-2020 13:12:39.494 +06:00 [INF] Request starting HTTP/1.1 GET http://localhost:58364/api/values  
+28-Jun-2020 13:12:39.546 +06:00 [INF] Request finished in 67.577ms 200 
+28-Jun-2020 13:12:40.557 +06:00 [INF] Route matched with {action = "Get", controller = "Values"}. Executing action JobRecrutmentApi.Controllers.ValuesController.Get (JobRecrutmentApi)
+28-Jun-2020 13:12:40.705 +06:00 [INF] Executing action method JobRecrutmentApi.Controllers.ValuesController.Get (JobRecrutmentApi) - Validation state: "Valid"
+28-Jun-2020 13:12:40.714 +06:00 [INF] Executed action method JobRecrutmentApi.Controllers.ValuesController.Get (JobRecrutmentApi), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 1.8472000000000002ms.
+28-Jun-2020 13:12:40.764 +06:00 [INF] Executing ObjectResult, writing value of type 'System.String[]'.
+28-Jun-2020 13:12:41.075 +06:00 [INF] Executed action JobRecrutmentApi.Controllers.ValuesController.Get (JobRecrutmentApi) in 492.3698ms
+28-Jun-2020 13:12:41.079 +06:00 [INF] Request finished in 1602.4517ms 200 application/json; charset=utf-8
+28-Jun-2020 13:12:41.169 +06:00 [INF] Request starting HTTP/1.1 GET http://localhost:58364/favicon.ico  
+28-Jun-2020 13:12:41.181 +06:00 [INF] Request finished in 12.0813ms 404 
+28-Jun-2020 13:13:23.073 +06:00 [INF] Request starting HTTP/1.1 GET http://localhost:58364/swagger/index.html  
+28-Jun-2020 13:13:23.233 +06:00 [INF] Request finished in 159.4172ms 200 text/html
+28-Jun-2020 13:13:23.284 +06:00 [INF] Request starting HTTP/1.1 GET http://localhost:58364/swagger/swagger-ui-bundle.js  
+28-Jun-2020 13:13:23.284 +06:00 [INF] Request starting HTTP/1.1 GET http://localhost:58364/swagger/swagger-ui.css  
+28-Jun-2020 13:13:23.301 +06:00 [INF] Request starting HTTP/1.1 GET http://localhost:58364/swagger/swagger-ui-standalone-preset.js  
+28-Jun-2020 13:13:23.330 +06:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+28-Jun-2020 13:13:23.330 +06:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+28-Jun-2020 13:13:23.330 +06:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+28-Jun-2020 13:13:23.409 +06:00 [INF] Request finished in 124.9475ms 200 text/css
+28-Jun-2020 13:13:23.497 +06:00 [INF] Request finished in 213.2251ms 200 application/javascript
+28-Jun-2020 13:13:23.528 +06:00 [INF] Request finished in 226.4273ms 200 application/javascript
+28-Jun-2020 13:13:23.850 +06:00 [INF] Request starting HTTP/1.1 GET http://localhost:58364/swagger/v1.0/swagger.json  
+28-Jun-2020 13:13:23.900 +06:00 [INF] Request starting HTTP/1.1 GET http://localhost:58364/swagger/favicon-32x32.png  
+28-Jun-2020 13:13:23.900 +06:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+28-Jun-2020 13:13:23.900 +06:00 [INF] Request finished in 0.6178ms 200 image/png
+28-Jun-2020 13:13:24.169 +06:00 [INF] Request finished in 318.2498ms 200 application/json;charset=utf-8
+28-Jun-2020 13:13:52.502 +06:00 [INF] Request starting HTTP/1.1 GET http://localhost:58364/api/Values  
+28-Jun-2020 13:13:52.506 +06:00 [INF] Route matched with {action = "Get", controller = "Values"}. Executing action JobRecrutmentApi.Controllers.ValuesController.Get (JobRecrutmentApi)
+28-Jun-2020 13:13:52.543 +06:00 [INF] Executing action method JobRecrutmentApi.Controllers.ValuesController.Get (JobRecrutmentApi) - Validation state: "Valid"
+28-Jun-2020 13:13:52.543 +06:00 [INF] Executed action method JobRecrutmentApi.Controllers.ValuesController.Get (JobRecrutmentApi), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.014700000000000001ms.
+28-Jun-2020 13:13:52.548 +06:00 [INF] Executing ObjectResult, writing value of type 'System.String[]'.
+28-Jun-2020 13:13:52.548 +06:00 [INF] Executed action JobRecrutmentApi.Controllers.ValuesController.Get (JobRecrutmentApi) in 42.1513ms
+28-Jun-2020 13:13:52.548 +06:00 [INF] Request finished in 46.5113ms 200 application/json; charset=utf-8
+28-Jun-2020 13:15:04.949 +06:00 [INF] User profile is available. Using 'C:\Users\himu1\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+28-Jun-2020 13:15:06.286 +06:00 [INF] Request starting HTTP/1.1 GET http://localhost:58364/swagger/index.html  
+28-Jun-2020 13:15:06.286 +06:00 [INF] Request starting HTTP/1.1 DEBUG http://localhost:58364/  0
+28-Jun-2020 13:15:06.334 +06:00 [INF] Request finished in 65.2245ms 200 
+28-Jun-2020 13:15:06.729 +06:00 [INF] Request finished in 461.3423ms 200 text/html
+28-Jun-2020 13:15:07.200 +06:00 [INF] Request starting HTTP/1.1 GET http://localhost:58364/swagger/v1.0/swagger.json  
+28-Jun-2020 13:15:07.822 +06:00 [INF] Request finished in 622.5473ms 200 application/json;charset=utf-8
+28-Jun-2020 13:17:22.022 +06:00 [INF] User profile is available. Using 'C:\Users\himu1\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+28-Jun-2020 13:17:23.224 +06:00 [INF] Request starting HTTP/1.1 GET http://localhost:58364/swagger/index.html  
+28-Jun-2020 13:17:23.224 +06:00 [INF] Request starting HTTP/1.1 DEBUG http://localhost:58364/  0
+28-Jun-2020 13:17:23.269 +06:00 [INF] Request finished in 59.1699ms 200 
+28-Jun-2020 13:17:23.688 +06:00 [INF] Request finished in 480.2302ms 200 text/html
+28-Jun-2020 13:17:24.074 +06:00 [INF] Request starting HTTP/1.1 GET http://localhost:58364/swagger/v1.0/swagger.json  
+28-Jun-2020 13:17:24.743 +06:00 [INF] Request finished in 668.9047ms 200 application/json;charset=utf-8
+28-Jun-2020 13:18:23.830 +06:00 [INF] Request starting HTTP/1.1 GET http://localhost:58364/api/Values  
+28-Jun-2020 13:18:24.188 +06:00 [INF] Route matched with {action = "Get", controller = "Values"}. Executing action JobRecrutmentApi.Controllers.ValuesController.Get (JobRecrutmentApi)
+28-Jun-2020 13:18:24.399 +06:00 [INF] Executing action method JobRecrutmentApi.Controllers.ValuesController.Get (JobRecrutmentApi) - Validation state: "Valid"
+28-Jun-2020 13:18:24.415 +06:00 [INF] Executed action method JobRecrutmentApi.Controllers.ValuesController.Get (JobRecrutmentApi), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 3.0169ms.
+28-Jun-2020 13:18:24.480 +06:00 [INF] Executing ObjectResult, writing value of type 'System.String[]'.
+28-Jun-2020 13:18:24.534 +06:00 [INF] Executed action JobRecrutmentApi.Controllers.ValuesController.Get (JobRecrutmentApi) in 335.68690000000004ms
+28-Jun-2020 13:18:24.537 +06:00 [INF] Request finished in 706.941ms 200 application/json; charset=utf-8
+28-Jun-2020 13:18:44.453 +06:00 [INF] Request starting HTTP/1.1 POST http://localhost:58364/api/Values application/json-patch+json 4
+28-Jun-2020 13:18:44.467 +06:00 [INF] Policy execution failed.
+28-Jun-2020 13:18:44.467 +06:00 [INF] Request origin http://localhost:58364 does not have permission to access the resource.
+28-Jun-2020 13:18:44.472 +06:00 [INF] Policy execution failed.
+28-Jun-2020 13:18:44.472 +06:00 [INF] Request origin http://localhost:58364 does not have permission to access the resource.
+28-Jun-2020 13:18:44.514 +06:00 [INF] Route matched with {action = "Post", controller = "Values"}. Executing action JobRecrutmentApi.Controllers.ValuesController.Post (JobRecrutmentApi)
+28-Jun-2020 13:18:44.641 +06:00 [INF] Executing ObjectResult, writing value of type 'Admin.Domain.Entities.AppModel.ValidationResultModel'.
+28-Jun-2020 13:18:44.651 +06:00 [INF] Executed action JobRecrutmentApi.Controllers.ValuesController.Post (JobRecrutmentApi) in 137.1068ms
+28-Jun-2020 13:18:44.659 +06:00 [INF] Request finished in 205.5744ms 422 application/json; charset=utf-8
+28-Jun-2020 13:18:53.296 +06:00 [INF] Request starting HTTP/1.1 POST http://localhost:58364/api/Values application/json-patch+json 4
+28-Jun-2020 13:18:53.296 +06:00 [INF] Policy execution failed.
+28-Jun-2020 13:18:53.297 +06:00 [INF] Request origin http://localhost:58364 does not have permission to access the resource.
+28-Jun-2020 13:18:53.297 +06:00 [INF] Policy execution failed.
+28-Jun-2020 13:18:53.297 +06:00 [INF] Request origin http://localhost:58364 does not have permission to access the resource.
+28-Jun-2020 13:18:53.298 +06:00 [INF] Route matched with {action = "Post", controller = "Values"}. Executing action JobRecrutmentApi.Controllers.ValuesController.Post (JobRecrutmentApi)
+28-Jun-2020 13:18:53.300 +06:00 [INF] Executing ObjectResult, writing value of type 'Admin.Domain.Entities.AppModel.ValidationResultModel'.
+28-Jun-2020 13:18:53.300 +06:00 [INF] Executed action JobRecrutmentApi.Controllers.ValuesController.Post (JobRecrutmentApi) in 2.3991000000000002ms
+28-Jun-2020 13:18:53.301 +06:00 [INF] Request finished in 4.5065ms 422 application/json; charset=utf-8
+28-Jun-2020 13:19:16.505 +06:00 [INF] Request starting HTTP/1.1 GET http://localhost:58364/api/Values/1  
+28-Jun-2020 13:19:16.515 +06:00 [INF] Route matched with {action = "Get", controller = "Values"}. Executing action JobRecrutmentApi.Controllers.ValuesController.Get (JobRecrutmentApi)
+28-Jun-2020 13:19:16.609 +06:00 [INF] Executing action method JobRecrutmentApi.Controllers.ValuesController.Get (JobRecrutmentApi) with arguments (["1"]) - Validation state: "Valid"
+28-Jun-2020 13:19:16.610 +06:00 [INF] Executed action method JobRecrutmentApi.Controllers.ValuesController.Get (JobRecrutmentApi), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.1177ms.
+28-Jun-2020 13:19:16.610 +06:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+28-Jun-2020 13:19:16.610 +06:00 [INF] Executed action JobRecrutmentApi.Controllers.ValuesController.Get (JobRecrutmentApi) in 95.1975ms
+28-Jun-2020 13:19:16.611 +06:00 [INF] Request finished in 105.8045ms 200 text/plain; charset=utf-8
+28-Jun-2020 16:43:24.948 +06:00 [INF] User profile is available. Using 'C:\Users\himu1\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+28-Jun-2020 16:43:27.415 +06:00 [INF] Request starting HTTP/1.1 DEBUG http://localhost:58364/  0
+28-Jun-2020 16:43:27.415 +06:00 [INF] Request starting HTTP/1.1 GET http://localhost:58364/swagger/index.html  
+28-Jun-2020 16:43:27.551 +06:00 [INF] Request finished in 114.7168ms 200 
+28-Jun-2020 16:43:28.119 +06:00 [INF] Request finished in 720.0976ms 200 text/html
+28-Jun-2020 16:43:28.544 +06:00 [INF] Request starting HTTP/1.1 GET http://localhost:58364/swagger/v1.0/swagger.json  
+28-Jun-2020 16:43:30.375 +06:00 [INF] Request finished in 1831.2187ms 200 application/json;charset=utf-8

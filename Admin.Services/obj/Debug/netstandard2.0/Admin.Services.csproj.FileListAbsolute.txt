@@ -1,0 +1,154 @@
+E:\Himel\Invogue\Job Recrument Application\JobRecrutmentApi\Admin.Services\bin\Debug\netstandard2.0\Admin.Services.deps.json
+E:\Himel\Invogue\Job Recrument Application\JobRecrutmentApi\Admin.Services\bin\Debug\netstandard2.0\Admin.Services.dll
+E:\Himel\Invogue\Job Recrument Application\JobRecrutmentApi\Admin.Services\bin\Debug\netstandard2.0\Admin.Services.pdb
+E:\Himel\Invogue\Job Recrument Application\JobRecrutmentApi\Admin.Services\bin\Debug\netstandard2.0\Admin.Domain.Entities.dll
+E:\Himel\Invogue\Job Recrument Application\JobRecrutmentApi\Admin.Services\bin\Debug\netstandard2.0\Admin.Domain.Interfaces.dll
+E:\Himel\Invogue\Job Recrument Application\JobRecrutmentApi\Admin.Services\bin\Debug\netstandard2.0\Admin.Services.Interfaces.dll
+E:\Himel\Invogue\Job Recrument Application\JobRecrutmentApi\Admin.Services\bin\Debug\netstandard2.0\Admin.Domain.Interfaces.pdb
+E:\Himel\Invogue\Job Recrument Application\JobRecrutmentApi\Admin.Services\bin\Debug\netstandard2.0\Admin.Services.Interfaces.pdb
+E:\Himel\Invogue\Job Recrument Application\JobRecrutmentApi\Admin.Services\bin\Debug\netstandard2.0\Admin.Domain.Entities.pdb
+E:\Himel\Invogue\Job Recrument Application\JobRecrutmentApi\Admin.Services\obj\Debug\netstandard2.0\Admin.Services.csprojAssemblyReference.cache
+E:\Himel\Invogue\Job Recrument Application\JobRecrutmentApi\Admin.Services\obj\Debug\netstandard2.0\Admin.Services.csproj.CoreCompileInputs.cache
+E:\Himel\Invogue\Job Recrument Application\JobRecrutmentApi\Admin.Services\obj\Debug\netstandard2.0\Admin.Services.AssemblyInfoInputs.cache
+E:\Himel\Invogue\Job Recrument Application\JobRecrutmentApi\Admin.Services\obj\Debug\netstandard2.0\Admin.Services.AssemblyInfo.cs
+E:\Himel\Invogue\Job Recrument Application\JobRecrutmentApi\Admin.Services\obj\Debug\netstandard2.0\Admin.Services.csproj.CopyComplete
+E:\Himel\Invogue\Job Recrument Application\JobRecrutmentApi\Admin.Services\obj\Debug\netstandard2.0\Admin.Services.dll
+E:\Himel\Invogue\Job Recrument Application\JobRecrutmentApi\Admin.Services\obj\Debug\netstandard2.0\Admin.Services.pdb
+E:\Himel\Invogue\Job Recrument Application\JobRecrutmentApi\Admin.Services\bin\Debug\netstandard2.0\Candidate.Domain.Entities.dll
+E:\Himel\Invogue\Job Recrument Application\JobRecrutmentApi\Admin.Services\bin\Debug\netstandard2.0\Common.Domain.Entities.dll
+E:\Himel\Invogue\Job Recrument Application\JobRecrutmentApi\Admin.Services\bin\Debug\netstandard2.0\Employee.Domain.Entities.dll
+E:\Himel\Invogue\Job Recrument Application\JobRecrutmentApi\Admin.Services\bin\Debug\netstandard2.0\Candidate.Domain.Entities.pdb
+E:\Himel\Invogue\Job Recrument Application\JobRecrutmentApi\Admin.Services\bin\Debug\netstandard2.0\Common.Domain.Entities.pdb
+E:\Himel\Invogue\Job Recrument Application\JobRecrutmentApi\Admin.Services\bin\Debug\netstandard2.0\Employee.Domain.Entities.pdb
+E:\Himel\Invogue\Connect\JobRecrutmentApi\Admin.Services\bin\Debug\netstandard2.0\Admin.Services.deps.json
+E:\Himel\Invogue\Connect\JobRecrutmentApi\Admin.Services\bin\Debug\netstandard2.0\Admin.Services.dll
+E:\Himel\Invogue\Connect\JobRecrutmentApi\Admin.Services\bin\Debug\netstandard2.0\Admin.Services.pdb
+E:\Himel\Invogue\Connect\JobRecrutmentApi\Admin.Services\bin\Debug\netstandard2.0\Admin.Domain.Entities.dll
+E:\Himel\Invogue\Connect\JobRecrutmentApi\Admin.Services\bin\Debug\netstandard2.0\Admin.Domain.Interfaces.dll
+E:\Himel\Invogue\Connect\JobRecrutmentApi\Admin.Services\bin\Debug\netstandard2.0\Admin.Services.Interfaces.dll
+E:\Himel\Invogue\Connect\JobRecrutmentApi\Admin.Services\bin\Debug\netstandard2.0\Candidate.Domain.Entities.dll
+E:\Himel\Invogue\Connect\JobRecrutmentApi\Admin.Services\bin\Debug\netstandard2.0\Common.Domain.Entities.dll
+E:\Himel\Invogue\Connect\JobRecrutmentApi\Admin.Services\bin\Debug\netstandard2.0\Employee.Domain.Entities.dll
+E:\Himel\Invogue\Connect\JobRecrutmentApi\Admin.Services\bin\Debug\netstandard2.0\Admin.Domain.Interfaces.pdb
+E:\Himel\Invogue\Connect\JobRecrutmentApi\Admin.Services\bin\Debug\netstandard2.0\Admin.Services.Interfaces.pdb
+E:\Himel\Invogue\Connect\JobRecrutmentApi\Admin.Services\bin\Debug\netstandard2.0\Admin.Domain.Entities.pdb
+E:\Himel\Invogue\Connect\JobRecrutmentApi\Admin.Services\bin\Debug\netstandard2.0\Candidate.Domain.Entities.pdb
+E:\Himel\Invogue\Connect\JobRecrutmentApi\Admin.Services\bin\Debug\netstandard2.0\Common.Domain.Entities.pdb
+E:\Himel\Invogue\Connect\JobRecrutmentApi\Admin.Services\bin\Debug\netstandard2.0\Employee.Domain.Entities.pdb
+E:\Himel\Invogue\Connect\JobRecrutmentApi\Admin.Services\obj\Debug\netstandard2.0\Admin.Services.csprojAssemblyReference.cache
+E:\Himel\Invogue\Connect\JobRecrutmentApi\Admin.Services\obj\Debug\netstandard2.0\Admin.Services.csproj.CoreCompileInputs.cache
+E:\Himel\Invogue\Connect\JobRecrutmentApi\Admin.Services\obj\Debug\netstandard2.0\Admin.Services.AssemblyInfoInputs.cache
+E:\Himel\Invogue\Connect\JobRecrutmentApi\Admin.Services\obj\Debug\netstandard2.0\Admin.Services.AssemblyInfo.cs
+E:\Himel\Invogue\Connect\JobRecrutmentApi\Admin.Services\obj\Debug\netstandard2.0\Admin.Services.csproj.CopyComplete
+E:\Himel\Invogue\Connect\JobRecrutmentApi\Admin.Services\obj\Debug\netstandard2.0\Admin.Services.dll
+E:\Himel\Invogue\Connect\JobRecrutmentApi\Admin.Services\obj\Debug\netstandard2.0\Admin.Services.pdb
+D:\Development\Job Site Project\Connect\JobRecrutmentApi\Admin.Services\bin\Debug\netstandard2.0\Admin.Services.deps.json
+D:\Development\Job Site Project\Connect\JobRecrutmentApi\Admin.Services\bin\Debug\netstandard2.0\Admin.Services.dll
+D:\Development\Job Site Project\Connect\JobRecrutmentApi\Admin.Services\bin\Debug\netstandard2.0\Admin.Services.pdb
+D:\Development\Job Site Project\Connect\JobRecrutmentApi\Admin.Services\bin\Debug\netstandard2.0\Admin.Domain.Entities.dll
+D:\Development\Job Site Project\Connect\JobRecrutmentApi\Admin.Services\bin\Debug\netstandard2.0\Admin.Domain.Interfaces.dll
+D:\Development\Job Site Project\Connect\JobRecrutmentApi\Admin.Services\bin\Debug\netstandard2.0\Admin.Services.Interfaces.dll
+D:\Development\Job Site Project\Connect\JobRecrutmentApi\Admin.Services\bin\Debug\netstandard2.0\Candidate.Domain.Entities.dll
+D:\Development\Job Site Project\Connect\JobRecrutmentApi\Admin.Services\bin\Debug\netstandard2.0\Common.Domain.Entities.dll
+D:\Development\Job Site Project\Connect\JobRecrutmentApi\Admin.Services\bin\Debug\netstandard2.0\Employee.Domain.Entities.dll
+D:\Development\Job Site Project\Connect\JobRecrutmentApi\Admin.Services\bin\Debug\netstandard2.0\Admin.Domain.Interfaces.pdb
+D:\Development\Job Site Project\Connect\JobRecrutmentApi\Admin.Services\bin\Debug\netstandard2.0\Admin.Services.Interfaces.pdb
+D:\Development\Job Site Project\Connect\JobRecrutmentApi\Admin.Services\bin\Debug\netstandard2.0\Admin.Domain.Entities.pdb
+D:\Development\Job Site Project\Connect\JobRecrutmentApi\Admin.Services\bin\Debug\netstandard2.0\Candidate.Domain.Entities.pdb
+D:\Development\Job Site Project\Connect\JobRecrutmentApi\Admin.Services\bin\Debug\netstandard2.0\Common.Domain.Entities.pdb
+D:\Development\Job Site Project\Connect\JobRecrutmentApi\Admin.Services\bin\Debug\netstandard2.0\Employee.Domain.Entities.pdb
+D:\Development\Job Site Project\Connect\JobRecrutmentApi\Admin.Services\obj\Debug\netstandard2.0\Admin.Services.csprojAssemblyReference.cache
+D:\Development\Job Site Project\Connect\JobRecrutmentApi\Admin.Services\obj\Debug\netstandard2.0\Admin.Services.csproj.CoreCompileInputs.cache
+D:\Development\Job Site Project\Connect\JobRecrutmentApi\Admin.Services\obj\Debug\netstandard2.0\Admin.Services.AssemblyInfoInputs.cache
+D:\Development\Job Site Project\Connect\JobRecrutmentApi\Admin.Services\obj\Debug\netstandard2.0\Admin.Services.AssemblyInfo.cs
+D:\Development\Job Site Project\Connect\JobRecrutmentApi\Admin.Services\obj\Debug\netstandard2.0\Admin.Services.csproj.CopyComplete
+D:\Development\Job Site Project\Connect\JobRecrutmentApi\Admin.Services\obj\Debug\netstandard2.0\Admin.Services.dll
+D:\Development\Job Site Project\Connect\JobRecrutmentApi\Admin.Services\obj\Debug\netstandard2.0\Admin.Services.pdb
+D:\Development\Job Site Project\Connect\Job-RecruitmentApi\Admin.Services\bin\Debug\netstandard2.0\Admin.Services.deps.json
+D:\Development\Job Site Project\Connect\Job-RecruitmentApi\Admin.Services\bin\Debug\netstandard2.0\Admin.Services.dll
+D:\Development\Job Site Project\Connect\Job-RecruitmentApi\Admin.Services\bin\Debug\netstandard2.0\Admin.Services.pdb
+D:\Development\Job Site Project\Connect\Job-RecruitmentApi\Admin.Services\bin\Debug\netstandard2.0\Admin.Domain.Entities.dll
+D:\Development\Job Site Project\Connect\Job-RecruitmentApi\Admin.Services\bin\Debug\netstandard2.0\Admin.Domain.Interfaces.dll
+D:\Development\Job Site Project\Connect\Job-RecruitmentApi\Admin.Services\bin\Debug\netstandard2.0\Admin.Services.Interfaces.dll
+D:\Development\Job Site Project\Connect\Job-RecruitmentApi\Admin.Services\bin\Debug\netstandard2.0\Candidate.Domain.Entities.dll
+D:\Development\Job Site Project\Connect\Job-RecruitmentApi\Admin.Services\bin\Debug\netstandard2.0\Common.Domain.Entities.dll
+D:\Development\Job Site Project\Connect\Job-RecruitmentApi\Admin.Services\bin\Debug\netstandard2.0\Employee.Domain.Entities.dll
+D:\Development\Job Site Project\Connect\Job-RecruitmentApi\Admin.Services\bin\Debug\netstandard2.0\Admin.Domain.Interfaces.pdb
+D:\Development\Job Site Project\Connect\Job-RecruitmentApi\Admin.Services\bin\Debug\netstandard2.0\Admin.Services.Interfaces.pdb
+D:\Development\Job Site Project\Connect\Job-RecruitmentApi\Admin.Services\bin\Debug\netstandard2.0\Admin.Domain.Entities.pdb
+D:\Development\Job Site Project\Connect\Job-RecruitmentApi\Admin.Services\bin\Debug\netstandard2.0\Candidate.Domain.Entities.pdb
+D:\Development\Job Site Project\Connect\Job-RecruitmentApi\Admin.Services\bin\Debug\netstandard2.0\Common.Domain.Entities.pdb
+D:\Development\Job Site Project\Connect\Job-RecruitmentApi\Admin.Services\bin\Debug\netstandard2.0\Employee.Domain.Entities.pdb
+D:\Development\Job Site Project\Connect\Job-RecruitmentApi\Admin.Services\obj\Debug\netstandard2.0\Admin.Services.csprojAssemblyReference.cache
+D:\Development\Job Site Project\Connect\Job-RecruitmentApi\Admin.Services\obj\Debug\netstandard2.0\Admin.Services.csproj.CoreCompileInputs.cache
+D:\Development\Job Site Project\Connect\Job-RecruitmentApi\Admin.Services\obj\Debug\netstandard2.0\Admin.Services.AssemblyInfoInputs.cache
+D:\Development\Job Site Project\Connect\Job-RecruitmentApi\Admin.Services\obj\Debug\netstandard2.0\Admin.Services.AssemblyInfo.cs
+D:\Development\Job Site Project\Connect\Job-RecruitmentApi\Admin.Services\obj\Debug\netstandard2.0\Admin.Services.csproj.CopyComplete
+D:\Development\Job Site Project\Connect\Job-RecruitmentApi\Admin.Services\obj\Debug\netstandard2.0\Admin.Services.dll
+D:\Development\Job Site Project\Connect\Job-RecruitmentApi\Admin.Services\obj\Debug\netstandard2.0\Admin.Services.pdb
+D:\Development\Job Site Project\Connect\JobRecruitmentApi\Admin.Services\bin\Debug\netstandard2.0\Admin.Services.deps.json
+D:\Development\Job Site Project\Connect\JobRecruitmentApi\Admin.Services\bin\Debug\netstandard2.0\Admin.Services.dll
+D:\Development\Job Site Project\Connect\JobRecruitmentApi\Admin.Services\bin\Debug\netstandard2.0\Admin.Services.pdb
+D:\Development\Job Site Project\Connect\JobRecruitmentApi\Admin.Services\bin\Debug\netstandard2.0\Admin.Domain.Entities.dll
+D:\Development\Job Site Project\Connect\JobRecruitmentApi\Admin.Services\bin\Debug\netstandard2.0\Admin.Domain.Interfaces.dll
+D:\Development\Job Site Project\Connect\JobRecruitmentApi\Admin.Services\bin\Debug\netstandard2.0\Admin.Services.Interfaces.dll
+D:\Development\Job Site Project\Connect\JobRecruitmentApi\Admin.Services\bin\Debug\netstandard2.0\Candidate.Domain.Entities.dll
+D:\Development\Job Site Project\Connect\JobRecruitmentApi\Admin.Services\bin\Debug\netstandard2.0\Common.Domain.Entities.dll
+D:\Development\Job Site Project\Connect\JobRecruitmentApi\Admin.Services\bin\Debug\netstandard2.0\Employee.Domain.Entities.dll
+D:\Development\Job Site Project\Connect\JobRecruitmentApi\Admin.Services\bin\Debug\netstandard2.0\Admin.Domain.Interfaces.pdb
+D:\Development\Job Site Project\Connect\JobRecruitmentApi\Admin.Services\bin\Debug\netstandard2.0\Admin.Services.Interfaces.pdb
+D:\Development\Job Site Project\Connect\JobRecruitmentApi\Admin.Services\bin\Debug\netstandard2.0\Admin.Domain.Entities.pdb
+D:\Development\Job Site Project\Connect\JobRecruitmentApi\Admin.Services\bin\Debug\netstandard2.0\Candidate.Domain.Entities.pdb
+D:\Development\Job Site Project\Connect\JobRecruitmentApi\Admin.Services\bin\Debug\netstandard2.0\Common.Domain.Entities.pdb
+D:\Development\Job Site Project\Connect\JobRecruitmentApi\Admin.Services\bin\Debug\netstandard2.0\Employee.Domain.Entities.pdb
+D:\Development\Job Site Project\Connect\JobRecruitmentApi\Admin.Services\obj\Debug\netstandard2.0\Admin.Services.csprojAssemblyReference.cache
+D:\Development\Job Site Project\Connect\JobRecruitmentApi\Admin.Services\obj\Debug\netstandard2.0\Admin.Services.csproj.CoreCompileInputs.cache
+D:\Development\Job Site Project\Connect\JobRecruitmentApi\Admin.Services\obj\Debug\netstandard2.0\Admin.Services.AssemblyInfoInputs.cache
+D:\Development\Job Site Project\Connect\JobRecruitmentApi\Admin.Services\obj\Debug\netstandard2.0\Admin.Services.AssemblyInfo.cs
+D:\Development\Job Site Project\Connect\JobRecruitmentApi\Admin.Services\obj\Debug\netstandard2.0\Admin.Services.csproj.CopyComplete
+D:\Development\Job Site Project\Connect\JobRecruitmentApi\Admin.Services\obj\Debug\netstandard2.0\Admin.Services.dll
+D:\Development\Job Site Project\Connect\JobRecruitmentApi\Admin.Services\obj\Debug\netstandard2.0\Admin.Services.pdb
+F:\Development\Projects\Invogue\Jobsite Project\Mehedi Invogue\JobRecruitmentApi\Admin.Services\bin\Debug\netstandard2.0\Admin.Services.deps.json
+F:\Development\Projects\Invogue\Jobsite Project\Mehedi Invogue\JobRecruitmentApi\Admin.Services\bin\Debug\netstandard2.0\Admin.Services.dll
+F:\Development\Projects\Invogue\Jobsite Project\Mehedi Invogue\JobRecruitmentApi\Admin.Services\bin\Debug\netstandard2.0\Admin.Services.pdb
+F:\Development\Projects\Invogue\Jobsite Project\Mehedi Invogue\JobRecruitmentApi\Admin.Services\bin\Debug\netstandard2.0\Admin.Domain.Entities.dll
+F:\Development\Projects\Invogue\Jobsite Project\Mehedi Invogue\JobRecruitmentApi\Admin.Services\bin\Debug\netstandard2.0\Admin.Domain.Interfaces.dll
+F:\Development\Projects\Invogue\Jobsite Project\Mehedi Invogue\JobRecruitmentApi\Admin.Services\bin\Debug\netstandard2.0\Admin.Services.Interfaces.dll
+F:\Development\Projects\Invogue\Jobsite Project\Mehedi Invogue\JobRecruitmentApi\Admin.Services\bin\Debug\netstandard2.0\Candidate.Domain.Entities.dll
+F:\Development\Projects\Invogue\Jobsite Project\Mehedi Invogue\JobRecruitmentApi\Admin.Services\bin\Debug\netstandard2.0\Common.Domain.Entities.dll
+F:\Development\Projects\Invogue\Jobsite Project\Mehedi Invogue\JobRecruitmentApi\Admin.Services\bin\Debug\netstandard2.0\Employee.Domain.Entities.dll
+F:\Development\Projects\Invogue\Jobsite Project\Mehedi Invogue\JobRecruitmentApi\Admin.Services\bin\Debug\netstandard2.0\Admin.Domain.Interfaces.pdb
+F:\Development\Projects\Invogue\Jobsite Project\Mehedi Invogue\JobRecruitmentApi\Admin.Services\bin\Debug\netstandard2.0\Admin.Services.Interfaces.pdb
+F:\Development\Projects\Invogue\Jobsite Project\Mehedi Invogue\JobRecruitmentApi\Admin.Services\bin\Debug\netstandard2.0\Admin.Domain.Entities.pdb
+F:\Development\Projects\Invogue\Jobsite Project\Mehedi Invogue\JobRecruitmentApi\Admin.Services\bin\Debug\netstandard2.0\Candidate.Domain.Entities.pdb
+F:\Development\Projects\Invogue\Jobsite Project\Mehedi Invogue\JobRecruitmentApi\Admin.Services\bin\Debug\netstandard2.0\Common.Domain.Entities.pdb
+F:\Development\Projects\Invogue\Jobsite Project\Mehedi Invogue\JobRecruitmentApi\Admin.Services\bin\Debug\netstandard2.0\Employee.Domain.Entities.pdb
+F:\Development\Projects\Invogue\Jobsite Project\Mehedi Invogue\JobRecruitmentApi\Admin.Services\obj\Debug\netstandard2.0\Admin.Services.csprojAssemblyReference.cache
+F:\Development\Projects\Invogue\Jobsite Project\Mehedi Invogue\JobRecruitmentApi\Admin.Services\obj\Debug\netstandard2.0\Admin.Services.csproj.CoreCompileInputs.cache
+F:\Development\Projects\Invogue\Jobsite Project\Mehedi Invogue\JobRecruitmentApi\Admin.Services\obj\Debug\netstandard2.0\Admin.Services.AssemblyInfoInputs.cache
+F:\Development\Projects\Invogue\Jobsite Project\Mehedi Invogue\JobRecruitmentApi\Admin.Services\obj\Debug\netstandard2.0\Admin.Services.AssemblyInfo.cs
+F:\Development\Projects\Invogue\Jobsite Project\Mehedi Invogue\JobRecruitmentApi\Admin.Services\obj\Debug\netstandard2.0\Admin.Services.csproj.CopyComplete
+F:\Development\Projects\Invogue\Jobsite Project\Mehedi Invogue\JobRecruitmentApi\Admin.Services\obj\Debug\netstandard2.0\Admin.Services.dll
+F:\Development\Projects\Invogue\Jobsite Project\Mehedi Invogue\JobRecruitmentApi\Admin.Services\obj\Debug\netstandard2.0\Admin.Services.pdb
+D:\JobRecruitmentApi\Admin.Services\bin\Debug\netstandard2.0\Admin.Services.deps.json
+D:\JobRecruitmentApi\Admin.Services\bin\Debug\netstandard2.0\Admin.Services.dll
+D:\JobRecruitmentApi\Admin.Services\bin\Debug\netstandard2.0\Admin.Services.pdb
+D:\JobRecruitmentApi\Admin.Services\bin\Debug\netstandard2.0\Admin.Domain.Entities.dll
+D:\JobRecruitmentApi\Admin.Services\bin\Debug\netstandard2.0\Admin.Domain.Interfaces.dll
+D:\JobRecruitmentApi\Admin.Services\bin\Debug\netstandard2.0\Admin.Services.Interfaces.dll
+D:\JobRecruitmentApi\Admin.Services\bin\Debug\netstandard2.0\Candidate.Domain.Entities.dll
+D:\JobRecruitmentApi\Admin.Services\bin\Debug\netstandard2.0\Common.Domain.Entities.dll
+D:\JobRecruitmentApi\Admin.Services\bin\Debug\netstandard2.0\Employee.Domain.Entities.dll
+D:\JobRecruitmentApi\Admin.Services\bin\Debug\netstandard2.0\Admin.Domain.Interfaces.pdb
+D:\JobRecruitmentApi\Admin.Services\bin\Debug\netstandard2.0\Admin.Services.Interfaces.pdb
+D:\JobRecruitmentApi\Admin.Services\bin\Debug\netstandard2.0\Admin.Domain.Entities.pdb
+D:\JobRecruitmentApi\Admin.Services\bin\Debug\netstandard2.0\Candidate.Domain.Entities.pdb
+D:\JobRecruitmentApi\Admin.Services\bin\Debug\netstandard2.0\Common.Domain.Entities.pdb
+D:\JobRecruitmentApi\Admin.Services\bin\Debug\netstandard2.0\Employee.Domain.Entities.pdb
+D:\JobRecruitmentApi\Admin.Services\obj\Debug\netstandard2.0\Admin.Services.csprojAssemblyReference.cache
+D:\JobRecruitmentApi\Admin.Services\obj\Debug\netstandard2.0\Admin.Services.csproj.CoreCompileInputs.cache
+D:\JobRecruitmentApi\Admin.Services\obj\Debug\netstandard2.0\Admin.Services.AssemblyInfoInputs.cache
+D:\JobRecruitmentApi\Admin.Services\obj\Debug\netstandard2.0\Admin.Services.AssemblyInfo.cs
+D:\JobRecruitmentApi\Admin.Services\obj\Debug\netstandard2.0\Admin.Services.csproj.CopyComplete
+D:\JobRecruitmentApi\Admin.Services\obj\Debug\netstandard2.0\Admin.Services.dll
+D:\JobRecruitmentApi\Admin.Services\obj\Debug\netstandard2.0\Admin.Services.pdb

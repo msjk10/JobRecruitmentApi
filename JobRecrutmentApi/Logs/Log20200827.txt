@@ -1,0 +1,440 @@
+27-Aug-2020 12:38:38.705 +06:00 [INF] User profile is available. Using 'C:\Users\himu\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+27-Aug-2020 12:38:39.346 +06:00 [INF] Creating key "f9f38ab7-3eb8-4fdc-ae4b-e6c19366a853" with creation date "2020-08-27T06:38:39.3205174+00:00", activation date "2020-08-27T06:38:39.1289050+00:00", and expiration date "2020-11-25T06:38:39.1289050+00:00".
+27-Aug-2020 12:38:39.969 +06:00 [INF] Writing data to file 'C:\Users\himu\AppData\Local\ASP.NET\DataProtection-Keys\key-f9f38ab7-3eb8-4fdc-ae4b-e6c19366a853.xml'.
+27-Aug-2020 12:38:48.701 +06:00 [INF] Request starting HTTP/1.1 DEBUG http://localhost:58364/  0
+27-Aug-2020 12:38:48.701 +06:00 [INF] Request starting HTTP/1.1 GET http://localhost:58364/swagger/index.html  
+27-Aug-2020 12:38:48.701 +06:00 [INF] Request starting HTTP/1.1 GET http://localhost:58364/swagger/index.html  
+27-Aug-2020 12:38:48.923 +06:00 [INF] Request finished in 203.2882ms 200 
+27-Aug-2020 12:38:53.037 +06:00 [INF] Request finished in 4357.6609ms 404 
+27-Aug-2020 12:38:53.037 +06:00 [INF] Request finished in 4357.7054ms 404 
+27-Aug-2020 12:40:21.031 +06:00 [INF] User profile is available. Using 'C:\Users\himu\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+27-Aug-2020 12:40:22.482 +06:00 [INF] Request starting HTTP/1.1 GET http://localhost:58364/swagger/index.html  
+27-Aug-2020 12:40:22.482 +06:00 [INF] Request starting HTTP/1.1 DEBUG http://localhost:58364/  0
+27-Aug-2020 12:40:22.595 +06:00 [INF] Request finished in 131.7499ms 200 
+27-Aug-2020 12:40:23.779 +06:00 [INF] Request finished in 1321.7257ms 200 text/html
+27-Aug-2020 12:40:23.806 +06:00 [INF] Request starting HTTP/1.1 GET http://localhost:58364/swagger/swagger-ui-bundle.js  
+27-Aug-2020 12:40:23.806 +06:00 [INF] Request starting HTTP/1.1 GET http://localhost:58364/swagger/swagger-ui-standalone-preset.js  
+27-Aug-2020 12:40:23.808 +06:00 [INF] Request starting HTTP/1.1 GET http://localhost:58364/swagger/swagger-ui.css  
+27-Aug-2020 12:40:23.882 +06:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+27-Aug-2020 12:40:23.882 +06:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+27-Aug-2020 12:40:23.882 +06:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+27-Aug-2020 12:40:23.968 +06:00 [INF] Request finished in 160.0673ms 200 text/css
+27-Aug-2020 12:40:24.005 +06:00 [INF] Request finished in 199.1702ms 200 application/javascript
+27-Aug-2020 12:40:24.032 +06:00 [INF] Request finished in 218.4664ms 200 application/javascript
+27-Aug-2020 12:40:24.881 +06:00 [INF] Request starting HTTP/1.1 GET http://localhost:58364/swagger/v1.0/swagger.json  
+27-Aug-2020 12:40:26.018 +06:00 [INF] Request finished in 1137.5578ms 200 application/json;charset=utf-8
+27-Aug-2020 12:40:27.048 +06:00 [INF] Request starting HTTP/1.1 GET http://localhost:58364/swagger/index.html  
+27-Aug-2020 12:40:27.048 +06:00 [INF] Request finished in 0.6302ms 200 text/html
+27-Aug-2020 12:40:27.114 +06:00 [INF] Request starting HTTP/1.1 GET http://localhost:58364/swagger/swagger-ui-standalone-preset.js  
+27-Aug-2020 12:40:27.114 +06:00 [INF] Request starting HTTP/1.1 GET http://localhost:58364/swagger/swagger-ui-bundle.js  
+27-Aug-2020 12:40:27.114 +06:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+27-Aug-2020 12:40:27.114 +06:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+27-Aug-2020 12:40:27.122 +06:00 [INF] Request starting HTTP/1.1 GET http://localhost:58364/swagger/swagger-ui.css  
+27-Aug-2020 12:40:27.122 +06:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+27-Aug-2020 12:40:27.189 +06:00 [INF] Request finished in 66.7928ms 200 text/css
+27-Aug-2020 12:40:27.260 +06:00 [INF] Request finished in 143.3867ms 200 application/javascript
+27-Aug-2020 12:40:27.373 +06:00 [INF] Request finished in 259.6971ms 200 application/javascript
+27-Aug-2020 12:40:27.692 +06:00 [INF] Request starting HTTP/1.1 GET http://localhost:58364/swagger/v1.0/swagger.json  
+27-Aug-2020 12:40:27.716 +06:00 [INF] Request finished in 24.0136ms 200 application/json;charset=utf-8
+27-Aug-2020 12:40:28.489 +06:00 [INF] Request starting HTTP/1.1 GET http://localhost:58364/swagger/favicon-32x32.png  
+27-Aug-2020 12:40:28.490 +06:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+27-Aug-2020 12:40:28.490 +06:00 [INF] Request finished in 0.4373ms 200 image/png
+27-Aug-2020 12:40:40.225 +06:00 [INF] Request starting HTTP/1.1 GET http://localhost:58364/api/degree/getallactivedegreelevel  
+27-Aug-2020 12:40:41.009 +06:00 [INF] Route matched with {action = "GetAllActiveDegreeLevel", controller = "Degree"}. Executing action JobRecrutmentApi.Controllers.Common.DegreeController.GetAllActiveDegreeLevel (JobRecrutmentApi)
+27-Aug-2020 12:40:42.903 +06:00 [INF] Executing action method JobRecrutmentApi.Controllers.Common.DegreeController.GetAllActiveDegreeLevel (JobRecrutmentApi) - Validation state: "Valid"
+27-Aug-2020 12:40:44.075 +06:00 [INF] Entity Framework Core 2.2.6-servicing-10079 initialized 'SqlServerContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+27-Aug-2020 12:40:46.591 +06:00 [INF] Executed DbCommand (359ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[DegreeLevelId], [s].[DegreeLevelName], [s].[IsActive], [s].[CreatedDate], [s].[CreatedBy], [s].[UpdatedBy], [s].[UpdatedDate]
+FROM [Common].[DegreeLevel] AS [s]
+WHERE [s].[IsActive] = 1
+27-Aug-2020 12:40:46.867 +06:00 [INF] Executed action method JobRecrutmentApi.Controllers.Common.DegreeController.GetAllActiveDegreeLevel (JobRecrutmentApi), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 3953.8266000000003ms.
+27-Aug-2020 12:40:46.967 +06:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Common.Domain.Entities.DataModel.DegreeLevel, Common.Domain.Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+27-Aug-2020 12:40:47.097 +06:00 [INF] Executed action JobRecrutmentApi.Controllers.Common.DegreeController.GetAllActiveDegreeLevel (JobRecrutmentApi) in 6069.1958ms
+27-Aug-2020 12:40:47.102 +06:00 [INF] Request finished in 6877.8011ms 200 application/json; charset=utf-8
+27-Aug-2020 12:40:54.009 +06:00 [INF] Request starting HTTP/1.1 GET http://localhost:58364/api/degree/getallactivedegreelevel  
+27-Aug-2020 12:40:54.014 +06:00 [INF] Route matched with {action = "GetAllActiveDegreeLevel", controller = "Degree"}. Executing action JobRecrutmentApi.Controllers.Common.DegreeController.GetAllActiveDegreeLevel (JobRecrutmentApi)
+27-Aug-2020 12:40:54.049 +06:00 [INF] Executing action method JobRecrutmentApi.Controllers.Common.DegreeController.GetAllActiveDegreeLevel (JobRecrutmentApi) - Validation state: "Valid"
+27-Aug-2020 12:40:54.063 +06:00 [INF] Entity Framework Core 2.2.6-servicing-10079 initialized 'SqlServerContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+27-Aug-2020 12:40:54.195 +06:00 [INF] Executed DbCommand (96ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[DegreeLevelId], [s].[DegreeLevelName], [s].[IsActive], [s].[CreatedDate], [s].[CreatedBy], [s].[UpdatedBy], [s].[UpdatedDate]
+FROM [Common].[DegreeLevel] AS [s]
+WHERE [s].[IsActive] = 1
+27-Aug-2020 12:40:54.196 +06:00 [INF] Executed action method JobRecrutmentApi.Controllers.Common.DegreeController.GetAllActiveDegreeLevel (JobRecrutmentApi), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 146.3032ms.
+27-Aug-2020 12:40:54.196 +06:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Common.Domain.Entities.DataModel.DegreeLevel, Common.Domain.Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+27-Aug-2020 12:40:54.197 +06:00 [INF] Executed action JobRecrutmentApi.Controllers.Common.DegreeController.GetAllActiveDegreeLevel (JobRecrutmentApi) in 182.7062ms
+27-Aug-2020 12:40:54.198 +06:00 [INF] Request finished in 188.2059ms 200 application/json; charset=utf-8
+27-Aug-2020 12:41:06.940 +06:00 [INF] Request starting HTTP/1.1 GET http://localhost:58364/api/category/getallactivejobcategory  
+27-Aug-2020 12:41:06.946 +06:00 [INF] Route matched with {action = "GetAllActiveJobCategory", controller = "Category"}. Executing action JobRecrutmentApi.Controllers.Common.CategoryController.GetAllActiveJobCategory (JobRecrutmentApi)
+27-Aug-2020 12:41:06.981 +06:00 [INF] Executing action method JobRecrutmentApi.Controllers.Common.CategoryController.GetAllActiveJobCategory (JobRecrutmentApi) - Validation state: "Valid"
+27-Aug-2020 12:41:07.033 +06:00 [INF] Entity Framework Core 2.2.6-servicing-10079 initialized 'SqlServerContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+27-Aug-2020 12:41:07.093 +06:00 [INF] Executed DbCommand (53ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [j].[JobCategoryId], [j].[JobCategoryName], [j].[IsActive], [j].[CreatedDate], [j].[CreatedBy], [j].[UpdatedBy], [j].[UpdatedDate]
+FROM [Common].[JobCategory] AS [j]
+WHERE [j].[IsActive] = 1
+27-Aug-2020 12:41:07.095 +06:00 [INF] Executed action method JobRecrutmentApi.Controllers.Common.CategoryController.GetAllActiveJobCategory (JobRecrutmentApi), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 113.68050000000001ms.
+27-Aug-2020 12:41:07.095 +06:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Common.Domain.Entities.DataModel.JobCategory, Common.Domain.Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+27-Aug-2020 12:41:07.099 +06:00 [INF] Executed action JobRecrutmentApi.Controllers.Common.CategoryController.GetAllActiveJobCategory (JobRecrutmentApi) in 152.5977ms
+27-Aug-2020 12:41:07.100 +06:00 [INF] Request finished in 159.9488ms 200 application/json; charset=utf-8
+27-Aug-2020 12:41:19.174 +06:00 [INF] Request starting HTTP/1.1 GET http://localhost:58364/api/category/getallactiveskillcategories  
+27-Aug-2020 12:41:19.180 +06:00 [INF] Route matched with {action = "GetAllActiveSkillCategories", controller = "Category"}. Executing action JobRecrutmentApi.Controllers.Common.CategoryController.GetAllActiveSkillCategories (JobRecrutmentApi)
+27-Aug-2020 12:41:19.221 +06:00 [INF] Executing action method JobRecrutmentApi.Controllers.Common.CategoryController.GetAllActiveSkillCategories (JobRecrutmentApi) - Validation state: "Valid"
+27-Aug-2020 12:41:19.230 +06:00 [INF] Entity Framework Core 2.2.6-servicing-10079 initialized 'SqlServerContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+27-Aug-2020 12:41:19.301 +06:00 [INF] Executed DbCommand (63ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[SkillCategoryId], [s].[SkillCategoryName], [s].[IsActive], [s].[CreatedDate], [s].[CreatedBy], [s].[UpdatedBy], [s].[UpdatedDate]
+FROM [Common].[SkillCategories] AS [s]
+WHERE [s].[IsActive] = 1
+27-Aug-2020 12:41:19.302 +06:00 [INF] Executed action method JobRecrutmentApi.Controllers.Common.CategoryController.GetAllActiveSkillCategories (JobRecrutmentApi), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 81.1277ms.
+27-Aug-2020 12:41:19.302 +06:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Common.Domain.Entities.DataModel.SkillCategories, Common.Domain.Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+27-Aug-2020 12:41:19.306 +06:00 [INF] Executed action JobRecrutmentApi.Controllers.Common.CategoryController.GetAllActiveSkillCategories (JobRecrutmentApi) in 126.4272ms
+27-Aug-2020 12:41:19.307 +06:00 [INF] Request finished in 133.3841ms 200 application/json; charset=utf-8
+27-Aug-2020 13:44:19.696 +06:00 [INF] User profile is available. Using 'C:\Users\himu\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+27-Aug-2020 13:44:30.190 +06:00 [INF] Request starting HTTP/1.1 DEBUG http://localhost:58364/  0
+27-Aug-2020 13:44:30.190 +06:00 [INF] Request starting HTTP/1.1 GET http://localhost:58364/swagger/index.html  
+27-Aug-2020 13:44:30.424 +06:00 [INF] Request finished in 148.2769ms 200 
+27-Aug-2020 13:44:31.457 +06:00 [INF] Request finished in 1291.4007ms 200 text/html
+27-Aug-2020 13:44:32.312 +06:00 [INF] Request starting HTTP/1.1 GET http://localhost:58364/swagger/v1.0/swagger.json  
+27-Aug-2020 13:44:34.808 +06:00 [INF] Request finished in 2495.4118ms 200 application/json;charset=utf-8
+27-Aug-2020 13:44:35.645 +06:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:58364/api/user/userlogin/  
+27-Aug-2020 13:44:35.661 +06:00 [INF] Policy execution successful.
+27-Aug-2020 13:44:35.671 +06:00 [INF] Request finished in 26.0614ms 204 
+27-Aug-2020 13:44:35.718 +06:00 [INF] Request starting HTTP/1.1 POST http://localhost:58364/api/user/userlogin/ application/json 67
+27-Aug-2020 13:44:35.720 +06:00 [INF] Policy execution successful.
+27-Aug-2020 13:44:35.744 +06:00 [INF] Policy execution successful.
+27-Aug-2020 13:44:36.790 +06:00 [INF] Route matched with {action = "UserLogin", controller = "User"}. Executing action JobRecrutmentApi.Controllers.Common.UserController.UserLogin (JobRecrutmentApi)
+27-Aug-2020 13:44:38.664 +06:00 [INF] Executing action method JobRecrutmentApi.Controllers.Common.UserController.UserLogin (JobRecrutmentApi) with arguments (["Common.Domain.Entities.BodyModel.UserLoginBodyModel"]) - Validation state: "Valid"
+27-Aug-2020 13:44:40.201 +06:00 [INF] Entity Framework Core 2.2.6-servicing-10079 initialized 'SqlServerContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+27-Aug-2020 13:44:42.694 +06:00 [INF] Executed DbCommand (365ms) [Parameters=[@__userLoginBodyModel_LoginId_0='?' (Size = 4000), @__userLoginBodyModel_UserType_1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[UserId], [u].[LoginId], [u].[UserName], [u].[UserType], [u].[UserPassword], DATEADD(day, 1.0E0, GETDATE()) AS [ExpirationTime]
+FROM [Security].[Users] AS [u]
+WHERE (([u].[IsActive] = 1) AND ([u].[LoginId] = @__userLoginBodyModel_LoginId_0)) AND ([u].[UserType] = @__userLoginBodyModel_UserType_1)
+27-Aug-2020 13:44:43.291 +06:00 [INF] Executed DbCommand (253ms) [Parameters=[@__userId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[UserId], [u].[CandidateId], [u].[JobCategoryId], [u].[CandidateName]
+FROM [Candidate].[Candidates] AS [u]
+WHERE ([u].[IsActive] = 1) AND ([u].[UserId] = @__userId_0)
+27-Aug-2020 13:44:43.540 +06:00 [INF] Executed DbCommand (96ms) [Parameters=[@__jobCategoryId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [x].[JobCategoryId], [x].[CreatedBy], [x].[CreatedDate], [x].[IsActive], [x].[JobCategoryName], [x].[UpdatedBy], [x].[UpdatedDate]
+FROM [Common].[JobCategory] AS [x]
+WHERE [x].[JobCategoryId] = @__jobCategoryId_0
+27-Aug-2020 13:44:43.972 +06:00 [INF] Executed DbCommand (121ms) [Parameters=[@__candidateId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT MIN([x].[StartDate])
+FROM [Candidate].[EmploymentHistory] AS [x]
+WHERE [x].[CandidateId] = @__candidateId_0
+27-Aug-2020 13:44:44.129 +06:00 [WRN] Query: '(from CandidateSkills cs in DbSet<CandidateSkills> join Skills s in DbSet<Skills> on [cs].SkillId eq...' uses a row limiting operation (Skip/Take) without OrderBy which may lead to unpredictable results.
+27-Aug-2020 13:44:44.276 +06:00 [INF] Executed DbCommand (64ms) [Parameters=[@__p_1='?' (DbType = Int32), @__candidateId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(@__p_1) [s].[SkillId], [s].[SkillName]
+FROM [Candidate].[CandidateSkills] AS [cs]
+INNER JOIN [Common].[Skills] AS [s] ON [cs].[SkillId] = [s].[SkillId]
+WHERE [cs].[CandidateId] = @__candidateId_0
+27-Aug-2020 13:44:44.347 +06:00 [INF] Executed action method JobRecrutmentApi.Controllers.Common.UserController.UserLogin (JobRecrutmentApi), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 5659.121ms.
+27-Aug-2020 13:44:44.433 +06:00 [INF] Executing ObjectResult, writing value of type 'Common.Domain.Entities.ViewModel.UserLoginViewModel'.
+27-Aug-2020 13:44:44.569 +06:00 [INF] Executed action JobRecrutmentApi.Controllers.Common.UserController.UserLogin (JobRecrutmentApi) in 7768.4590000000007ms
+27-Aug-2020 13:44:44.582 +06:00 [INF] Request finished in 8864.1564ms 200 application/json; charset=utf-8
+27-Aug-2020 13:44:44.680 +06:00 [INF] Request starting HTTP/1.1 GET http://localhost:58364/api/candidatejob/getcandidatenewjobssummary/1  
+27-Aug-2020 13:44:44.680 +06:00 [INF] Policy execution successful.
+27-Aug-2020 13:44:44.681 +06:00 [INF] Policy execution successful.
+27-Aug-2020 13:44:44.691 +06:00 [INF] Request starting HTTP/1.1 GET http://localhost:58364/api/candidatejob/GetCandidateVideoInterviewJobsSummary/1  
+27-Aug-2020 13:44:44.694 +06:00 [INF] Policy execution successful.
+27-Aug-2020 13:44:44.694 +06:00 [INF] Policy execution successful.
+27-Aug-2020 13:44:44.717 +06:00 [INF] Route matched with {action = "GetCandidateNewJobsSummary", controller = "CandidateJob"}. Executing action JobRecrutmentApi.Controllers.Candidate.CandidateJobController.GetCandidateNewJobsSummary (JobRecrutmentApi)
+27-Aug-2020 13:44:44.717 +06:00 [INF] Route matched with {action = "GetCandidateVideoInterviewJobsSummary", controller = "CandidateJob"}. Executing action JobRecrutmentApi.Controllers.Candidate.CandidateJobController.GetCandidateVideoInterviewJobsSummary (JobRecrutmentApi)
+27-Aug-2020 13:44:44.741 +06:00 [INF] Request starting HTTP/1.1 GET http://localhost:58364/api/candidatejob/getcandidateappliedjobssummary/1  
+27-Aug-2020 13:44:44.741 +06:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:58364/api/candidatejob/getcandidatebookmarkjobssummary/  
+27-Aug-2020 13:44:44.741 +06:00 [INF] Policy execution successful.
+27-Aug-2020 13:44:44.741 +06:00 [INF] Policy execution successful.
+27-Aug-2020 13:44:44.741 +06:00 [INF] Policy execution successful.
+27-Aug-2020 13:44:44.741 +06:00 [INF] Request finished in 0.6621ms 204 
+27-Aug-2020 13:44:44.882 +06:00 [INF] Route matched with {action = "GetCandidateAppliedJobsSummary", controller = "CandidateJob"}. Executing action JobRecrutmentApi.Controllers.Candidate.CandidateJobController.GetCandidateAppliedJobsSummary (JobRecrutmentApi)
+27-Aug-2020 13:44:44.900 +06:00 [INF] Executing action method JobRecrutmentApi.Controllers.Candidate.CandidateJobController.GetCandidateVideoInterviewJobsSummary (JobRecrutmentApi) with arguments (["1"]) - Validation state: "Valid"
+27-Aug-2020 13:44:44.949 +06:00 [INF] Executing action method JobRecrutmentApi.Controllers.Candidate.CandidateJobController.GetCandidateNewJobsSummary (JobRecrutmentApi) with arguments (["1"]) - Validation state: "Valid"
+27-Aug-2020 13:44:45.031 +06:00 [INF] Executing action method JobRecrutmentApi.Controllers.Candidate.CandidateJobController.GetCandidateAppliedJobsSummary (JobRecrutmentApi) with arguments (["1"]) - Validation state: "Valid"
+27-Aug-2020 13:44:45.034 +06:00 [INF] Request starting HTTP/1.1 POST http://localhost:58364/api/candidatejob/getcandidatebookmarkjobssummary/ application/json 17
+27-Aug-2020 13:44:45.035 +06:00 [INF] Entity Framework Core 2.2.6-servicing-10079 initialized 'SqlServerContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+27-Aug-2020 13:44:45.035 +06:00 [INF] Entity Framework Core 2.2.6-servicing-10079 initialized 'SqlServerContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+27-Aug-2020 13:44:45.067 +06:00 [INF] Policy execution successful.
+27-Aug-2020 13:44:45.068 +06:00 [INF] Policy execution successful.
+27-Aug-2020 13:44:45.076 +06:00 [INF] Route matched with {action = "GetCandidateBookmarkJobsSummary", controller = "CandidateJob"}. Executing action JobRecrutmentApi.Controllers.Candidate.CandidateJobController.GetCandidateBookmarkJobsSummary (JobRecrutmentApi)
+27-Aug-2020 13:44:45.106 +06:00 [INF] Entity Framework Core 2.2.6-servicing-10079 initialized 'SqlServerContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+27-Aug-2020 13:44:45.298 +06:00 [INF] Executing action method JobRecrutmentApi.Controllers.Candidate.CandidateJobController.GetCandidateBookmarkJobsSummary (JobRecrutmentApi) with arguments (["Candidate.Domain.Entities.BodyModel.CandidateBookmarkJobBodyModel"]) - Validation state: "Valid"
+27-Aug-2020 13:44:45.491 +06:00 [INF] Executed DbCommand (214ms) [Parameters=[@__jobCategoryId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [j].[JobId], [j].[JobTitle], [j].[CompanyId], [c].[CompanyName], [j].[JobCategoryId], [jc].[JobCategoryName], [j].[MaxSalary], [j].[MinSalary], [j].[SeniorityLevel], [j].[JobStatus], [j].[JobLocation] AS [JobLocationId], [d].[DistrictName] AS [JobLocationName], [j].[PublishedDate]
+FROM [Job].[Jobs] AS [j]
+INNER JOIN [Job].[Companies] AS [c] ON [j].[CompanyId] = [c].[CompanyId]
+INNER JOIN [Common].[JobCategory] AS [jc] ON [j].[JobCategoryId] = [jc].[JobCategoryId]
+INNER JOIN [Common].[Districts] AS [d] ON [j].[JobLocation] = [d].[DistrictId]
+WHERE ([j].[JobCategoryId] = @__jobCategoryId_0) AND ([j].[IsActive] = 1)
+ORDER BY [j].[JobId] DESC
+27-Aug-2020 13:44:45.499 +06:00 [INF] Executed action method JobRecrutmentApi.Controllers.Candidate.CandidateJobController.GetCandidateNewJobsSummary (JobRecrutmentApi), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 549.30590000000007ms.
+27-Aug-2020 13:44:45.500 +06:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Candidate.Domain.Entities.ViewModel.CandidateJobSummaryViewModel, Candidate.Domain.Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+27-Aug-2020 13:44:45.649 +06:00 [INF] Entity Framework Core 2.2.6-servicing-10079 initialized 'SqlServerContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+27-Aug-2020 13:44:45.658 +06:00 [INF] Executed action JobRecrutmentApi.Controllers.Candidate.CandidateJobController.GetCandidateNewJobsSummary (JobRecrutmentApi) in 940.5914ms
+27-Aug-2020 13:44:45.658 +06:00 [INF] Request finished in 978.5458ms 200 application/json; charset=utf-8
+27-Aug-2020 13:44:45.788 +06:00 [INF] Executed DbCommand (128ms) [Parameters=[@__candidateId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [j].[JobId], [j].[JobTitle], [j].[CompanyId], [c].[CompanyName], [j].[JobCategoryId], [jc].[JobCategoryName], [j].[MaxSalary], [j].[MinSalary], [j].[SeniorityLevel], [j].[JobStatus], [j].[JobLocation] AS [JobLocationId], [d].[DistrictName] AS [JobLocationName], [j].[PublishedDate], [aj].[AppliedDate], [aj].[ScheduleDate]
+FROM [Job].[Jobs] AS [j]
+INNER JOIN [Job].[Companies] AS [c] ON [j].[CompanyId] = [c].[CompanyId]
+INNER JOIN [Common].[JobCategory] AS [jc] ON [j].[JobCategoryId] = [jc].[JobCategoryId]
+INNER JOIN [Common].[Districts] AS [d] ON [j].[JobLocation] = [d].[DistrictId]
+INNER JOIN [Job].[AppliedJobs] AS [aj] ON [j].[JobId] = [aj].[JobId]
+WHERE ([aj].[CandidateId] = @__candidateId_0) AND ([aj].[StatusId] = 2)
+ORDER BY [aj].[AppliedDate]
+27-Aug-2020 13:44:45.791 +06:00 [INF] Executed DbCommand (219ms) [Parameters=[@__candidateId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [j].[JobId], [j].[JobTitle], [j].[CompanyId], [c].[CompanyName], [j].[JobCategoryId], [jc].[JobCategoryName], [j].[MaxSalary], [j].[MinSalary], [j].[SeniorityLevel], [j].[JobStatus], [j].[JobLocation] AS [JobLocationId], [d].[DistrictName] AS [JobLocationName], [j].[PublishedDate]
+FROM [Job].[Jobs] AS [j]
+INNER JOIN [Job].[Companies] AS [c] ON [j].[CompanyId] = [c].[CompanyId]
+INNER JOIN [Common].[JobCategory] AS [jc] ON [j].[JobCategoryId] = [jc].[JobCategoryId]
+INNER JOIN [Common].[Districts] AS [d] ON [j].[JobLocation] = [d].[DistrictId]
+INNER JOIN [Job].[AppliedJobs] AS [aj] ON [j].[JobId] = [aj].[JobId]
+WHERE [aj].[CandidateId] = @__candidateId_0
+ORDER BY [aj].[AppliedDate]
+27-Aug-2020 13:44:45.794 +06:00 [INF] Executed action method JobRecrutmentApi.Controllers.Candidate.CandidateJobController.GetCandidateVideoInterviewJobsSummary (JobRecrutmentApi), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 893.32080000000008ms.
+27-Aug-2020 13:44:45.794 +06:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Candidate.Domain.Entities.ViewModel.CandidateJobSummaryViewModel, Candidate.Domain.Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+27-Aug-2020 13:44:45.795 +06:00 [INF] Executed action JobRecrutmentApi.Controllers.Candidate.CandidateJobController.GetCandidateVideoInterviewJobsSummary (JobRecrutmentApi) in 1077.3841ms
+27-Aug-2020 13:44:45.795 +06:00 [INF] Request finished in 1103.7226ms 200 application/json; charset=utf-8
+27-Aug-2020 13:44:45.802 +06:00 [INF] Executed action method JobRecrutmentApi.Controllers.Candidate.CandidateJobController.GetCandidateAppliedJobsSummary (JobRecrutmentApi), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 770.7414ms.
+27-Aug-2020 13:44:45.802 +06:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Candidate.Domain.Entities.ViewModel.CandidateJobSummaryViewModel, Candidate.Domain.Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+27-Aug-2020 13:44:45.803 +06:00 [INF] Executed action JobRecrutmentApi.Controllers.Candidate.CandidateJobController.GetCandidateAppliedJobsSummary (JobRecrutmentApi) in 920.8087ms
+27-Aug-2020 13:44:45.808 +06:00 [INF] Request finished in 1067.3198ms 200 application/json; charset=utf-8
+27-Aug-2020 13:44:45.939 +06:00 [INF] Executed DbCommand (101ms) [Parameters=[@__candidateBookmarkJobBodyModel_CandidateId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [j].[JobId], [j].[JobTitle], [j].[CompanyId], [c].[CompanyName], [j].[JobCategoryId], [jc].[JobCategoryName], [j].[MaxSalary], [j].[MinSalary], [j].[SeniorityLevel], [j].[JobStatus], [j].[JobLocation] AS [JobLocationId], [d].[DistrictName] AS [JobLocationName], [j].[PublishedDate], [b].[IsBookmark], [b].[CandidateId]
+FROM [Job].[Jobs] AS [j]
+INNER JOIN [Job].[Companies] AS [c] ON [j].[CompanyId] = [c].[CompanyId]
+INNER JOIN [Common].[JobCategory] AS [jc] ON [j].[JobCategoryId] = [jc].[JobCategoryId]
+INNER JOIN [Common].[Districts] AS [d] ON [j].[JobLocation] = [d].[DistrictId]
+INNER JOIN [Candidate].[BookmarkJob] AS [b] ON [j].[JobId] = [b].[JobId]
+WHERE (([j].[IsActive] = 1) AND ([b].[CandidateId] = @__candidateBookmarkJobBodyModel_CandidateId_0)) AND ([b].[IsBookmark] = 1)
+ORDER BY [b].[BookmarkId] DESC
+27-Aug-2020 13:44:45.942 +06:00 [INF] Executed action method JobRecrutmentApi.Controllers.Candidate.CandidateJobController.GetCandidateBookmarkJobsSummary (JobRecrutmentApi), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 643.753ms.
+27-Aug-2020 13:44:45.943 +06:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Candidate.Domain.Entities.ViewModel.CandidateBookmarkJobSummaryViewModel, Candidate.Domain.Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+27-Aug-2020 13:44:45.960 +06:00 [INF] Executed action JobRecrutmentApi.Controllers.Candidate.CandidateJobController.GetCandidateBookmarkJobsSummary (JobRecrutmentApi) in 884.3804ms
+27-Aug-2020 13:44:45.961 +06:00 [INF] Request finished in 929.5216ms 200 application/json; charset=utf-8
+27-Aug-2020 14:32:21.009 +06:00 [INF] User profile is available. Using 'C:\Users\himu\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+27-Aug-2020 14:32:22.284 +06:00 [INF] Request starting HTTP/1.1 DEBUG http://localhost:58364/  0
+27-Aug-2020 14:32:22.284 +06:00 [INF] Request starting HTTP/1.1 GET http://localhost:58364/swagger/index.html  
+27-Aug-2020 14:32:22.333 +06:00 [INF] Request finished in 63.6522ms 200 
+27-Aug-2020 14:32:22.794 +06:00 [INF] Request finished in 526.1966ms 200 text/html
+27-Aug-2020 14:32:23.218 +06:00 [INF] Request starting HTTP/1.1 GET http://localhost:58364/swagger/v1.0/swagger.json  
+27-Aug-2020 14:32:24.043 +06:00 [INF] Request finished in 824.9284ms 200 application/json;charset=utf-8
+27-Aug-2020 14:32:34.038 +06:00 [INF] Request starting HTTP/1.1 GET http://localhost:58364/api/candidatejob/getcandidatenewjobssummary/1  
+27-Aug-2020 14:32:34.396 +06:00 [INF] Route matched with {action = "GetCandidateNewJobsSummary", controller = "CandidateJob"}. Executing action JobRecrutmentApi.Controllers.Candidate.CandidateJobController.GetCandidateNewJobsSummary (JobRecrutmentApi)
+27-Aug-2020 14:32:35.125 +06:00 [INF] Executing action method JobRecrutmentApi.Controllers.Candidate.CandidateJobController.GetCandidateNewJobsSummary (JobRecrutmentApi) with arguments (["1"]) - Validation state: "Valid"
+27-Aug-2020 14:32:36.135 +06:00 [INF] Entity Framework Core 2.2.6-servicing-10079 initialized 'SqlServerContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+27-Aug-2020 14:32:37.564 +06:00 [INF] Executed DbCommand (188ms) [Parameters=[@__jobCategoryId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [j].[JobId], [j].[JobTitle], [j].[CompanyId], [c].[CompanyName], [j].[JobCategoryId], [jc].[JobCategoryName], [j].[MaxSalary], [j].[MinSalary], [j].[SeniorityLevel], [j].[JobStatus], [j].[JobLocation] AS [JobLocationId], [d].[DistrictName] AS [JobLocationName], [j].[PublishedDate]
+FROM [Job].[Jobs] AS [j]
+INNER JOIN [Job].[Companies] AS [c] ON [j].[CompanyId] = [c].[CompanyId]
+INNER JOIN [Common].[JobCategory] AS [jc] ON [j].[JobCategoryId] = [jc].[JobCategoryId]
+INNER JOIN [Common].[Districts] AS [d] ON [j].[JobLocation] = [d].[DistrictId]
+WHERE ([j].[JobCategoryId] = @__jobCategoryId_0) AND ([j].[IsActive] = 1)
+ORDER BY [j].[JobId] DESC
+27-Aug-2020 14:32:37.666 +06:00 [INF] Executed action method JobRecrutmentApi.Controllers.Candidate.CandidateJobController.GetCandidateNewJobsSummary (JobRecrutmentApi), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 2533.8773ms.
+27-Aug-2020 14:32:37.760 +06:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Candidate.Domain.Entities.ViewModel.CandidateJobSummaryViewModel, Candidate.Domain.Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+27-Aug-2020 14:32:37.824 +06:00 [INF] Executed action JobRecrutmentApi.Controllers.Candidate.CandidateJobController.GetCandidateNewJobsSummary (JobRecrutmentApi) in 3422.2024ms
+27-Aug-2020 14:32:37.829 +06:00 [INF] Request finished in 3790.8288ms 200 application/json; charset=utf-8
+27-Aug-2020 14:49:13.044 +06:00 [INF] User profile is available. Using 'C:\Users\himu\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+27-Aug-2020 14:49:13.951 +06:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:58364/api/candidatejob/getcandidatebookmarkjobssummary/  
+27-Aug-2020 14:49:13.951 +06:00 [INF] Request starting HTTP/1.1 GET http://localhost:58364/api/candidatejob/getcandidatenewjobssummary/1  
+27-Aug-2020 14:49:13.951 +06:00 [INF] Request starting HTTP/1.1 GET http://localhost:58364/api/candidatejob/getcandidateappliedjobssummary/1  
+27-Aug-2020 14:49:13.951 +06:00 [INF] Request starting HTTP/1.1 GET http://localhost:58364/api/candidatejob/GetCandidateVideoInterviewJobsSummary/1  
+27-Aug-2020 14:49:13.997 +06:00 [INF] Policy execution successful.
+27-Aug-2020 14:49:13.997 +06:00 [INF] Policy execution successful.
+27-Aug-2020 14:49:13.996 +06:00 [INF] Policy execution successful.
+27-Aug-2020 14:49:13.997 +06:00 [INF] Policy execution successful.
+27-Aug-2020 14:49:14.025 +06:00 [INF] Request finished in 96.1385ms 204 
+27-Aug-2020 14:49:14.118 +06:00 [INF] Policy execution successful.
+27-Aug-2020 14:49:14.118 +06:00 [INF] Policy execution successful.
+27-Aug-2020 14:49:14.119 +06:00 [INF] Policy execution successful.
+27-Aug-2020 14:49:14.192 +06:00 [INF] Request starting HTTP/1.1 POST http://localhost:58364/api/candidatejob/getcandidatebookmarkjobssummary/ application/json 17
+27-Aug-2020 14:49:14.193 +06:00 [INF] Policy execution successful.
+27-Aug-2020 14:49:14.193 +06:00 [INF] Policy execution successful.
+27-Aug-2020 14:49:14.711 +06:00 [INF] Route matched with {action = "GetCandidateVideoInterviewJobsSummary", controller = "CandidateJob"}. Executing action JobRecrutmentApi.Controllers.Candidate.CandidateJobController.GetCandidateVideoInterviewJobsSummary (JobRecrutmentApi)
+27-Aug-2020 14:49:14.711 +06:00 [INF] Route matched with {action = "GetCandidateNewJobsSummary", controller = "CandidateJob"}. Executing action JobRecrutmentApi.Controllers.Candidate.CandidateJobController.GetCandidateNewJobsSummary (JobRecrutmentApi)
+27-Aug-2020 14:49:14.711 +06:00 [INF] Route matched with {action = "GetCandidateBookmarkJobsSummary", controller = "CandidateJob"}. Executing action JobRecrutmentApi.Controllers.Candidate.CandidateJobController.GetCandidateBookmarkJobsSummary (JobRecrutmentApi)
+27-Aug-2020 14:49:14.711 +06:00 [INF] Route matched with {action = "GetCandidateAppliedJobsSummary", controller = "CandidateJob"}. Executing action JobRecrutmentApi.Controllers.Candidate.CandidateJobController.GetCandidateAppliedJobsSummary (JobRecrutmentApi)
+27-Aug-2020 14:49:15.195 +06:00 [INF] Executing action method JobRecrutmentApi.Controllers.Candidate.CandidateJobController.GetCandidateAppliedJobsSummary (JobRecrutmentApi) with arguments (["1"]) - Validation state: "Valid"
+27-Aug-2020 14:49:15.195 +06:00 [INF] Executing action method JobRecrutmentApi.Controllers.Candidate.CandidateJobController.GetCandidateVideoInterviewJobsSummary (JobRecrutmentApi) with arguments (["1"]) - Validation state: "Valid"
+27-Aug-2020 14:49:15.227 +06:00 [INF] Executing action method JobRecrutmentApi.Controllers.Candidate.CandidateJobController.GetCandidateNewJobsSummary (JobRecrutmentApi) with arguments (["1"]) - Validation state: "Valid"
+27-Aug-2020 14:49:15.691 +06:00 [INF] Executing action method JobRecrutmentApi.Controllers.Candidate.CandidateJobController.GetCandidateBookmarkJobsSummary (JobRecrutmentApi) with arguments (["Candidate.Domain.Entities.BodyModel.CandidateBookmarkJobBodyModel"]) - Validation state: "Valid"
+27-Aug-2020 14:49:16.572 +06:00 [INF] Entity Framework Core 2.2.6-servicing-10079 initialized 'SqlServerContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+27-Aug-2020 14:49:16.572 +06:00 [INF] Entity Framework Core 2.2.6-servicing-10079 initialized 'SqlServerContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+27-Aug-2020 14:49:16.572 +06:00 [INF] Entity Framework Core 2.2.6-servicing-10079 initialized 'SqlServerContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+27-Aug-2020 14:49:16.572 +06:00 [INF] Entity Framework Core 2.2.6-servicing-10079 initialized 'SqlServerContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+27-Aug-2020 14:49:17.956 +06:00 [INF] Executed DbCommand (165ms) [Parameters=[@__candidateBookmarkJobBodyModel_CandidateId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [j].[JobId], [j].[JobTitle], [j].[CompanyId], [c].[CompanyName], [j].[JobCategoryId], [jc].[JobCategoryName], [j].[MaxSalary], [j].[MinSalary], [j].[SeniorityLevel], [j].[JobStatus], [j].[JobLocation] AS [JobLocationId], [d].[DistrictName] AS [JobLocationName], [j].[PublishedDate], [b].[IsBookmark], [b].[CandidateId]
+FROM [Job].[Jobs] AS [j]
+INNER JOIN [Job].[Companies] AS [c] ON [j].[CompanyId] = [c].[CompanyId]
+INNER JOIN [Common].[JobCategory] AS [jc] ON [j].[JobCategoryId] = [jc].[JobCategoryId]
+INNER JOIN [Common].[Districts] AS [d] ON [j].[JobLocation] = [d].[DistrictId]
+INNER JOIN [Candidate].[BookmarkJob] AS [b] ON [j].[JobId] = [b].[JobId]
+WHERE (([j].[IsActive] = 1) AND ([b].[CandidateId] = @__candidateBookmarkJobBodyModel_CandidateId_0)) AND ([b].[IsBookmark] = 1)
+ORDER BY [b].[BookmarkId] DESC
+27-Aug-2020 14:49:17.956 +06:00 [INF] Executed DbCommand (162ms) [Parameters=[@__candidateId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [j].[JobId], [j].[JobTitle], [j].[CompanyId], [c].[CompanyName], [j].[JobCategoryId], [jc].[JobCategoryName], [j].[MaxSalary], [j].[MinSalary], [j].[SeniorityLevel], [j].[JobStatus], [j].[JobLocation] AS [JobLocationId], [d].[DistrictName] AS [JobLocationName], [j].[PublishedDate], [aj].[AppliedDate], [aj].[ScheduleDate]
+FROM [Job].[Jobs] AS [j]
+INNER JOIN [Job].[Companies] AS [c] ON [j].[CompanyId] = [c].[CompanyId]
+INNER JOIN [Common].[JobCategory] AS [jc] ON [j].[JobCategoryId] = [jc].[JobCategoryId]
+INNER JOIN [Common].[Districts] AS [d] ON [j].[JobLocation] = [d].[DistrictId]
+INNER JOIN [Job].[AppliedJobs] AS [aj] ON [j].[JobId] = [aj].[JobId]
+WHERE ([aj].[CandidateId] = @__candidateId_0) AND ([aj].[StatusId] = 2)
+ORDER BY [aj].[AppliedDate]
+27-Aug-2020 14:49:17.956 +06:00 [INF] Executed DbCommand (165ms) [Parameters=[@__candidateId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [j].[JobId], [j].[JobTitle], [j].[CompanyId], [c].[CompanyName], [j].[JobCategoryId], [jc].[JobCategoryName], [j].[MaxSalary], [j].[MinSalary], [j].[SeniorityLevel], [j].[JobStatus], [j].[JobLocation] AS [JobLocationId], [d].[DistrictName] AS [JobLocationName], [j].[PublishedDate]
+FROM [Job].[Jobs] AS [j]
+INNER JOIN [Job].[Companies] AS [c] ON [j].[CompanyId] = [c].[CompanyId]
+INNER JOIN [Common].[JobCategory] AS [jc] ON [j].[JobCategoryId] = [jc].[JobCategoryId]
+INNER JOIN [Common].[Districts] AS [d] ON [j].[JobLocation] = [d].[DistrictId]
+INNER JOIN [Job].[AppliedJobs] AS [aj] ON [j].[JobId] = [aj].[JobId]
+WHERE [aj].[CandidateId] = @__candidateId_0
+ORDER BY [aj].[AppliedDate]
+27-Aug-2020 14:49:17.956 +06:00 [INF] Executed DbCommand (165ms) [Parameters=[@__jobCategoryId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [j].[JobId], [j].[JobTitle], [j].[CompanyId], [c].[CompanyName], [j].[JobCategoryId], [jc].[JobCategoryName], [j].[MaxSalary], [j].[MinSalary], [j].[SeniorityLevel], [j].[JobStatus], [j].[JobLocation] AS [JobLocationId], [d].[DistrictName] AS [JobLocationName], [j].[PublishedDate]
+FROM [Job].[Jobs] AS [j]
+INNER JOIN [Job].[Companies] AS [c] ON [j].[CompanyId] = [c].[CompanyId]
+INNER JOIN [Common].[JobCategory] AS [jc] ON [j].[JobCategoryId] = [jc].[JobCategoryId]
+INNER JOIN [Common].[Districts] AS [d] ON [j].[JobLocation] = [d].[DistrictId]
+WHERE ([j].[JobCategoryId] = @__jobCategoryId_0) AND ([j].[IsActive] = 1)
+ORDER BY [j].[JobId] DESC
+27-Aug-2020 14:49:18.092 +06:00 [INF] Executed action method JobRecrutmentApi.Controllers.Candidate.CandidateJobController.GetCandidateBookmarkJobsSummary (JobRecrutmentApi), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 2397.6438000000003ms.
+27-Aug-2020 14:49:18.092 +06:00 [INF] Executed action method JobRecrutmentApi.Controllers.Candidate.CandidateJobController.GetCandidateAppliedJobsSummary (JobRecrutmentApi), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 2886.3868ms.
+27-Aug-2020 14:49:18.092 +06:00 [INF] Executed action method JobRecrutmentApi.Controllers.Candidate.CandidateJobController.GetCandidateNewJobsSummary (JobRecrutmentApi), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 2861.018ms.
+27-Aug-2020 14:49:18.092 +06:00 [INF] Executed action method JobRecrutmentApi.Controllers.Candidate.CandidateJobController.GetCandidateVideoInterviewJobsSummary (JobRecrutmentApi), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 2886.2764ms.
+27-Aug-2020 14:49:18.142 +06:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Candidate.Domain.Entities.ViewModel.CandidateBookmarkJobSummaryViewModel, Candidate.Domain.Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+27-Aug-2020 14:49:18.142 +06:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Candidate.Domain.Entities.ViewModel.CandidateJobSummaryViewModel, Candidate.Domain.Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+27-Aug-2020 14:49:18.142 +06:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Candidate.Domain.Entities.ViewModel.CandidateJobSummaryViewModel, Candidate.Domain.Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+27-Aug-2020 14:49:18.142 +06:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Candidate.Domain.Entities.ViewModel.CandidateJobSummaryViewModel, Candidate.Domain.Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+27-Aug-2020 14:49:18.324 +06:00 [INF] Executed action JobRecrutmentApi.Controllers.Candidate.CandidateJobController.GetCandidateBookmarkJobsSummary (JobRecrutmentApi) in 3603.9266000000002ms
+27-Aug-2020 14:49:18.324 +06:00 [INF] Executed action JobRecrutmentApi.Controllers.Candidate.CandidateJobController.GetCandidateNewJobsSummary (JobRecrutmentApi) in 3603.9467ms
+27-Aug-2020 14:49:18.324 +06:00 [INF] Executed action JobRecrutmentApi.Controllers.Candidate.CandidateJobController.GetCandidateAppliedJobsSummary (JobRecrutmentApi) in 3603.9471000000003ms
+27-Aug-2020 14:49:18.324 +06:00 [INF] Executed action JobRecrutmentApi.Controllers.Candidate.CandidateJobController.GetCandidateVideoInterviewJobsSummary (JobRecrutmentApi) in 3603.9567ms
+27-Aug-2020 14:49:18.333 +06:00 [INF] Request finished in 4407.2348ms 200 application/json; charset=utf-8
+27-Aug-2020 14:49:18.333 +06:00 [INF] Request finished in 4407.2687ms 200 application/json; charset=utf-8
+27-Aug-2020 14:49:18.333 +06:00 [INF] Request finished in 4407.2354ms 200 application/json; charset=utf-8
+27-Aug-2020 14:49:18.334 +06:00 [INF] Request finished in 4142.072ms 200 application/json; charset=utf-8
+27-Aug-2020 15:15:53.813 +06:00 [INF] User profile is available. Using 'C:\Users\himu\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+27-Aug-2020 15:15:55.321 +06:00 [INF] Request starting HTTP/1.1 DEBUG http://localhost:58364/  0
+27-Aug-2020 15:15:55.321 +06:00 [INF] Request starting HTTP/1.1 GET http://localhost:58364/swagger/index.html  
+27-Aug-2020 15:15:55.383 +06:00 [INF] Request finished in 78.8846ms 200 
+27-Aug-2020 15:15:55.824 +06:00 [INF] Request finished in 520.8148ms 200 text/html
+27-Aug-2020 15:15:56.350 +06:00 [INF] Request starting HTTP/1.1 GET http://localhost:58364/swagger/v1.0/swagger.json  
+27-Aug-2020 15:15:57.401 +06:00 [INF] Request finished in 1051.1533ms 200 application/json;charset=utf-8
+27-Aug-2020 15:17:24.217 +06:00 [INF] Request starting HTTP/1.1 POST http://localhost:58364/api/candidatejob/candidatewellcomenote application/json-patch+json 75
+27-Aug-2020 15:17:24.230 +06:00 [INF] Policy execution failed.
+27-Aug-2020 15:17:24.231 +06:00 [INF] Request origin http://localhost:58364 does not have permission to access the resource.
+27-Aug-2020 15:17:24.261 +06:00 [INF] Policy execution failed.
+27-Aug-2020 15:17:24.261 +06:00 [INF] Request origin http://localhost:58364 does not have permission to access the resource.
+27-Aug-2020 15:17:24.693 +06:00 [INF] Route matched with {action = "GetCandidateWellComeNote", controller = "CandidateJob"}. Executing action JobRecrutmentApi.Controllers.Candidate.CandidateJobController.GetCandidateWellComeNote (JobRecrutmentApi)
+27-Aug-2020 15:17:25.675 +06:00 [INF] Executing action method JobRecrutmentApi.Controllers.Candidate.CandidateJobController.GetCandidateWellComeNote (JobRecrutmentApi) with arguments (["Candidate.Domain.Entities.BodyModel.CandidateWellcomeBodyModel"]) - Validation state: "Valid"
+27-Aug-2020 15:17:45.105 +06:00 [INF] Entity Framework Core 2.2.6-servicing-10079 initialized 'SqlServerContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+27-Aug-2020 15:17:47.030 +06:00 [INF] Executed DbCommand (215ms) [Parameters=[@__candidateId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [j].[JobId], [j].[JobTitle], [j].[CompanyId], [c].[CompanyName], [j].[JobCategoryId], [jc].[JobCategoryName], [j].[MaxSalary], [j].[MinSalary], [j].[SeniorityLevel], [j].[JobStatus], [j].[JobLocation] AS [JobLocationId], [d].[DistrictName] AS [JobLocationName], [j].[PublishedDate], [aj].[AppliedDate], [aj].[ScheduleDate]
+FROM [Job].[Jobs] AS [j]
+INNER JOIN [Job].[Companies] AS [c] ON [j].[CompanyId] = [c].[CompanyId]
+INNER JOIN [Common].[JobCategory] AS [jc] ON [j].[JobCategoryId] = [jc].[JobCategoryId]
+INNER JOIN [Common].[Districts] AS [d] ON [j].[JobLocation] = [d].[DistrictId]
+INNER JOIN [Job].[AppliedJobs] AS [aj] ON [j].[JobId] = [aj].[JobId]
+WHERE ([aj].[CandidateId] = @__candidateId_0) AND ([aj].[StatusId] = 2)
+ORDER BY [aj].[AppliedDate]
+27-Aug-2020 15:18:06.958 +06:00 [INF] Executed action method JobRecrutmentApi.Controllers.Candidate.CandidateJobController.GetCandidateWellComeNote (JobRecrutmentApi), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 41273.7655ms.
+27-Aug-2020 15:18:07.014 +06:00 [INF] Executing ObjectResult, writing value of type 'Candidate.Domain.Entities.ViewModel.CandidateWellcomeViewModel'.
+27-Aug-2020 15:18:07.067 +06:00 [INF] Executed action JobRecrutmentApi.Controllers.Candidate.CandidateJobController.GetCandidateWellComeNote (JobRecrutmentApi) in 42366.885ms
+27-Aug-2020 15:18:07.077 +06:00 [INF] Request finished in 42859.5813ms 200 application/json; charset=utf-8
+27-Aug-2020 17:25:46.916 +06:00 [INF] User profile is available. Using 'C:\Users\himu\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+27-Aug-2020 17:25:47.620 +06:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:58364/api/candidatejob/candidatewellcomenote/  
+27-Aug-2020 17:25:47.620 +06:00 [INF] Request starting HTTP/1.1 GET http://localhost:58364/api/candidatejob/getcandidateappliedjobssummary/1  
+27-Aug-2020 17:25:47.620 +06:00 [INF] Request starting HTTP/1.1 GET http://localhost:58364/api/candidatejob/GetCandidateVideoInterviewJobsSummary/1  
+27-Aug-2020 17:25:47.620 +06:00 [INF] Request starting HTTP/1.1 GET http://localhost:58364/api/candidatejob/getcandidatenewjobssummary/1  
+27-Aug-2020 17:25:47.620 +06:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:58364/api/candidatejob/getcandidatebookmarkjobssummary/  
+27-Aug-2020 17:25:47.655 +06:00 [INF] Policy execution successful.
+27-Aug-2020 17:25:47.655 +06:00 [INF] Policy execution successful.
+27-Aug-2020 17:25:47.656 +06:00 [INF] Policy execution successful.
+27-Aug-2020 17:25:47.656 +06:00 [INF] Policy execution successful.
+27-Aug-2020 17:25:47.655 +06:00 [INF] Policy execution successful.
+27-Aug-2020 17:25:47.669 +06:00 [INF] Request finished in 63.161ms 204 
+27-Aug-2020 17:25:47.669 +06:00 [INF] Request finished in 64.0486ms 204 
+27-Aug-2020 17:25:47.732 +06:00 [INF] Request starting HTTP/1.1 POST http://localhost:58364/api/candidatejob/candidatewellcomenote/ application/json 54
+27-Aug-2020 17:25:47.736 +06:00 [INF] Policy execution successful.
+27-Aug-2020 17:25:47.738 +06:00 [INF] Request starting HTTP/1.1 POST http://localhost:58364/api/candidatejob/getcandidatebookmarkjobssummary/ application/json 17
+27-Aug-2020 17:25:47.738 +06:00 [INF] Policy execution successful.
+27-Aug-2020 17:25:47.748 +06:00 [INF] Policy execution successful.
+27-Aug-2020 17:25:47.748 +06:00 [INF] Policy execution successful.
+27-Aug-2020 17:25:47.749 +06:00 [INF] Policy execution successful.
+27-Aug-2020 17:25:47.748 +06:00 [INF] Policy execution successful.
+27-Aug-2020 17:25:47.748 +06:00 [INF] Policy execution successful.
+27-Aug-2020 17:25:48.276 +06:00 [INF] Route matched with {action = "GetCandidateWellComeNote", controller = "CandidateJob"}. Executing action JobRecrutmentApi.Controllers.Candidate.CandidateJobController.GetCandidateWellComeNote (JobRecrutmentApi)
+27-Aug-2020 17:25:48.276 +06:00 [INF] Route matched with {action = "GetCandidateAppliedJobsSummary", controller = "CandidateJob"}. Executing action JobRecrutmentApi.Controllers.Candidate.CandidateJobController.GetCandidateAppliedJobsSummary (JobRecrutmentApi)
+27-Aug-2020 17:25:48.276 +06:00 [INF] Route matched with {action = "GetCandidateVideoInterviewJobsSummary", controller = "CandidateJob"}. Executing action JobRecrutmentApi.Controllers.Candidate.CandidateJobController.GetCandidateVideoInterviewJobsSummary (JobRecrutmentApi)
+27-Aug-2020 17:25:48.276 +06:00 [INF] Route matched with {action = "GetCandidateNewJobsSummary", controller = "CandidateJob"}. Executing action JobRecrutmentApi.Controllers.Candidate.CandidateJobController.GetCandidateNewJobsSummary (JobRecrutmentApi)
+27-Aug-2020 17:25:48.276 +06:00 [INF] Route matched with {action = "GetCandidateBookmarkJobsSummary", controller = "CandidateJob"}. Executing action JobRecrutmentApi.Controllers.Candidate.CandidateJobController.GetCandidateBookmarkJobsSummary (JobRecrutmentApi)
+27-Aug-2020 17:25:48.665 +06:00 [INF] Executing action method JobRecrutmentApi.Controllers.Candidate.CandidateJobController.GetCandidateAppliedJobsSummary (JobRecrutmentApi) with arguments (["1"]) - Validation state: "Valid"
+27-Aug-2020 17:25:48.665 +06:00 [INF] Executing action method JobRecrutmentApi.Controllers.Candidate.CandidateJobController.GetCandidateVideoInterviewJobsSummary (JobRecrutmentApi) with arguments (["1"]) - Validation state: "Valid"
+27-Aug-2020 17:25:48.665 +06:00 [INF] Executing action method JobRecrutmentApi.Controllers.Candidate.CandidateJobController.GetCandidateNewJobsSummary (JobRecrutmentApi) with arguments (["1"]) - Validation state: "Valid"
+27-Aug-2020 17:25:48.963 +06:00 [INF] Executing action method JobRecrutmentApi.Controllers.Candidate.CandidateJobController.GetCandidateBookmarkJobsSummary (JobRecrutmentApi) with arguments (["Candidate.Domain.Entities.BodyModel.CandidateBookmarkJobBodyModel"]) - Validation state: "Valid"
+27-Aug-2020 17:25:48.985 +06:00 [INF] Executing action method JobRecrutmentApi.Controllers.Candidate.CandidateJobController.GetCandidateWellComeNote (JobRecrutmentApi) with arguments (["Candidate.Domain.Entities.BodyModel.CandidateWellcomeBodyModel"]) - Validation state: "Valid"
+27-Aug-2020 17:25:49.514 +06:00 [INF] Entity Framework Core 2.2.6-servicing-10079 initialized 'SqlServerContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+27-Aug-2020 17:25:49.514 +06:00 [INF] Entity Framework Core 2.2.6-servicing-10079 initialized 'SqlServerContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+27-Aug-2020 17:25:49.514 +06:00 [INF] Entity Framework Core 2.2.6-servicing-10079 initialized 'SqlServerContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+27-Aug-2020 17:25:49.515 +06:00 [INF] Entity Framework Core 2.2.6-servicing-10079 initialized 'SqlServerContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+27-Aug-2020 17:25:49.514 +06:00 [INF] Entity Framework Core 2.2.6-servicing-10079 initialized 'SqlServerContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+27-Aug-2020 17:25:50.760 +06:00 [INF] Executed DbCommand (137ms) [Parameters=[@__candidateId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [j].[JobId], [j].[JobTitle], [j].[CompanyId], [c].[CompanyName], [j].[JobCategoryId], [jc].[JobCategoryName], [j].[MaxSalary], [j].[MinSalary], [j].[SeniorityLevel], [j].[JobStatus], [j].[JobLocation] AS [JobLocationId], [d].[DistrictName] AS [JobLocationName], [j].[PublishedDate], [aj].[AppliedDate], [aj].[ScheduleDate]
+FROM [Job].[Jobs] AS [j]
+INNER JOIN [Job].[Companies] AS [c] ON [j].[CompanyId] = [c].[CompanyId]
+INNER JOIN [Common].[JobCategory] AS [jc] ON [j].[JobCategoryId] = [jc].[JobCategoryId]
+INNER JOIN [Common].[Districts] AS [d] ON [j].[JobLocation] = [d].[DistrictId]
+INNER JOIN [Job].[AppliedJobs] AS [aj] ON [j].[JobId] = [aj].[JobId]
+WHERE ([aj].[CandidateId] = @__candidateId_0) AND ([aj].[StatusId] = 2)
+ORDER BY [aj].[AppliedDate]
+27-Aug-2020 17:25:50.760 +06:00 [INF] Executed DbCommand (137ms) [Parameters=[@__jobCategoryId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [j].[JobId], [j].[JobTitle], [j].[CompanyId], [c].[CompanyName], [j].[JobCategoryId], [jc].[JobCategoryName], [j].[MaxSalary], [j].[MinSalary], [j].[SeniorityLevel], [j].[JobStatus], [j].[JobLocation] AS [JobLocationId], [d].[DistrictName] AS [JobLocationName], [j].[PublishedDate]
+FROM [Job].[Jobs] AS [j]
+INNER JOIN [Job].[Companies] AS [c] ON [j].[CompanyId] = [c].[CompanyId]
+INNER JOIN [Common].[JobCategory] AS [jc] ON [j].[JobCategoryId] = [jc].[JobCategoryId]
+INNER JOIN [Common].[Districts] AS [d] ON [j].[JobLocation] = [d].[DistrictId]
+WHERE ([j].[JobCategoryId] = @__jobCategoryId_0) AND ([j].[IsActive] = 1)
+ORDER BY [j].[JobId] DESC
+27-Aug-2020 17:25:50.760 +06:00 [INF] Executed DbCommand (137ms) [Parameters=[@__candidateBookmarkJobBodyModel_CandidateId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [j].[JobId], [j].[JobTitle], [j].[CompanyId], [c].[CompanyName], [j].[JobCategoryId], [jc].[JobCategoryName], [j].[MaxSalary], [j].[MinSalary], [j].[SeniorityLevel], [j].[JobStatus], [j].[JobLocation] AS [JobLocationId], [d].[DistrictName] AS [JobLocationName], [j].[PublishedDate], [b].[IsBookmark], [b].[CandidateId]
+FROM [Job].[Jobs] AS [j]
+INNER JOIN [Job].[Companies] AS [c] ON [j].[CompanyId] = [c].[CompanyId]
+INNER JOIN [Common].[JobCategory] AS [jc] ON [j].[JobCategoryId] = [jc].[JobCategoryId]
+INNER JOIN [Common].[Districts] AS [d] ON [j].[JobLocation] = [d].[DistrictId]
+INNER JOIN [Candidate].[BookmarkJob] AS [b] ON [j].[JobId] = [b].[JobId]
+WHERE (([j].[IsActive] = 1) AND ([b].[CandidateId] = @__candidateBookmarkJobBodyModel_CandidateId_0)) AND ([b].[IsBookmark] = 1)
+ORDER BY [b].[BookmarkId] DESC
+27-Aug-2020 17:25:50.761 +06:00 [INF] Executed DbCommand (137ms) [Parameters=[@__candidateId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [j].[JobId], [j].[JobTitle], [j].[CompanyId], [c].[CompanyName], [j].[JobCategoryId], [jc].[JobCategoryName], [j].[MaxSalary], [j].[MinSalary], [j].[SeniorityLevel], [j].[JobStatus], [j].[JobLocation] AS [JobLocationId], [d].[DistrictName] AS [JobLocationName], [j].[PublishedDate], [aj].[AppliedDate], [aj].[ScheduleDate]
+FROM [Job].[Jobs] AS [j]
+INNER JOIN [Job].[Companies] AS [c] ON [j].[CompanyId] = [c].[CompanyId]
+INNER JOIN [Common].[JobCategory] AS [jc] ON [j].[JobCategoryId] = [jc].[JobCategoryId]
+INNER JOIN [Common].[Districts] AS [d] ON [j].[JobLocation] = [d].[DistrictId]
+INNER JOIN [Job].[AppliedJobs] AS [aj] ON [j].[JobId] = [aj].[JobId]
+WHERE ([aj].[CandidateId] = @__candidateId_0) AND ([aj].[StatusId] = 2)
+ORDER BY [aj].[AppliedDate]
+27-Aug-2020 17:25:50.760 +06:00 [INF] Executed DbCommand (137ms) [Parameters=[@__candidateId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [j].[JobId], [j].[JobTitle], [j].[CompanyId], [c].[CompanyName], [j].[JobCategoryId], [jc].[JobCategoryName], [j].[MaxSalary], [j].[MinSalary], [j].[SeniorityLevel], [j].[JobStatus], [j].[JobLocation] AS [JobLocationId], [d].[DistrictName] AS [JobLocationName], [j].[PublishedDate]
+FROM [Job].[Jobs] AS [j]
+INNER JOIN [Job].[Companies] AS [c] ON [j].[CompanyId] = [c].[CompanyId]
+INNER JOIN [Common].[JobCategory] AS [jc] ON [j].[JobCategoryId] = [jc].[JobCategoryId]
+INNER JOIN [Common].[Districts] AS [d] ON [j].[JobLocation] = [d].[DistrictId]
+INNER JOIN [Job].[AppliedJobs] AS [aj] ON [j].[JobId] = [aj].[JobId]
+WHERE [aj].[CandidateId] = @__candidateId_0
+ORDER BY [aj].[AppliedDate]
+27-Aug-2020 17:25:50.888 +06:00 [INF] Executed action method JobRecrutmentApi.Controllers.Candidate.CandidateJobController.GetCandidateBookmarkJobsSummary (JobRecrutmentApi), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 1919.4081ms.
+27-Aug-2020 17:25:50.888 +06:00 [INF] Executed action method JobRecrutmentApi.Controllers.Candidate.CandidateJobController.GetCandidateVideoInterviewJobsSummary (JobRecrutmentApi), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 2211.1542ms.
+27-Aug-2020 17:25:50.889 +06:00 [INF] Executed action method JobRecrutmentApi.Controllers.Candidate.CandidateJobController.GetCandidateAppliedJobsSummary (JobRecrutmentApi), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 2211.2336ms.
+27-Aug-2020 17:25:50.888 +06:00 [INF] Executed action method JobRecrutmentApi.Controllers.Candidate.CandidateJobController.GetCandidateWellComeNote (JobRecrutmentApi), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 1897.8133ms.
+27-Aug-2020 17:25:50.888 +06:00 [INF] Executed action method JobRecrutmentApi.Controllers.Candidate.CandidateJobController.GetCandidateNewJobsSummary (JobRecrutmentApi), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 2211.1308ms.
+27-Aug-2020 17:25:50.939 +06:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Candidate.Domain.Entities.ViewModel.CandidateJobSummaryViewModel, Candidate.Domain.Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+27-Aug-2020 17:25:50.939 +06:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Candidate.Domain.Entities.ViewModel.CandidateBookmarkJobSummaryViewModel, Candidate.Domain.Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+27-Aug-2020 17:25:50.939 +06:00 [INF] Executing ObjectResult, writing value of type 'Candidate.Domain.Entities.ViewModel.CandidateWellcomeViewModel'.
+27-Aug-2020 17:25:50.939 +06:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Candidate.Domain.Entities.ViewModel.CandidateJobSummaryViewModel, Candidate.Domain.Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+27-Aug-2020 17:25:50.939 +06:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Candidate.Domain.Entities.ViewModel.CandidateJobSummaryViewModel, Candidate.Domain.Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+27-Aug-2020 17:25:51.040 +06:00 [INF] Executed action JobRecrutmentApi.Controllers.Candidate.CandidateJobController.GetCandidateVideoInterviewJobsSummary (JobRecrutmentApi) in 2755.4174000000003ms
+27-Aug-2020 17:25:51.040 +06:00 [INF] Executed action JobRecrutmentApi.Controllers.Candidate.CandidateJobController.GetCandidateBookmarkJobsSummary (JobRecrutmentApi) in 2755.4032ms
+27-Aug-2020 17:25:51.041 +06:00 [INF] Executed action JobRecrutmentApi.Controllers.Candidate.CandidateJobController.GetCandidateNewJobsSummary (JobRecrutmentApi) in 2755.4276ms
+27-Aug-2020 17:25:51.040 +06:00 [INF] Executed action JobRecrutmentApi.Controllers.Candidate.CandidateJobController.GetCandidateAppliedJobsSummary (JobRecrutmentApi) in 2755.4353ms
+27-Aug-2020 17:25:51.040 +06:00 [INF] Executed action JobRecrutmentApi.Controllers.Candidate.CandidateJobController.GetCandidateWellComeNote (JobRecrutmentApi) in 2755.4059ms
+27-Aug-2020 17:25:51.050 +06:00 [INF] Request finished in 3446.104ms 200 application/json; charset=utf-8
+27-Aug-2020 17:25:51.050 +06:00 [INF] Request finished in 3446.1264ms 200 application/json; charset=utf-8
+27-Aug-2020 17:25:51.051 +06:00 [INF] Request finished in 3447.0671ms 200 application/json; charset=utf-8
+27-Aug-2020 17:25:51.052 +06:00 [INF] Request finished in 3320.4895ms 200 application/json; charset=utf-8
+27-Aug-2020 17:25:51.052 +06:00 [INF] Request finished in 3314.1345ms 200 application/json; charset=utf-8

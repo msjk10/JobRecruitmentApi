@@ -1,0 +1,294 @@
+E:\Himel\Invogue\Job Recrument Application\JobRecrutmentApi\JobRecrutmentApi\bin\Debug\netcoreapp2.0\JobRecrutmentApi.deps.json
+E:\Himel\Invogue\Job Recrument Application\JobRecrutmentApi\JobRecrutmentApi\bin\Debug\netcoreapp2.0\JobRecrutmentApi.runtimeconfig.json
+E:\Himel\Invogue\Job Recrument Application\JobRecrutmentApi\JobRecrutmentApi\bin\Debug\netcoreapp2.0\JobRecrutmentApi.runtimeconfig.dev.json
+E:\Himel\Invogue\Job Recrument Application\JobRecrutmentApi\JobRecrutmentApi\bin\Debug\netcoreapp2.0\JobRecrutmentApi.dll
+E:\Himel\Invogue\Job Recrument Application\JobRecrutmentApi\JobRecrutmentApi\bin\Debug\netcoreapp2.0\JobRecrutmentApi.pdb
+E:\Himel\Invogue\Job Recrument Application\JobRecrutmentApi\JobRecrutmentApi\obj\Debug\netcoreapp2.0\JobRecrutmentApi.csproj.CoreCompileInputs.cache
+E:\Himel\Invogue\Job Recrument Application\JobRecrutmentApi\JobRecrutmentApi\obj\Debug\netcoreapp2.0\JobRecrutmentApi.AssemblyInfoInputs.cache
+E:\Himel\Invogue\Job Recrument Application\JobRecrutmentApi\JobRecrutmentApi\obj\Debug\netcoreapp2.0\JobRecrutmentApi.AssemblyInfo.cs
+E:\Himel\Invogue\Job Recrument Application\JobRecrutmentApi\JobRecrutmentApi\obj\Debug\netcoreapp2.0\JobRecrutmentApi.dll
+E:\Himel\Invogue\Job Recrument Application\JobRecrutmentApi\JobRecrutmentApi\obj\Debug\netcoreapp2.0\JobRecrutmentApi.pdb
+E:\Himel\Invogue\Job Recrument Application\JobRecrutmentApi\JobRecrutmentApi\obj\Debug\netcoreapp2.0\JobRecrutmentApi.csprojAssemblyReference.cache
+E:\Himel\Invogue\Job Recrument Application\JobRecrutmentApi\JobRecrutmentApi\bin\Debug\netcoreapp2.0\Admin.Domain.Entities.dll
+E:\Himel\Invogue\Job Recrument Application\JobRecrutmentApi\JobRecrutmentApi\bin\Debug\netcoreapp2.0\Candidate.Domain.Entities.dll
+E:\Himel\Invogue\Job Recrument Application\JobRecrutmentApi\JobRecrutmentApi\bin\Debug\netcoreapp2.0\Employee.Domain.Entities.dll
+E:\Himel\Invogue\Job Recrument Application\JobRecrutmentApi\JobRecrutmentApi\bin\Debug\netcoreapp2.0\Job.Context.dll
+E:\Himel\Invogue\Job Recrument Application\JobRecrutmentApi\JobRecrutmentApi\bin\Debug\netcoreapp2.0\Job.Context.pdb
+E:\Himel\Invogue\Job Recrument Application\JobRecrutmentApi\JobRecrutmentApi\bin\Debug\netcoreapp2.0\Admin.Domain.Entities.pdb
+E:\Himel\Invogue\Job Recrument Application\JobRecrutmentApi\JobRecrutmentApi\bin\Debug\netcoreapp2.0\Candidate.Domain.Entities.pdb
+E:\Himel\Invogue\Job Recrument Application\JobRecrutmentApi\JobRecrutmentApi\bin\Debug\netcoreapp2.0\Employee.Domain.Entities.pdb
+E:\Himel\Invogue\Job Recrument Application\JobRecrutmentApi\JobRecrutmentApi\obj\Debug\netcoreapp2.0\JobRecrutmentApi.RazorAssemblyInfo.cache
+E:\Himel\Invogue\Job Recrument Application\JobRecrutmentApi\JobRecrutmentApi\obj\Debug\netcoreapp2.0\JobRecrutmentApi.RazorAssemblyInfo.cs
+E:\Himel\Invogue\Job Recrument Application\JobRecrutmentApi\JobRecrutmentApi\obj\Debug\netcoreapp2.0\JobRecrutmentApi.RazorTargetAssemblyInfo.cache
+E:\Himel\Invogue\Job Recrument Application\JobRecrutmentApi\JobRecrutmentApi\obj\Debug\netcoreapp2.0\JobRecrutmentApi.csproj.CopyComplete
+E:\Himel\Invogue\Job Recrument Application\JobRecrutmentApi\JobRecrutmentApi\bin\Debug\netcoreapp2.0\Admin.Services.Interfaces.dll
+E:\Himel\Invogue\Job Recrument Application\JobRecrutmentApi\JobRecrutmentApi\bin\Debug\netcoreapp2.0\Candidate.Services.Interfaces.dll
+E:\Himel\Invogue\Job Recrument Application\JobRecrutmentApi\JobRecrutmentApi\bin\Debug\netcoreapp2.0\Employee.Services.Interfaces.dll
+E:\Himel\Invogue\Job Recrument Application\JobRecrutmentApi\JobRecrutmentApi\bin\Debug\netcoreapp2.0\Admin.Services.Interfaces.pdb
+E:\Himel\Invogue\Job Recrument Application\JobRecrutmentApi\JobRecrutmentApi\bin\Debug\netcoreapp2.0\Candidate.Services.Interfaces.pdb
+E:\Himel\Invogue\Job Recrument Application\JobRecrutmentApi\JobRecrutmentApi\bin\Debug\netcoreapp2.0\Employee.Services.Interfaces.pdb
+E:\Himel\Invogue\Job Recrument Application\JobRecrutmentApi\JobRecrutmentApi\bin\Debug\netcoreapp2.0\Common.Domain.Entities.dll
+E:\Himel\Invogue\Job Recrument Application\JobRecrutmentApi\JobRecrutmentApi\bin\Debug\netcoreapp2.0\Common.Services.Interfaces.dll
+E:\Himel\Invogue\Job Recrument Application\JobRecrutmentApi\JobRecrutmentApi\bin\Debug\netcoreapp2.0\Common.Services.Interfaces.pdb
+E:\Himel\Invogue\Job Recrument Application\JobRecrutmentApi\JobRecrutmentApi\bin\Debug\netcoreapp2.0\Common.Domain.Entities.pdb
+E:\Himel\Invogue\Job Recrument Application\JobRecrutmentApi\JobRecrutmentApi\bin\Debug\netcoreapp2.0\Common.Domain.Interfaces.dll
+E:\Himel\Invogue\Job Recrument Application\JobRecrutmentApi\JobRecrutmentApi\bin\Debug\netcoreapp2.0\Common.Infrastructure.Data.dll
+E:\Himel\Invogue\Job Recrument Application\JobRecrutmentApi\JobRecrutmentApi\bin\Debug\netcoreapp2.0\Common.Services.dll
+E:\Himel\Invogue\Job Recrument Application\JobRecrutmentApi\JobRecrutmentApi\bin\Debug\netcoreapp2.0\Common.Domain.Interfaces.pdb
+E:\Himel\Invogue\Job Recrument Application\JobRecrutmentApi\JobRecrutmentApi\bin\Debug\netcoreapp2.0\Common.Infrastructure.Data.pdb
+E:\Himel\Invogue\Job Recrument Application\JobRecrutmentApi\JobRecrutmentApi\bin\Debug\netcoreapp2.0\Common.Services.pdb
+E:\Himel\Invogue\Connect\JobRecrutmentApi\JobRecrutmentApi\bin\Debug\netcoreapp2.0\JobRecrutmentApi.deps.json
+E:\Himel\Invogue\Connect\JobRecrutmentApi\JobRecrutmentApi\bin\Debug\netcoreapp2.0\JobRecrutmentApi.runtimeconfig.json
+E:\Himel\Invogue\Connect\JobRecrutmentApi\JobRecrutmentApi\bin\Debug\netcoreapp2.0\JobRecrutmentApi.runtimeconfig.dev.json
+E:\Himel\Invogue\Connect\JobRecrutmentApi\JobRecrutmentApi\bin\Debug\netcoreapp2.0\JobRecrutmentApi.dll
+E:\Himel\Invogue\Connect\JobRecrutmentApi\JobRecrutmentApi\bin\Debug\netcoreapp2.0\JobRecrutmentApi.pdb
+E:\Himel\Invogue\Connect\JobRecrutmentApi\JobRecrutmentApi\bin\Debug\netcoreapp2.0\Admin.Domain.Entities.dll
+E:\Himel\Invogue\Connect\JobRecrutmentApi\JobRecrutmentApi\bin\Debug\netcoreapp2.0\Admin.Services.Interfaces.dll
+E:\Himel\Invogue\Connect\JobRecrutmentApi\JobRecrutmentApi\bin\Debug\netcoreapp2.0\Candidate.Domain.Entities.dll
+E:\Himel\Invogue\Connect\JobRecrutmentApi\JobRecrutmentApi\bin\Debug\netcoreapp2.0\Candidate.Domain.Interfaces.dll
+E:\Himel\Invogue\Connect\JobRecrutmentApi\JobRecrutmentApi\bin\Debug\netcoreapp2.0\Candidate.Infrastructure.Data.dll
+E:\Himel\Invogue\Connect\JobRecrutmentApi\JobRecrutmentApi\bin\Debug\netcoreapp2.0\Candidate.Services.dll
+E:\Himel\Invogue\Connect\JobRecrutmentApi\JobRecrutmentApi\bin\Debug\netcoreapp2.0\Candidate.Services.Interfaces.dll
+E:\Himel\Invogue\Connect\JobRecrutmentApi\JobRecrutmentApi\bin\Debug\netcoreapp2.0\Common.Domain.Entities.dll
+E:\Himel\Invogue\Connect\JobRecrutmentApi\JobRecrutmentApi\bin\Debug\netcoreapp2.0\Common.Domain.Interfaces.dll
+E:\Himel\Invogue\Connect\JobRecrutmentApi\JobRecrutmentApi\bin\Debug\netcoreapp2.0\Common.Infrastructure.Data.dll
+E:\Himel\Invogue\Connect\JobRecrutmentApi\JobRecrutmentApi\bin\Debug\netcoreapp2.0\Common.Services.dll
+E:\Himel\Invogue\Connect\JobRecrutmentApi\JobRecrutmentApi\bin\Debug\netcoreapp2.0\Common.Services.Interfaces.dll
+E:\Himel\Invogue\Connect\JobRecrutmentApi\JobRecrutmentApi\bin\Debug\netcoreapp2.0\Employee.Domain.Entities.dll
+E:\Himel\Invogue\Connect\JobRecrutmentApi\JobRecrutmentApi\bin\Debug\netcoreapp2.0\Employee.Domain.Interfaces.dll
+E:\Himel\Invogue\Connect\JobRecrutmentApi\JobRecrutmentApi\bin\Debug\netcoreapp2.0\Employee.Infrastructure.Data.dll
+E:\Himel\Invogue\Connect\JobRecrutmentApi\JobRecrutmentApi\bin\Debug\netcoreapp2.0\Employee.Services.dll
+E:\Himel\Invogue\Connect\JobRecrutmentApi\JobRecrutmentApi\bin\Debug\netcoreapp2.0\Employee.Services.Interfaces.dll
+E:\Himel\Invogue\Connect\JobRecrutmentApi\JobRecrutmentApi\bin\Debug\netcoreapp2.0\Job.Context.dll
+E:\Himel\Invogue\Connect\JobRecrutmentApi\JobRecrutmentApi\bin\Debug\netcoreapp2.0\Admin.Services.Interfaces.pdb
+E:\Himel\Invogue\Connect\JobRecrutmentApi\JobRecrutmentApi\bin\Debug\netcoreapp2.0\Candidate.Domain.Interfaces.pdb
+E:\Himel\Invogue\Connect\JobRecrutmentApi\JobRecrutmentApi\bin\Debug\netcoreapp2.0\Candidate.Infrastructure.Data.pdb
+E:\Himel\Invogue\Connect\JobRecrutmentApi\JobRecrutmentApi\bin\Debug\netcoreapp2.0\Candidate.Services.Interfaces.pdb
+E:\Himel\Invogue\Connect\JobRecrutmentApi\JobRecrutmentApi\bin\Debug\netcoreapp2.0\Candidate.Services.pdb
+E:\Himel\Invogue\Connect\JobRecrutmentApi\JobRecrutmentApi\bin\Debug\netcoreapp2.0\Common.Domain.Interfaces.pdb
+E:\Himel\Invogue\Connect\JobRecrutmentApi\JobRecrutmentApi\bin\Debug\netcoreapp2.0\Common.Infrastructure.Data.pdb
+E:\Himel\Invogue\Connect\JobRecrutmentApi\JobRecrutmentApi\bin\Debug\netcoreapp2.0\Common.Services.Interfaces.pdb
+E:\Himel\Invogue\Connect\JobRecrutmentApi\JobRecrutmentApi\bin\Debug\netcoreapp2.0\Common.Services.pdb
+E:\Himel\Invogue\Connect\JobRecrutmentApi\JobRecrutmentApi\bin\Debug\netcoreapp2.0\Employee.Domain.Interfaces.pdb
+E:\Himel\Invogue\Connect\JobRecrutmentApi\JobRecrutmentApi\bin\Debug\netcoreapp2.0\Employee.Infrastructure.Data.pdb
+E:\Himel\Invogue\Connect\JobRecrutmentApi\JobRecrutmentApi\bin\Debug\netcoreapp2.0\Employee.Services.Interfaces.pdb
+E:\Himel\Invogue\Connect\JobRecrutmentApi\JobRecrutmentApi\bin\Debug\netcoreapp2.0\Employee.Services.pdb
+E:\Himel\Invogue\Connect\JobRecrutmentApi\JobRecrutmentApi\bin\Debug\netcoreapp2.0\Job.Context.pdb
+E:\Himel\Invogue\Connect\JobRecrutmentApi\JobRecrutmentApi\bin\Debug\netcoreapp2.0\Admin.Domain.Entities.pdb
+E:\Himel\Invogue\Connect\JobRecrutmentApi\JobRecrutmentApi\bin\Debug\netcoreapp2.0\Candidate.Domain.Entities.pdb
+E:\Himel\Invogue\Connect\JobRecrutmentApi\JobRecrutmentApi\bin\Debug\netcoreapp2.0\Common.Domain.Entities.pdb
+E:\Himel\Invogue\Connect\JobRecrutmentApi\JobRecrutmentApi\bin\Debug\netcoreapp2.0\Employee.Domain.Entities.pdb
+E:\Himel\Invogue\Connect\JobRecrutmentApi\JobRecrutmentApi\obj\Debug\netcoreapp2.0\JobRecrutmentApi.csprojAssemblyReference.cache
+E:\Himel\Invogue\Connect\JobRecrutmentApi\JobRecrutmentApi\obj\Debug\netcoreapp2.0\JobRecrutmentApi.csproj.CoreCompileInputs.cache
+E:\Himel\Invogue\Connect\JobRecrutmentApi\JobRecrutmentApi\obj\Debug\netcoreapp2.0\JobRecrutmentApi.RazorAssemblyInfo.cache
+E:\Himel\Invogue\Connect\JobRecrutmentApi\JobRecrutmentApi\obj\Debug\netcoreapp2.0\JobRecrutmentApi.RazorAssemblyInfo.cs
+E:\Himel\Invogue\Connect\JobRecrutmentApi\JobRecrutmentApi\obj\Debug\netcoreapp2.0\JobRecrutmentApi.AssemblyInfoInputs.cache
+E:\Himel\Invogue\Connect\JobRecrutmentApi\JobRecrutmentApi\obj\Debug\netcoreapp2.0\JobRecrutmentApi.AssemblyInfo.cs
+E:\Himel\Invogue\Connect\JobRecrutmentApi\JobRecrutmentApi\obj\Debug\netcoreapp2.0\JobRecrutmentApi.RazorTargetAssemblyInfo.cache
+E:\Himel\Invogue\Connect\JobRecrutmentApi\JobRecrutmentApi\obj\Debug\netcoreapp2.0\JobRecrutmentApi.csproj.CopyComplete
+E:\Himel\Invogue\Connect\JobRecrutmentApi\JobRecrutmentApi\obj\Debug\netcoreapp2.0\JobRecrutmentApi.dll
+E:\Himel\Invogue\Connect\JobRecrutmentApi\JobRecrutmentApi\obj\Debug\netcoreapp2.0\JobRecrutmentApi.pdb
+D:\Development\Job Site Project\Connect\JobRecrutmentApi\JobRecrutmentApi\bin\Debug\netcoreapp2.0\JobRecrutmentApi.deps.json
+D:\Development\Job Site Project\Connect\JobRecrutmentApi\JobRecrutmentApi\bin\Debug\netcoreapp2.0\JobRecrutmentApi.runtimeconfig.json
+D:\Development\Job Site Project\Connect\JobRecrutmentApi\JobRecrutmentApi\bin\Debug\netcoreapp2.0\JobRecrutmentApi.runtimeconfig.dev.json
+D:\Development\Job Site Project\Connect\JobRecrutmentApi\JobRecrutmentApi\bin\Debug\netcoreapp2.0\JobRecrutmentApi.dll
+D:\Development\Job Site Project\Connect\JobRecrutmentApi\JobRecrutmentApi\bin\Debug\netcoreapp2.0\JobRecrutmentApi.pdb
+D:\Development\Job Site Project\Connect\JobRecrutmentApi\JobRecrutmentApi\bin\Debug\netcoreapp2.0\Admin.Domain.Entities.dll
+D:\Development\Job Site Project\Connect\JobRecrutmentApi\JobRecrutmentApi\bin\Debug\netcoreapp2.0\Admin.Services.Interfaces.dll
+D:\Development\Job Site Project\Connect\JobRecrutmentApi\JobRecrutmentApi\bin\Debug\netcoreapp2.0\Candidate.Domain.Entities.dll
+D:\Development\Job Site Project\Connect\JobRecrutmentApi\JobRecrutmentApi\bin\Debug\netcoreapp2.0\Candidate.Domain.Interfaces.dll
+D:\Development\Job Site Project\Connect\JobRecrutmentApi\JobRecrutmentApi\bin\Debug\netcoreapp2.0\Candidate.Infrastructure.Data.dll
+D:\Development\Job Site Project\Connect\JobRecrutmentApi\JobRecrutmentApi\bin\Debug\netcoreapp2.0\Candidate.Services.dll
+D:\Development\Job Site Project\Connect\JobRecrutmentApi\JobRecrutmentApi\bin\Debug\netcoreapp2.0\Candidate.Services.Interfaces.dll
+D:\Development\Job Site Project\Connect\JobRecrutmentApi\JobRecrutmentApi\bin\Debug\netcoreapp2.0\Common.Domain.Entities.dll
+D:\Development\Job Site Project\Connect\JobRecrutmentApi\JobRecrutmentApi\bin\Debug\netcoreapp2.0\Common.Domain.Interfaces.dll
+D:\Development\Job Site Project\Connect\JobRecrutmentApi\JobRecrutmentApi\bin\Debug\netcoreapp2.0\Common.Infrastructure.Data.dll
+D:\Development\Job Site Project\Connect\JobRecrutmentApi\JobRecrutmentApi\bin\Debug\netcoreapp2.0\Common.Services.dll
+D:\Development\Job Site Project\Connect\JobRecrutmentApi\JobRecrutmentApi\bin\Debug\netcoreapp2.0\Common.Services.Interfaces.dll
+D:\Development\Job Site Project\Connect\JobRecrutmentApi\JobRecrutmentApi\bin\Debug\netcoreapp2.0\Employee.Domain.Entities.dll
+D:\Development\Job Site Project\Connect\JobRecrutmentApi\JobRecrutmentApi\bin\Debug\netcoreapp2.0\Employee.Domain.Interfaces.dll
+D:\Development\Job Site Project\Connect\JobRecrutmentApi\JobRecrutmentApi\bin\Debug\netcoreapp2.0\Employee.Infrastructure.Data.dll
+D:\Development\Job Site Project\Connect\JobRecrutmentApi\JobRecrutmentApi\bin\Debug\netcoreapp2.0\Employee.Services.dll
+D:\Development\Job Site Project\Connect\JobRecrutmentApi\JobRecrutmentApi\bin\Debug\netcoreapp2.0\Employee.Services.Interfaces.dll
+D:\Development\Job Site Project\Connect\JobRecrutmentApi\JobRecrutmentApi\bin\Debug\netcoreapp2.0\Job.Context.dll
+D:\Development\Job Site Project\Connect\JobRecrutmentApi\JobRecrutmentApi\bin\Debug\netcoreapp2.0\Admin.Services.Interfaces.pdb
+D:\Development\Job Site Project\Connect\JobRecrutmentApi\JobRecrutmentApi\bin\Debug\netcoreapp2.0\Candidate.Domain.Interfaces.pdb
+D:\Development\Job Site Project\Connect\JobRecrutmentApi\JobRecrutmentApi\bin\Debug\netcoreapp2.0\Candidate.Infrastructure.Data.pdb
+D:\Development\Job Site Project\Connect\JobRecrutmentApi\JobRecrutmentApi\bin\Debug\netcoreapp2.0\Candidate.Services.Interfaces.pdb
+D:\Development\Job Site Project\Connect\JobRecrutmentApi\JobRecrutmentApi\bin\Debug\netcoreapp2.0\Candidate.Services.pdb
+D:\Development\Job Site Project\Connect\JobRecrutmentApi\JobRecrutmentApi\bin\Debug\netcoreapp2.0\Common.Domain.Interfaces.pdb
+D:\Development\Job Site Project\Connect\JobRecrutmentApi\JobRecrutmentApi\bin\Debug\netcoreapp2.0\Common.Infrastructure.Data.pdb
+D:\Development\Job Site Project\Connect\JobRecrutmentApi\JobRecrutmentApi\bin\Debug\netcoreapp2.0\Common.Services.Interfaces.pdb
+D:\Development\Job Site Project\Connect\JobRecrutmentApi\JobRecrutmentApi\bin\Debug\netcoreapp2.0\Common.Services.pdb
+D:\Development\Job Site Project\Connect\JobRecrutmentApi\JobRecrutmentApi\bin\Debug\netcoreapp2.0\Employee.Domain.Interfaces.pdb
+D:\Development\Job Site Project\Connect\JobRecrutmentApi\JobRecrutmentApi\bin\Debug\netcoreapp2.0\Employee.Infrastructure.Data.pdb
+D:\Development\Job Site Project\Connect\JobRecrutmentApi\JobRecrutmentApi\bin\Debug\netcoreapp2.0\Employee.Services.Interfaces.pdb
+D:\Development\Job Site Project\Connect\JobRecrutmentApi\JobRecrutmentApi\bin\Debug\netcoreapp2.0\Employee.Services.pdb
+D:\Development\Job Site Project\Connect\JobRecrutmentApi\JobRecrutmentApi\bin\Debug\netcoreapp2.0\Job.Context.pdb
+D:\Development\Job Site Project\Connect\JobRecrutmentApi\JobRecrutmentApi\bin\Debug\netcoreapp2.0\Admin.Domain.Entities.pdb
+D:\Development\Job Site Project\Connect\JobRecrutmentApi\JobRecrutmentApi\bin\Debug\netcoreapp2.0\Candidate.Domain.Entities.pdb
+D:\Development\Job Site Project\Connect\JobRecrutmentApi\JobRecrutmentApi\bin\Debug\netcoreapp2.0\Common.Domain.Entities.pdb
+D:\Development\Job Site Project\Connect\JobRecrutmentApi\JobRecrutmentApi\bin\Debug\netcoreapp2.0\Employee.Domain.Entities.pdb
+D:\Development\Job Site Project\Connect\JobRecrutmentApi\JobRecrutmentApi\obj\Debug\netcoreapp2.0\JobRecrutmentApi.csprojAssemblyReference.cache
+D:\Development\Job Site Project\Connect\JobRecrutmentApi\JobRecrutmentApi\obj\Debug\netcoreapp2.0\JobRecrutmentApi.csproj.CoreCompileInputs.cache
+D:\Development\Job Site Project\Connect\JobRecrutmentApi\JobRecrutmentApi\obj\Debug\netcoreapp2.0\JobRecrutmentApi.RazorAssemblyInfo.cache
+D:\Development\Job Site Project\Connect\JobRecrutmentApi\JobRecrutmentApi\obj\Debug\netcoreapp2.0\JobRecrutmentApi.RazorAssemblyInfo.cs
+D:\Development\Job Site Project\Connect\JobRecrutmentApi\JobRecrutmentApi\obj\Debug\netcoreapp2.0\JobRecrutmentApi.AssemblyInfoInputs.cache
+D:\Development\Job Site Project\Connect\JobRecrutmentApi\JobRecrutmentApi\obj\Debug\netcoreapp2.0\JobRecrutmentApi.AssemblyInfo.cs
+D:\Development\Job Site Project\Connect\JobRecrutmentApi\JobRecrutmentApi\obj\Debug\netcoreapp2.0\JobRecrutmentApi.RazorTargetAssemblyInfo.cache
+D:\Development\Job Site Project\Connect\JobRecrutmentApi\JobRecrutmentApi\obj\Debug\netcoreapp2.0\JobRecrutmentApi.csproj.CopyComplete
+D:\Development\Job Site Project\Connect\JobRecrutmentApi\JobRecrutmentApi\obj\Debug\netcoreapp2.0\JobRecrutmentApi.dll
+D:\Development\Job Site Project\Connect\JobRecrutmentApi\JobRecrutmentApi\obj\Debug\netcoreapp2.0\JobRecrutmentApi.pdb
+D:\Development\Job Site Project\Connect\Job-RecruitmentApi\JobRecrutmentApi\bin\Debug\netcoreapp2.0\JobRecrutmentApi.deps.json
+D:\Development\Job Site Project\Connect\Job-RecruitmentApi\JobRecrutmentApi\bin\Debug\netcoreapp2.0\JobRecrutmentApi.runtimeconfig.json
+D:\Development\Job Site Project\Connect\Job-RecruitmentApi\JobRecrutmentApi\bin\Debug\netcoreapp2.0\JobRecrutmentApi.runtimeconfig.dev.json
+D:\Development\Job Site Project\Connect\Job-RecruitmentApi\JobRecrutmentApi\bin\Debug\netcoreapp2.0\JobRecrutmentApi.dll
+D:\Development\Job Site Project\Connect\Job-RecruitmentApi\JobRecrutmentApi\bin\Debug\netcoreapp2.0\JobRecrutmentApi.pdb
+D:\Development\Job Site Project\Connect\Job-RecruitmentApi\JobRecrutmentApi\bin\Debug\netcoreapp2.0\Admin.Domain.Entities.dll
+D:\Development\Job Site Project\Connect\Job-RecruitmentApi\JobRecrutmentApi\bin\Debug\netcoreapp2.0\Admin.Services.Interfaces.dll
+D:\Development\Job Site Project\Connect\Job-RecruitmentApi\JobRecrutmentApi\bin\Debug\netcoreapp2.0\Candidate.Domain.Entities.dll
+D:\Development\Job Site Project\Connect\Job-RecruitmentApi\JobRecrutmentApi\bin\Debug\netcoreapp2.0\Candidate.Domain.Interfaces.dll
+D:\Development\Job Site Project\Connect\Job-RecruitmentApi\JobRecrutmentApi\bin\Debug\netcoreapp2.0\Candidate.Infrastructure.Data.dll
+D:\Development\Job Site Project\Connect\Job-RecruitmentApi\JobRecrutmentApi\bin\Debug\netcoreapp2.0\Candidate.Services.dll
+D:\Development\Job Site Project\Connect\Job-RecruitmentApi\JobRecrutmentApi\bin\Debug\netcoreapp2.0\Candidate.Services.Interfaces.dll
+D:\Development\Job Site Project\Connect\Job-RecruitmentApi\JobRecrutmentApi\bin\Debug\netcoreapp2.0\Common.Domain.Entities.dll
+D:\Development\Job Site Project\Connect\Job-RecruitmentApi\JobRecrutmentApi\bin\Debug\netcoreapp2.0\Common.Domain.Interfaces.dll
+D:\Development\Job Site Project\Connect\Job-RecruitmentApi\JobRecrutmentApi\bin\Debug\netcoreapp2.0\Common.Infrastructure.Data.dll
+D:\Development\Job Site Project\Connect\Job-RecruitmentApi\JobRecrutmentApi\bin\Debug\netcoreapp2.0\Common.Services.dll
+D:\Development\Job Site Project\Connect\Job-RecruitmentApi\JobRecrutmentApi\bin\Debug\netcoreapp2.0\Common.Services.Interfaces.dll
+D:\Development\Job Site Project\Connect\Job-RecruitmentApi\JobRecrutmentApi\bin\Debug\netcoreapp2.0\Employee.Domain.Entities.dll
+D:\Development\Job Site Project\Connect\Job-RecruitmentApi\JobRecrutmentApi\bin\Debug\netcoreapp2.0\Employee.Domain.Interfaces.dll
+D:\Development\Job Site Project\Connect\Job-RecruitmentApi\JobRecrutmentApi\bin\Debug\netcoreapp2.0\Employee.Infrastructure.Data.dll
+D:\Development\Job Site Project\Connect\Job-RecruitmentApi\JobRecrutmentApi\bin\Debug\netcoreapp2.0\Employee.Services.dll
+D:\Development\Job Site Project\Connect\Job-RecruitmentApi\JobRecrutmentApi\bin\Debug\netcoreapp2.0\Employee.Services.Interfaces.dll
+D:\Development\Job Site Project\Connect\Job-RecruitmentApi\JobRecrutmentApi\bin\Debug\netcoreapp2.0\Job.Context.dll
+D:\Development\Job Site Project\Connect\Job-RecruitmentApi\JobRecrutmentApi\bin\Debug\netcoreapp2.0\Admin.Services.Interfaces.pdb
+D:\Development\Job Site Project\Connect\Job-RecruitmentApi\JobRecrutmentApi\bin\Debug\netcoreapp2.0\Candidate.Domain.Interfaces.pdb
+D:\Development\Job Site Project\Connect\Job-RecruitmentApi\JobRecrutmentApi\bin\Debug\netcoreapp2.0\Candidate.Infrastructure.Data.pdb
+D:\Development\Job Site Project\Connect\Job-RecruitmentApi\JobRecrutmentApi\bin\Debug\netcoreapp2.0\Candidate.Services.Interfaces.pdb
+D:\Development\Job Site Project\Connect\Job-RecruitmentApi\JobRecrutmentApi\bin\Debug\netcoreapp2.0\Candidate.Services.pdb
+D:\Development\Job Site Project\Connect\Job-RecruitmentApi\JobRecrutmentApi\bin\Debug\netcoreapp2.0\Common.Domain.Interfaces.pdb
+D:\Development\Job Site Project\Connect\Job-RecruitmentApi\JobRecrutmentApi\bin\Debug\netcoreapp2.0\Common.Infrastructure.Data.pdb
+D:\Development\Job Site Project\Connect\Job-RecruitmentApi\JobRecrutmentApi\bin\Debug\netcoreapp2.0\Common.Services.Interfaces.pdb
+D:\Development\Job Site Project\Connect\Job-RecruitmentApi\JobRecrutmentApi\bin\Debug\netcoreapp2.0\Common.Services.pdb
+D:\Development\Job Site Project\Connect\Job-RecruitmentApi\JobRecrutmentApi\bin\Debug\netcoreapp2.0\Employee.Domain.Interfaces.pdb
+D:\Development\Job Site Project\Connect\Job-RecruitmentApi\JobRecrutmentApi\bin\Debug\netcoreapp2.0\Employee.Infrastructure.Data.pdb
+D:\Development\Job Site Project\Connect\Job-RecruitmentApi\JobRecrutmentApi\bin\Debug\netcoreapp2.0\Employee.Services.Interfaces.pdb
+D:\Development\Job Site Project\Connect\Job-RecruitmentApi\JobRecrutmentApi\bin\Debug\netcoreapp2.0\Employee.Services.pdb
+D:\Development\Job Site Project\Connect\Job-RecruitmentApi\JobRecrutmentApi\bin\Debug\netcoreapp2.0\Job.Context.pdb
+D:\Development\Job Site Project\Connect\Job-RecruitmentApi\JobRecrutmentApi\bin\Debug\netcoreapp2.0\Admin.Domain.Entities.pdb
+D:\Development\Job Site Project\Connect\Job-RecruitmentApi\JobRecrutmentApi\bin\Debug\netcoreapp2.0\Candidate.Domain.Entities.pdb
+D:\Development\Job Site Project\Connect\Job-RecruitmentApi\JobRecrutmentApi\bin\Debug\netcoreapp2.0\Common.Domain.Entities.pdb
+D:\Development\Job Site Project\Connect\Job-RecruitmentApi\JobRecrutmentApi\bin\Debug\netcoreapp2.0\Employee.Domain.Entities.pdb
+D:\Development\Job Site Project\Connect\Job-RecruitmentApi\JobRecrutmentApi\obj\Debug\netcoreapp2.0\JobRecrutmentApi.csprojAssemblyReference.cache
+D:\Development\Job Site Project\Connect\Job-RecruitmentApi\JobRecrutmentApi\obj\Debug\netcoreapp2.0\JobRecrutmentApi.csproj.CoreCompileInputs.cache
+D:\Development\Job Site Project\Connect\Job-RecruitmentApi\JobRecrutmentApi\obj\Debug\netcoreapp2.0\JobRecrutmentApi.RazorAssemblyInfo.cache
+D:\Development\Job Site Project\Connect\Job-RecruitmentApi\JobRecrutmentApi\obj\Debug\netcoreapp2.0\JobRecrutmentApi.RazorAssemblyInfo.cs
+D:\Development\Job Site Project\Connect\Job-RecruitmentApi\JobRecrutmentApi\obj\Debug\netcoreapp2.0\JobRecrutmentApi.AssemblyInfoInputs.cache
+D:\Development\Job Site Project\Connect\Job-RecruitmentApi\JobRecrutmentApi\obj\Debug\netcoreapp2.0\JobRecrutmentApi.AssemblyInfo.cs
+D:\Development\Job Site Project\Connect\Job-RecruitmentApi\JobRecrutmentApi\obj\Debug\netcoreapp2.0\JobRecrutmentApi.RazorTargetAssemblyInfo.cache
+D:\Development\Job Site Project\Connect\Job-RecruitmentApi\JobRecrutmentApi\obj\Debug\netcoreapp2.0\JobRecrutmentApi.csproj.CopyComplete
+D:\Development\Job Site Project\Connect\Job-RecruitmentApi\JobRecrutmentApi\obj\Debug\netcoreapp2.0\JobRecrutmentApi.dll
+D:\Development\Job Site Project\Connect\Job-RecruitmentApi\JobRecrutmentApi\obj\Debug\netcoreapp2.0\JobRecrutmentApi.pdb
+D:\Development\Job Site Project\Connect\JobRecruitmentApi\JobRecrutmentApi\bin\Debug\netcoreapp2.0\JobRecrutmentApi.deps.json
+D:\Development\Job Site Project\Connect\JobRecruitmentApi\JobRecrutmentApi\bin\Debug\netcoreapp2.0\JobRecrutmentApi.runtimeconfig.json
+D:\Development\Job Site Project\Connect\JobRecruitmentApi\JobRecrutmentApi\bin\Debug\netcoreapp2.0\JobRecrutmentApi.runtimeconfig.dev.json
+D:\Development\Job Site Project\Connect\JobRecruitmentApi\JobRecrutmentApi\bin\Debug\netcoreapp2.0\JobRecrutmentApi.dll
+D:\Development\Job Site Project\Connect\JobRecruitmentApi\JobRecrutmentApi\bin\Debug\netcoreapp2.0\JobRecrutmentApi.pdb
+D:\Development\Job Site Project\Connect\JobRecruitmentApi\JobRecrutmentApi\bin\Debug\netcoreapp2.0\Admin.Domain.Entities.dll
+D:\Development\Job Site Project\Connect\JobRecruitmentApi\JobRecrutmentApi\bin\Debug\netcoreapp2.0\Admin.Services.Interfaces.dll
+D:\Development\Job Site Project\Connect\JobRecruitmentApi\JobRecrutmentApi\bin\Debug\netcoreapp2.0\Candidate.Domain.Entities.dll
+D:\Development\Job Site Project\Connect\JobRecruitmentApi\JobRecrutmentApi\bin\Debug\netcoreapp2.0\Candidate.Domain.Interfaces.dll
+D:\Development\Job Site Project\Connect\JobRecruitmentApi\JobRecrutmentApi\bin\Debug\netcoreapp2.0\Candidate.Infrastructure.Data.dll
+D:\Development\Job Site Project\Connect\JobRecruitmentApi\JobRecrutmentApi\bin\Debug\netcoreapp2.0\Candidate.Services.dll
+D:\Development\Job Site Project\Connect\JobRecruitmentApi\JobRecrutmentApi\bin\Debug\netcoreapp2.0\Candidate.Services.Interfaces.dll
+D:\Development\Job Site Project\Connect\JobRecruitmentApi\JobRecrutmentApi\bin\Debug\netcoreapp2.0\Common.Domain.Entities.dll
+D:\Development\Job Site Project\Connect\JobRecruitmentApi\JobRecrutmentApi\bin\Debug\netcoreapp2.0\Common.Domain.Interfaces.dll
+D:\Development\Job Site Project\Connect\JobRecruitmentApi\JobRecrutmentApi\bin\Debug\netcoreapp2.0\Common.Infrastructure.Data.dll
+D:\Development\Job Site Project\Connect\JobRecruitmentApi\JobRecrutmentApi\bin\Debug\netcoreapp2.0\Common.Services.dll
+D:\Development\Job Site Project\Connect\JobRecruitmentApi\JobRecrutmentApi\bin\Debug\netcoreapp2.0\Common.Services.Interfaces.dll
+D:\Development\Job Site Project\Connect\JobRecruitmentApi\JobRecrutmentApi\bin\Debug\netcoreapp2.0\Employee.Domain.Entities.dll
+D:\Development\Job Site Project\Connect\JobRecruitmentApi\JobRecrutmentApi\bin\Debug\netcoreapp2.0\Employee.Domain.Interfaces.dll
+D:\Development\Job Site Project\Connect\JobRecruitmentApi\JobRecrutmentApi\bin\Debug\netcoreapp2.0\Employee.Infrastructure.Data.dll
+D:\Development\Job Site Project\Connect\JobRecruitmentApi\JobRecrutmentApi\bin\Debug\netcoreapp2.0\Employee.Services.dll
+D:\Development\Job Site Project\Connect\JobRecruitmentApi\JobRecrutmentApi\bin\Debug\netcoreapp2.0\Employee.Services.Interfaces.dll
+D:\Development\Job Site Project\Connect\JobRecruitmentApi\JobRecrutmentApi\bin\Debug\netcoreapp2.0\Job.Context.dll
+D:\Development\Job Site Project\Connect\JobRecruitmentApi\JobRecrutmentApi\bin\Debug\netcoreapp2.0\Admin.Services.Interfaces.pdb
+D:\Development\Job Site Project\Connect\JobRecruitmentApi\JobRecrutmentApi\bin\Debug\netcoreapp2.0\Candidate.Domain.Interfaces.pdb
+D:\Development\Job Site Project\Connect\JobRecruitmentApi\JobRecrutmentApi\bin\Debug\netcoreapp2.0\Candidate.Infrastructure.Data.pdb
+D:\Development\Job Site Project\Connect\JobRecruitmentApi\JobRecrutmentApi\bin\Debug\netcoreapp2.0\Candidate.Services.Interfaces.pdb
+D:\Development\Job Site Project\Connect\JobRecruitmentApi\JobRecrutmentApi\bin\Debug\netcoreapp2.0\Candidate.Services.pdb
+D:\Development\Job Site Project\Connect\JobRecruitmentApi\JobRecrutmentApi\bin\Debug\netcoreapp2.0\Common.Domain.Interfaces.pdb
+D:\Development\Job Site Project\Connect\JobRecruitmentApi\JobRecrutmentApi\bin\Debug\netcoreapp2.0\Common.Infrastructure.Data.pdb
+D:\Development\Job Site Project\Connect\JobRecruitmentApi\JobRecrutmentApi\bin\Debug\netcoreapp2.0\Common.Services.Interfaces.pdb
+D:\Development\Job Site Project\Connect\JobRecruitmentApi\JobRecrutmentApi\bin\Debug\netcoreapp2.0\Common.Services.pdb
+D:\Development\Job Site Project\Connect\JobRecruitmentApi\JobRecrutmentApi\bin\Debug\netcoreapp2.0\Employee.Domain.Interfaces.pdb
+D:\Development\Job Site Project\Connect\JobRecruitmentApi\JobRecrutmentApi\bin\Debug\netcoreapp2.0\Employee.Infrastructure.Data.pdb
+D:\Development\Job Site Project\Connect\JobRecruitmentApi\JobRecrutmentApi\bin\Debug\netcoreapp2.0\Employee.Services.Interfaces.pdb
+D:\Development\Job Site Project\Connect\JobRecruitmentApi\JobRecrutmentApi\bin\Debug\netcoreapp2.0\Employee.Services.pdb
+D:\Development\Job Site Project\Connect\JobRecruitmentApi\JobRecrutmentApi\bin\Debug\netcoreapp2.0\Job.Context.pdb
+D:\Development\Job Site Project\Connect\JobRecruitmentApi\JobRecrutmentApi\bin\Debug\netcoreapp2.0\Admin.Domain.Entities.pdb
+D:\Development\Job Site Project\Connect\JobRecruitmentApi\JobRecrutmentApi\bin\Debug\netcoreapp2.0\Candidate.Domain.Entities.pdb
+D:\Development\Job Site Project\Connect\JobRecruitmentApi\JobRecrutmentApi\bin\Debug\netcoreapp2.0\Common.Domain.Entities.pdb
+D:\Development\Job Site Project\Connect\JobRecruitmentApi\JobRecrutmentApi\bin\Debug\netcoreapp2.0\Employee.Domain.Entities.pdb
+D:\Development\Job Site Project\Connect\JobRecruitmentApi\JobRecrutmentApi\obj\Debug\netcoreapp2.0\JobRecrutmentApi.csprojAssemblyReference.cache
+D:\Development\Job Site Project\Connect\JobRecruitmentApi\JobRecrutmentApi\obj\Debug\netcoreapp2.0\JobRecrutmentApi.csproj.CoreCompileInputs.cache
+D:\Development\Job Site Project\Connect\JobRecruitmentApi\JobRecrutmentApi\obj\Debug\netcoreapp2.0\JobRecrutmentApi.RazorAssemblyInfo.cache
+D:\Development\Job Site Project\Connect\JobRecruitmentApi\JobRecrutmentApi\obj\Debug\netcoreapp2.0\JobRecrutmentApi.RazorAssemblyInfo.cs
+D:\Development\Job Site Project\Connect\JobRecruitmentApi\JobRecrutmentApi\obj\Debug\netcoreapp2.0\JobRecrutmentApi.AssemblyInfoInputs.cache
+D:\Development\Job Site Project\Connect\JobRecruitmentApi\JobRecrutmentApi\obj\Debug\netcoreapp2.0\JobRecrutmentApi.AssemblyInfo.cs
+D:\Development\Job Site Project\Connect\JobRecruitmentApi\JobRecrutmentApi\obj\Debug\netcoreapp2.0\JobRecrutmentApi.RazorTargetAssemblyInfo.cache
+D:\Development\Job Site Project\Connect\JobRecruitmentApi\JobRecrutmentApi\obj\Debug\netcoreapp2.0\JobRecrutmentApi.csproj.CopyComplete
+D:\Development\Job Site Project\Connect\JobRecruitmentApi\JobRecrutmentApi\obj\Debug\netcoreapp2.0\JobRecrutmentApi.dll
+D:\Development\Job Site Project\Connect\JobRecruitmentApi\JobRecrutmentApi\obj\Debug\netcoreapp2.0\JobRecrutmentApi.pdb
+F:\Development\Projects\Invogue\Jobsite Project\Mehedi Invogue\JobRecruitmentApi\JobRecrutmentApi\bin\Debug\netcoreapp2.0\JobRecrutmentApi.deps.json
+F:\Development\Projects\Invogue\Jobsite Project\Mehedi Invogue\JobRecruitmentApi\JobRecrutmentApi\bin\Debug\netcoreapp2.0\JobRecrutmentApi.runtimeconfig.json
+F:\Development\Projects\Invogue\Jobsite Project\Mehedi Invogue\JobRecruitmentApi\JobRecrutmentApi\bin\Debug\netcoreapp2.0\JobRecrutmentApi.runtimeconfig.dev.json
+F:\Development\Projects\Invogue\Jobsite Project\Mehedi Invogue\JobRecruitmentApi\JobRecrutmentApi\bin\Debug\netcoreapp2.0\JobRecrutmentApi.dll
+F:\Development\Projects\Invogue\Jobsite Project\Mehedi Invogue\JobRecruitmentApi\JobRecrutmentApi\bin\Debug\netcoreapp2.0\JobRecrutmentApi.pdb
+F:\Development\Projects\Invogue\Jobsite Project\Mehedi Invogue\JobRecruitmentApi\JobRecrutmentApi\bin\Debug\netcoreapp2.0\Admin.Domain.Entities.dll
+F:\Development\Projects\Invogue\Jobsite Project\Mehedi Invogue\JobRecruitmentApi\JobRecrutmentApi\bin\Debug\netcoreapp2.0\Admin.Services.Interfaces.dll
+F:\Development\Projects\Invogue\Jobsite Project\Mehedi Invogue\JobRecruitmentApi\JobRecrutmentApi\bin\Debug\netcoreapp2.0\Candidate.Domain.Entities.dll
+F:\Development\Projects\Invogue\Jobsite Project\Mehedi Invogue\JobRecruitmentApi\JobRecrutmentApi\bin\Debug\netcoreapp2.0\Candidate.Domain.Interfaces.dll
+F:\Development\Projects\Invogue\Jobsite Project\Mehedi Invogue\JobRecruitmentApi\JobRecrutmentApi\bin\Debug\netcoreapp2.0\Candidate.Infrastructure.Data.dll
+F:\Development\Projects\Invogue\Jobsite Project\Mehedi Invogue\JobRecruitmentApi\JobRecrutmentApi\bin\Debug\netcoreapp2.0\Candidate.Services.dll
+F:\Development\Projects\Invogue\Jobsite Project\Mehedi Invogue\JobRecruitmentApi\JobRecrutmentApi\bin\Debug\netcoreapp2.0\Candidate.Services.Interfaces.dll
+F:\Development\Projects\Invogue\Jobsite Project\Mehedi Invogue\JobRecruitmentApi\JobRecrutmentApi\bin\Debug\netcoreapp2.0\Common.Domain.Entities.dll
+F:\Development\Projects\Invogue\Jobsite Project\Mehedi Invogue\JobRecruitmentApi\JobRecrutmentApi\bin\Debug\netcoreapp2.0\Common.Domain.Interfaces.dll
+F:\Development\Projects\Invogue\Jobsite Project\Mehedi Invogue\JobRecruitmentApi\JobRecrutmentApi\bin\Debug\netcoreapp2.0\Common.Infrastructure.Data.dll
+F:\Development\Projects\Invogue\Jobsite Project\Mehedi Invogue\JobRecruitmentApi\JobRecrutmentApi\bin\Debug\netcoreapp2.0\Common.Services.dll
+F:\Development\Projects\Invogue\Jobsite Project\Mehedi Invogue\JobRecruitmentApi\JobRecrutmentApi\bin\Debug\netcoreapp2.0\Common.Services.Interfaces.dll
+F:\Development\Projects\Invogue\Jobsite Project\Mehedi Invogue\JobRecruitmentApi\JobRecrutmentApi\bin\Debug\netcoreapp2.0\Employee.Domain.Entities.dll
+F:\Development\Projects\Invogue\Jobsite Project\Mehedi Invogue\JobRecruitmentApi\JobRecrutmentApi\bin\Debug\netcoreapp2.0\Employee.Domain.Interfaces.dll
+F:\Development\Projects\Invogue\Jobsite Project\Mehedi Invogue\JobRecruitmentApi\JobRecrutmentApi\bin\Debug\netcoreapp2.0\Employee.Infrastructure.Data.dll
+F:\Development\Projects\Invogue\Jobsite Project\Mehedi Invogue\JobRecruitmentApi\JobRecrutmentApi\bin\Debug\netcoreapp2.0\Employee.Services.dll
+F:\Development\Projects\Invogue\Jobsite Project\Mehedi Invogue\JobRecruitmentApi\JobRecrutmentApi\bin\Debug\netcoreapp2.0\Employee.Services.Interfaces.dll
+F:\Development\Projects\Invogue\Jobsite Project\Mehedi Invogue\JobRecruitmentApi\JobRecrutmentApi\bin\Debug\netcoreapp2.0\Job.Context.dll
+F:\Development\Projects\Invogue\Jobsite Project\Mehedi Invogue\JobRecruitmentApi\JobRecrutmentApi\bin\Debug\netcoreapp2.0\Admin.Services.Interfaces.pdb
+F:\Development\Projects\Invogue\Jobsite Project\Mehedi Invogue\JobRecruitmentApi\JobRecrutmentApi\bin\Debug\netcoreapp2.0\Candidate.Domain.Interfaces.pdb
+F:\Development\Projects\Invogue\Jobsite Project\Mehedi Invogue\JobRecruitmentApi\JobRecrutmentApi\bin\Debug\netcoreapp2.0\Candidate.Infrastructure.Data.pdb
+F:\Development\Projects\Invogue\Jobsite Project\Mehedi Invogue\JobRecruitmentApi\JobRecrutmentApi\bin\Debug\netcoreapp2.0\Candidate.Services.Interfaces.pdb
+F:\Development\Projects\Invogue\Jobsite Project\Mehedi Invogue\JobRecruitmentApi\JobRecrutmentApi\bin\Debug\netcoreapp2.0\Candidate.Services.pdb
+F:\Development\Projects\Invogue\Jobsite Project\Mehedi Invogue\JobRecruitmentApi\JobRecrutmentApi\bin\Debug\netcoreapp2.0\Common.Domain.Interfaces.pdb
+F:\Development\Projects\Invogue\Jobsite Project\Mehedi Invogue\JobRecruitmentApi\JobRecrutmentApi\bin\Debug\netcoreapp2.0\Common.Infrastructure.Data.pdb
+F:\Development\Projects\Invogue\Jobsite Project\Mehedi Invogue\JobRecruitmentApi\JobRecrutmentApi\bin\Debug\netcoreapp2.0\Common.Services.Interfaces.pdb
+F:\Development\Projects\Invogue\Jobsite Project\Mehedi Invogue\JobRecruitmentApi\JobRecrutmentApi\bin\Debug\netcoreapp2.0\Common.Services.pdb
+F:\Development\Projects\Invogue\Jobsite Project\Mehedi Invogue\JobRecruitmentApi\JobRecrutmentApi\bin\Debug\netcoreapp2.0\Employee.Domain.Interfaces.pdb
+F:\Development\Projects\Invogue\Jobsite Project\Mehedi Invogue\JobRecruitmentApi\JobRecrutmentApi\bin\Debug\netcoreapp2.0\Employee.Infrastructure.Data.pdb
+F:\Development\Projects\Invogue\Jobsite Project\Mehedi Invogue\JobRecruitmentApi\JobRecrutmentApi\bin\Debug\netcoreapp2.0\Employee.Services.Interfaces.pdb
+F:\Development\Projects\Invogue\Jobsite Project\Mehedi Invogue\JobRecruitmentApi\JobRecrutmentApi\bin\Debug\netcoreapp2.0\Employee.Services.pdb
+F:\Development\Projects\Invogue\Jobsite Project\Mehedi Invogue\JobRecruitmentApi\JobRecrutmentApi\bin\Debug\netcoreapp2.0\Job.Context.pdb
+F:\Development\Projects\Invogue\Jobsite Project\Mehedi Invogue\JobRecruitmentApi\JobRecrutmentApi\bin\Debug\netcoreapp2.0\Admin.Domain.Entities.pdb
+F:\Development\Projects\Invogue\Jobsite Project\Mehedi Invogue\JobRecruitmentApi\JobRecrutmentApi\bin\Debug\netcoreapp2.0\Candidate.Domain.Entities.pdb
+F:\Development\Projects\Invogue\Jobsite Project\Mehedi Invogue\JobRecruitmentApi\JobRecrutmentApi\bin\Debug\netcoreapp2.0\Common.Domain.Entities.pdb
+F:\Development\Projects\Invogue\Jobsite Project\Mehedi Invogue\JobRecruitmentApi\JobRecrutmentApi\bin\Debug\netcoreapp2.0\Employee.Domain.Entities.pdb
+F:\Development\Projects\Invogue\Jobsite Project\Mehedi Invogue\JobRecruitmentApi\JobRecrutmentApi\obj\Debug\netcoreapp2.0\JobRecrutmentApi.csprojAssemblyReference.cache
+F:\Development\Projects\Invogue\Jobsite Project\Mehedi Invogue\JobRecruitmentApi\JobRecrutmentApi\obj\Debug\netcoreapp2.0\JobRecrutmentApi.csproj.CoreCompileInputs.cache
+F:\Development\Projects\Invogue\Jobsite Project\Mehedi Invogue\JobRecruitmentApi\JobRecrutmentApi\obj\Debug\netcoreapp2.0\JobRecrutmentApi.RazorAssemblyInfo.cache
+F:\Development\Projects\Invogue\Jobsite Project\Mehedi Invogue\JobRecruitmentApi\JobRecrutmentApi\obj\Debug\netcoreapp2.0\JobRecrutmentApi.RazorAssemblyInfo.cs
+F:\Development\Projects\Invogue\Jobsite Project\Mehedi Invogue\JobRecruitmentApi\JobRecrutmentApi\obj\Debug\netcoreapp2.0\JobRecrutmentApi.AssemblyInfoInputs.cache
+F:\Development\Projects\Invogue\Jobsite Project\Mehedi Invogue\JobRecruitmentApi\JobRecrutmentApi\obj\Debug\netcoreapp2.0\JobRecrutmentApi.AssemblyInfo.cs
+F:\Development\Projects\Invogue\Jobsite Project\Mehedi Invogue\JobRecruitmentApi\JobRecrutmentApi\obj\Debug\netcoreapp2.0\JobRecrutmentApi.RazorTargetAssemblyInfo.cache
+F:\Development\Projects\Invogue\Jobsite Project\Mehedi Invogue\JobRecruitmentApi\JobRecrutmentApi\obj\Debug\netcoreapp2.0\JobRecrutmentApi.csproj.CopyComplete
+F:\Development\Projects\Invogue\Jobsite Project\Mehedi Invogue\JobRecruitmentApi\JobRecrutmentApi\obj\Debug\netcoreapp2.0\JobRecrutmentApi.dll
+F:\Development\Projects\Invogue\Jobsite Project\Mehedi Invogue\JobRecruitmentApi\JobRecrutmentApi\obj\Debug\netcoreapp2.0\JobRecrutmentApi.pdb

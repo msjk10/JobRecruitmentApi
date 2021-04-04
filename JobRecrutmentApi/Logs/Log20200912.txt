@@ -1,0 +1,472 @@
+12-Sep-2020 11:04:51.575 +06:00 [INF] User profile is available. Using 'C:\Users\himu\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+12-Sep-2020 11:04:53.739 +06:00 [INF] Request starting HTTP/1.1 DEBUG http://localhost:58364/  0
+12-Sep-2020 11:04:53.739 +06:00 [INF] Request starting HTTP/1.1 GET http://localhost:58364/swagger/index.html  
+12-Sep-2020 11:04:53.806 +06:00 [INF] Request finished in 81.8232ms 200 
+12-Sep-2020 11:04:54.280 +06:00 [INF] Request finished in 557.6863ms 200 text/html
+12-Sep-2020 11:04:54.756 +06:00 [INF] Request starting HTTP/1.1 GET http://localhost:58364/swagger/v1.0/swagger.json  
+12-Sep-2020 11:04:55.474 +06:00 [INF] Request finished in 718.3097ms 200 application/json;charset=utf-8
+12-Sep-2020 11:05:23.974 +06:00 [INF] Request starting HTTP/1.1 POST http://localhost:58364/api/message/GetMessageDetails application/json-patch+json 54
+12-Sep-2020 11:05:23.983 +06:00 [INF] Policy execution failed.
+12-Sep-2020 11:05:23.983 +06:00 [INF] Request origin http://localhost:58364 does not have permission to access the resource.
+12-Sep-2020 11:05:24.004 +06:00 [INF] Policy execution failed.
+12-Sep-2020 11:05:24.004 +06:00 [INF] Request origin http://localhost:58364 does not have permission to access the resource.
+12-Sep-2020 11:05:24.497 +06:00 [INF] Route matched with {action = "GetMessageDetails", controller = "Message"}. Executing action JobRecrutmentApi.Controllers.Common.MessageController.GetMessageDetails (JobRecrutmentApi)
+12-Sep-2020 11:05:25.673 +06:00 [INF] Executing action method JobRecrutmentApi.Controllers.Common.MessageController.GetMessageDetails (JobRecrutmentApi) with arguments (["Common.Domain.Entities.BodyModel.MessageDetailsBodyModel"]) - Validation state: "Valid"
+12-Sep-2020 11:05:44.700 +06:00 [INF] Entity Framework Core 2.2.6-servicing-10079 initialized 'SqlServerContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+12-Sep-2020 11:05:45.422 +06:00 [INF] Executed action method JobRecrutmentApi.Controllers.Common.MessageController.GetMessageDetails (JobRecrutmentApi), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 19739.7985ms.
+12-Sep-2020 11:05:45.570 +06:00 [INF] Executing ObjectResult, writing value of type 'System.Threading.Tasks.Task`1[[System.Collections.Generic.IEnumerable`1[[Common.Domain.Entities.ViewModel.MessageDetailsViewModel, Common.Domain.Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+12-Sep-2020 11:05:46.237 +06:00 [INF] Executed DbCommand (256ms) [Parameters=[@__messageDetailsBodyModel_CandidateId_0='?' (DbType = Int32), @__messageDetailsBodyModel_CompanyId_1='?' (DbType = Int32), @__messageDetailsBodyModel_JobId_2='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT DISTINCT CONVERT(date, [m].[SendingTime]) AS [SendingDate]
+FROM [Common].[Message] AS [m]
+WHERE (([m].[CandidateId] = @__messageDetailsBodyModel_CandidateId_0) AND ([m].[CompanyId] = @__messageDetailsBodyModel_CompanyId_1)) AND ([m].[JobId] = @__messageDetailsBodyModel_JobId_2)
+12-Sep-2020 11:05:59.562 +06:00 [INF] Executed action JobRecrutmentApi.Controllers.Common.MessageController.GetMessageDetails (JobRecrutmentApi) in 35057.4023ms
+12-Sep-2020 11:05:59.570 +06:00 [INF] Request finished in 35595.4958ms 200 application/json; charset=utf-8
+12-Sep-2020 11:07:07.427 +06:00 [INF] Request starting HTTP/1.1 GET http://localhost:58364/api/message/GetCandidateListForEmployerMessageList/1  
+12-Sep-2020 11:07:07.587 +06:00 [INF] Route matched with {action = "GetCandidateListForEmployerMessageList", controller = "Message"}. Executing action JobRecrutmentApi.Controllers.Common.MessageController.GetCandidateListForEmployerMessageList (JobRecrutmentApi)
+12-Sep-2020 11:07:12.881 +06:00 [INF] Executing action method JobRecrutmentApi.Controllers.Common.MessageController.GetCandidateListForEmployerMessageList (JobRecrutmentApi) with arguments (["1"]) - Validation state: "Valid"
+12-Sep-2020 11:07:12.929 +06:00 [INF] Entity Framework Core 2.2.6-servicing-10079 initialized 'SqlServerContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+12-Sep-2020 11:07:13.253 +06:00 [ERR] Failed executing DbCommand (151ms) [Parameters=[@__companyId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT DISTINCT [m].[CandidateId], [c].[CandidateName], [m].[JobId], [j].[JobTitle], [m].[CompanyId], [a].[StatusId], [a].[ApplicationId], [m].[IsReceivedCandidate], [m].[IsReceivedEmploye], COALESCE((
+    SELECT TOP(1) [sm].[SendingTime]
+    FROM [Common].[Message] AS [sm]
+    WHERE (([sm].[CandidateId] = [m].[CandidateId]) AND ([sm].[JobId] = [m].[JobId])) AND ([sm].[CompanyId] = [m].[CompanyId])
+    ORDER BY [sm].[SendingTime] DESC
+), '0001-01-01T00:00:00.000') AS [LastSendingTime], (
+    SELECT TOP(1) [sm0].[MessageBody]
+    FROM [Common].[Message] AS [sm0]
+    WHERE ((([sm0].[CandidateId] = [m].[CandidateId]) AND ([sm0].[JobId] = [m].[JobId])) AND ([sm0].[CompanyId] = [m].[CompanyId])) AND ([sm0].[IsDelete] = 0)
+    ORDER BY [sm0].[SendingTime] DESC
+) AS [LastSendingMessage]
+FROM [Common].[Message] AS [m]
+INNER JOIN [Candidate].[Candidates] AS [c] ON [m].[CandidateId] = [c].[CandidateId]
+INNER JOIN [Job].[Jobs] AS [j] ON [m].[JobId] = [j].[JobId]
+INNER JOIN [Job].[AppliedJobs] AS [a] ON [m].[CandidateId] = [a].[CandidateId]
+WHERE (([a].[JobId] = [m].[JobId]) AND ([m].[CompanyId] = @__companyId_0)) AND ([m].[IsDelete] = 0)
+System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'IsReceivedCandidate'.
+Invalid column name 'IsReceivedEmploye'.
+   at System.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__126_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.<ExecuteAsync>d__17.MoveNext()
+ClientConnectionId:dbbae52a-5c42-41e6-9f84-25457c033a9d
+Error Number:207,State:1,Class:16
+12-Sep-2020 11:07:13.450 +06:00 [ERR] An exception occurred while iterating over the results of a query for context type 'Job.Context.EfConnection.SqlServerContext'.
+System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'IsReceivedCandidate'.
+Invalid column name 'IsReceivedEmploye'.
+   at System.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__126_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.<ExecuteAsync>d__17.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncQueryingEnumerable`1.AsyncEnumerator.<BufferlessMoveNext>d__12.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.SqlServerExecutionStrategy.<ExecuteAsync>d__7`2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncQueryingEnumerable`1.AsyncEnumerator.<MoveNext>d__11.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncLinqOperatorProvider.ExceptionInterceptor`1.EnumeratorExceptionInterceptor.<MoveNext>d__5.MoveNext()
+ClientConnectionId:dbbae52a-5c42-41e6-9f84-25457c033a9d
+Error Number:207,State:1,Class:16
+System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'IsReceivedCandidate'.
+Invalid column name 'IsReceivedEmploye'.
+   at System.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__126_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.<ExecuteAsync>d__17.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncQueryingEnumerable`1.AsyncEnumerator.<BufferlessMoveNext>d__12.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.SqlServerExecutionStrategy.<ExecuteAsync>d__7`2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncQueryingEnumerable`1.AsyncEnumerator.<MoveNext>d__11.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncLinqOperatorProvider.ExceptionInterceptor`1.EnumeratorExceptionInterceptor.<MoveNext>d__5.MoveNext()
+ClientConnectionId:dbbae52a-5c42-41e6-9f84-25457c033a9d
+Error Number:207,State:1,Class:16
+12-Sep-2020 11:07:14.009 +06:00 [ERR] Error report generate 1 on "2020-09-12T11:07:14.0025393+06:00"
+System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'IsReceivedCandidate'.
+Invalid column name 'IsReceivedEmploye'.
+   at Common.Services.MessageService.<GetCandidateListForEmployerMessageList>d__3.MoveNext() in E:\Himel\Invogue\Connect\JobRecrutmentApi\Common.Services\MessageService.cs:line 43
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at JobRecrutmentApi.Controllers.Common.MessageController.<GetCandidateListForEmployerMessageList>d__3.MoveNext() in E:\Himel\Invogue\Connect\JobRecrutmentApi\JobRecrutmentApi\Controllers\Common\MessageController.cs:line 52
+ClientConnectionId:dbbae52a-5c42-41e6-9f84-25457c033a9d
+Error Number:207,State:1,Class:16
+12-Sep-2020 11:07:14.113 +06:00 [INF] Executed action JobRecrutmentApi.Controllers.Common.MessageController.GetCandidateListForEmployerMessageList (JobRecrutmentApi) in 6525.7929ms
+12-Sep-2020 11:07:14.117 +06:00 [ERR] An unhandled exception has occurred while executing the request
+System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'IsReceivedCandidate'.
+Invalid column name 'IsReceivedEmploye'.
+   at JobRecrutmentApi.Controllers.Common.MessageController.<GetCandidateListForEmployerMessageList>d__3.MoveNext() in E:\Himel\Invogue\Connect\JobRecrutmentApi\JobRecrutmentApi\Controllers\Common\MessageController.cs:line 58
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.TaskOfIActionResultExecutor.<Execute>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeActionMethodAsync>d__12.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeNextActionFilterAsync>d__10.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeInnerFilterAsync>d__13.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeNextResourceFilter>d__23.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeFilterPipelineAsync>d__18.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeAsync>d__16.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.<Invoke>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.<Invoke>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.ResponseCompression.ResponseCompressionMiddleware.<Invoke>d__3.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Cors.Infrastructure.CorsMiddleware.<Invoke>d__8.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.<Invoke>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.<Invoke>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.<Invoke>d__7.MoveNext()
+ClientConnectionId:dbbae52a-5c42-41e6-9f84-25457c033a9d
+Error Number:207,State:1,Class:16
+12-Sep-2020 11:07:14.317 +06:00 [INF] Request finished in 6890.1401ms 500 text/html; charset=utf-8
+12-Sep-2020 11:08:20.841 +06:00 [INF] User profile is available. Using 'C:\Users\himu\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+12-Sep-2020 11:08:22.063 +06:00 [INF] Request starting HTTP/1.1 GET http://localhost:58364/swagger/index.html  
+12-Sep-2020 11:08:22.063 +06:00 [INF] Request starting HTTP/1.1 DEBUG http://localhost:58364/  0
+12-Sep-2020 11:08:22.105 +06:00 [INF] Request finished in 55.4578ms 200 
+12-Sep-2020 11:08:22.454 +06:00 [INF] Request finished in 405.8729ms 200 text/html
+12-Sep-2020 11:08:22.701 +06:00 [INF] Request starting HTTP/1.1 GET http://localhost:58364/swagger/v1.0/swagger.json  
+12-Sep-2020 11:08:23.390 +06:00 [INF] Request finished in 689.7355ms 200 application/json;charset=utf-8
+12-Sep-2020 11:15:29.509 +06:00 [INF] Request starting HTTP/1.1 GET http://localhost:58364/api/job/gettemporaryjobfirststage/1  
+12-Sep-2020 11:15:29.910 +06:00 [INF] Route matched with {action = "GetTemporaryJobFirstStage", controller = "Job"}. Executing action JobRecrutmentApi.Controllers.Employee.JobController.GetTemporaryJobFirstStage (JobRecrutmentApi)
+12-Sep-2020 11:15:30.612 +06:00 [INF] Executing action method JobRecrutmentApi.Controllers.Employee.JobController.GetTemporaryJobFirstStage (JobRecrutmentApi) with arguments (["1"]) - Validation state: "Valid"
+12-Sep-2020 11:15:31.465 +06:00 [INF] Entity Framework Core 2.2.6-servicing-10079 initialized 'SqlServerContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+12-Sep-2020 11:15:31.716 +06:00 [WRN] Query: '(from TemporaryJobFirstStage f in [r] select [f].CompanyId).FirstOrDefault()' uses First/FirstOrDefault/Last/LastOrDefault operation without OrderBy and filter which may lead to unpredictable results.
+12-Sep-2020 11:15:31.722 +06:00 [WRN] Query: '(from TemporaryJobFirstStage f in [r] select [f].JobTitle).FirstOrDefault()' uses First/FirstOrDefault/Last/LastOrDefault operation without OrderBy and filter which may lead to unpredictable results.
+12-Sep-2020 11:15:31.722 +06:00 [WRN] Query: '(from TemporaryJobFirstStage f in [r] select [f].JobCategoryId).FirstOrDefault()' uses First/FirstOrDefault/Last/LastOrDefault operation without OrderBy and filter which may lead to unpredictable results.
+12-Sep-2020 11:15:31.722 +06:00 [WRN] Query: '(from TemporaryJobFirstStage f in [r] select [f].JobOverview).FirstOrDefault()' uses First/FirstOrDefault/Last/LastOrDefault operation without OrderBy and filter which may lead to unpredictable results.
+12-Sep-2020 11:15:31.722 +06:00 [WRN] Query: '(from TemporaryJobFirstStage f in [r] select [f].JobRequirements).FirstOrDefault()' uses First/FirstOrDefault/Last/LastOrDefault operation without OrderBy and filter which may lead to unpredictable results.
+12-Sep-2020 11:15:31.722 +06:00 [WRN] Query: '(from TemporaryJobFirstStage f in [r] select [f].Benefits).FirstOrDefault()' uses First/FirstOrDefault/Last/LastOrDefault operation without OrderBy and filter which may lead to unpredictable results.
+12-Sep-2020 11:15:31.722 +06:00 [WRN] Query: '(from TemporaryJobFirstStage f in [r] select [f].Closing).FirstOrDefault()' uses First/FirstOrDefault/Last/LastOrDefault operation without OrderBy and filter which may lead to unpredictable results.
+12-Sep-2020 11:15:31.722 +06:00 [WRN] Query: '(from TemporaryJobFirstStage f in [r] select [f].MaxSalary).FirstOrDefault()' uses First/FirstOrDefault/Last/LastOrDefault operation without OrderBy and filter which may lead to unpredictable results.
+12-Sep-2020 11:15:31.722 +06:00 [WRN] Query: '(from TemporaryJobFirstStage f in [r] select [f].MinSalary).FirstOrDefault()' uses First/FirstOrDefault/Last/LastOrDefault operation without OrderBy and filter which may lead to unpredictable results.
+12-Sep-2020 11:15:31.722 +06:00 [WRN] Query: '(from TemporaryJobFirstStage f in [r] select [f].JobStatus).FirstOrDefault()' uses First/FirstOrDefault/Last/LastOrDefault operation without OrderBy and filter which may lead to unpredictable results.
+12-Sep-2020 11:15:31.722 +06:00 [WRN] Query: '(from TemporaryJobFirstStage f in [r] select [f].SeniorityLevel).FirstOrDefault()' uses First/FirstOrDefault/Last/LastOrDefault operation without OrderBy and filter which may lead to unpredictable results.
+12-Sep-2020 11:15:31.723 +06:00 [WRN] Query: '(from TemporaryJobFirstStage f in [r] select [f].YearsOfExperience).FirstOrDefault()' uses First/FirstOrDefault/Last/LastOrDefault operation without OrderBy and filter which may lead to unpredictable results.
+12-Sep-2020 11:15:31.723 +06:00 [WRN] Query: '(from TemporaryJobFirstStage f in [r] select [f].DistrictId).FirstOrDefault()' uses First/FirstOrDefault/Last/LastOrDefault operation without OrderBy and filter which may lead to unpredictable results.
+12-Sep-2020 11:15:31.723 +06:00 [WRN] Query: '(from TemporaryJobFirstStage f in [r] select [f].PostalCode).FirstOrDefault()' uses First/FirstOrDefault/Last/LastOrDefault operation without OrderBy and filter which may lead to unpredictable results.
+12-Sep-2020 11:15:31.723 +06:00 [WRN] Query: '(from TemporaryJobFirstStage f in [r] select [f].SubmissionDeadline).FirstOrDefault()' uses First/FirstOrDefault/Last/LastOrDefault operation without OrderBy and filter which may lead to unpredictable results.
+12-Sep-2020 11:15:31.723 +06:00 [WRN] Query: '(from TemporaryJobFirstStage f in [r] select [f].JobStartingDate).FirstOrDefault()' uses First/FirstOrDefault/Last/LastOrDefault operation without OrderBy and filter which may lead to unpredictable results.
+12-Sep-2020 11:15:31.723 +06:00 [WRN] Query: '(from TemporaryJobFirstStage f in [r] select [f].PerMonthYear).FirstOrDefault()' uses First/FirstOrDefault/Last/LastOrDefault operation without OrderBy and filter which may lead to unpredictable results.
+12-Sep-2020 11:15:31.732 +06:00 [WRN] Query: '(from IGrouping<int, TemporaryJobFirstStage> r in  (from TemporaryJobFirstStage d in DbSet<Temporary...' uses a row limiting operation (Skip/Take) without OrderBy which may lead to unpredictable results.
+12-Sep-2020 11:15:31.732 +06:00 [WRN] Query: '(from IGrouping<int, TemporaryJobFirstStage> r in  (from TemporaryJobFirstStage d in DbSet<Temporary...' uses First/FirstOrDefault/Last/LastOrDefault operation without OrderBy and filter which may lead to unpredictable results.
+12-Sep-2020 11:15:31.977 +06:00 [WRN] The LINQ expression 'GroupBy([d].TempJobId, [d])' could not be translated and will be evaluated locally.
+12-Sep-2020 11:15:32.031 +06:00 [WRN] The LINQ expression 'FirstOrDefault()' could not be translated and will be evaluated locally.
+12-Sep-2020 11:15:32.033 +06:00 [WRN] The LINQ expression 'FirstOrDefault()' could not be translated and will be evaluated locally.
+12-Sep-2020 11:15:32.035 +06:00 [WRN] The LINQ expression 'FirstOrDefault()' could not be translated and will be evaluated locally.
+12-Sep-2020 11:15:32.037 +06:00 [WRN] The LINQ expression 'FirstOrDefault()' could not be translated and will be evaluated locally.
+12-Sep-2020 11:15:32.039 +06:00 [WRN] The LINQ expression 'FirstOrDefault()' could not be translated and will be evaluated locally.
+12-Sep-2020 11:15:32.039 +06:00 [WRN] The LINQ expression 'FirstOrDefault()' could not be translated and will be evaluated locally.
+12-Sep-2020 11:15:32.039 +06:00 [WRN] The LINQ expression 'FirstOrDefault()' could not be translated and will be evaluated locally.
+12-Sep-2020 11:15:32.040 +06:00 [WRN] The LINQ expression 'FirstOrDefault()' could not be translated and will be evaluated locally.
+12-Sep-2020 11:15:32.040 +06:00 [WRN] The LINQ expression 'FirstOrDefault()' could not be translated and will be evaluated locally.
+12-Sep-2020 11:15:32.040 +06:00 [WRN] The LINQ expression 'FirstOrDefault()' could not be translated and will be evaluated locally.
+12-Sep-2020 11:15:32.040 +06:00 [WRN] The LINQ expression 'FirstOrDefault()' could not be translated and will be evaluated locally.
+12-Sep-2020 11:15:32.040 +06:00 [WRN] The LINQ expression 'FirstOrDefault()' could not be translated and will be evaluated locally.
+12-Sep-2020 11:15:32.041 +06:00 [WRN] The LINQ expression 'FirstOrDefault()' could not be translated and will be evaluated locally.
+12-Sep-2020 11:15:32.041 +06:00 [WRN] The LINQ expression 'FirstOrDefault()' could not be translated and will be evaluated locally.
+12-Sep-2020 11:15:32.041 +06:00 [WRN] The LINQ expression 'FirstOrDefault()' could not be translated and will be evaluated locally.
+12-Sep-2020 11:15:32.041 +06:00 [WRN] The LINQ expression 'FirstOrDefault()' could not be translated and will be evaluated locally.
+12-Sep-2020 11:15:32.041 +06:00 [WRN] The LINQ expression 'FirstOrDefault()' could not be translated and will be evaluated locally.
+12-Sep-2020 11:15:32.041 +06:00 [WRN] The LINQ expression 'FirstOrDefault()' could not be translated and will be evaluated locally.
+12-Sep-2020 11:15:32.042 +06:00 [WRN] The LINQ expression 'FirstOrDefault()' could not be translated and will be evaluated locally.
+12-Sep-2020 11:15:32.042 +06:00 [WRN] The LINQ expression 'FirstOrDefault()' could not be translated and will be evaluated locally.
+12-Sep-2020 11:15:32.042 +06:00 [WRN] The LINQ expression 'FirstOrDefault()' could not be translated and will be evaluated locally.
+12-Sep-2020 11:15:32.042 +06:00 [WRN] The LINQ expression 'FirstOrDefault()' could not be translated and will be evaluated locally.
+12-Sep-2020 11:15:32.043 +06:00 [WRN] The LINQ expression 'FirstOrDefault()' could not be translated and will be evaluated locally.
+12-Sep-2020 11:15:32.043 +06:00 [WRN] The LINQ expression 'FirstOrDefault()' could not be translated and will be evaluated locally.
+12-Sep-2020 11:15:32.043 +06:00 [WRN] The LINQ expression 'FirstOrDefault()' could not be translated and will be evaluated locally.
+12-Sep-2020 11:15:32.043 +06:00 [WRN] The LINQ expression 'FirstOrDefault()' could not be translated and will be evaluated locally.
+12-Sep-2020 11:15:32.043 +06:00 [WRN] The LINQ expression 'FirstOrDefault()' could not be translated and will be evaluated locally.
+12-Sep-2020 11:15:32.043 +06:00 [WRN] The LINQ expression 'FirstOrDefault()' could not be translated and will be evaluated locally.
+12-Sep-2020 11:15:32.044 +06:00 [WRN] The LINQ expression 'FirstOrDefault()' could not be translated and will be evaluated locally.
+12-Sep-2020 11:15:32.044 +06:00 [WRN] The LINQ expression 'FirstOrDefault()' could not be translated and will be evaluated locally.
+12-Sep-2020 11:15:32.044 +06:00 [WRN] The LINQ expression 'FirstOrDefault()' could not be translated and will be evaluated locally.
+12-Sep-2020 11:15:32.044 +06:00 [WRN] The LINQ expression 'FirstOrDefault()' could not be translated and will be evaluated locally.
+12-Sep-2020 11:15:32.044 +06:00 [WRN] The LINQ expression 'FirstOrDefault()' could not be translated and will be evaluated locally.
+12-Sep-2020 11:15:32.045 +06:00 [WRN] The LINQ expression 'FirstOrDefault()' could not be translated and will be evaluated locally.
+12-Sep-2020 11:15:32.045 +06:00 [WRN] The LINQ expression 'FirstOrDefault()' could not be translated and will be evaluated locally.
+12-Sep-2020 11:15:32.045 +06:00 [WRN] The LINQ expression 'FirstOrDefault()' could not be translated and will be evaluated locally.
+12-Sep-2020 11:15:32.045 +06:00 [WRN] The LINQ expression 'FirstOrDefault()' could not be translated and will be evaluated locally.
+12-Sep-2020 11:15:32.045 +06:00 [WRN] The LINQ expression 'FirstOrDefault()' could not be translated and will be evaluated locally.
+12-Sep-2020 11:15:32.046 +06:00 [WRN] The LINQ expression 'FirstOrDefault()' could not be translated and will be evaluated locally.
+12-Sep-2020 11:15:32.046 +06:00 [WRN] The LINQ expression 'FirstOrDefault()' could not be translated and will be evaluated locally.
+12-Sep-2020 11:15:32.046 +06:00 [WRN] The LINQ expression 'FirstOrDefault()' could not be translated and will be evaluated locally.
+12-Sep-2020 11:15:32.046 +06:00 [WRN] The LINQ expression 'FirstOrDefault()' could not be translated and will be evaluated locally.
+12-Sep-2020 11:15:32.047 +06:00 [WRN] The LINQ expression 'FirstOrDefault()' could not be translated and will be evaluated locally.
+12-Sep-2020 11:15:32.047 +06:00 [WRN] The LINQ expression 'FirstOrDefault()' could not be translated and will be evaluated locally.
+12-Sep-2020 11:15:32.047 +06:00 [WRN] The LINQ expression 'FirstOrDefault()' could not be translated and will be evaluated locally.
+12-Sep-2020 11:15:32.047 +06:00 [WRN] The LINQ expression 'FirstOrDefault()' could not be translated and will be evaluated locally.
+12-Sep-2020 11:15:32.047 +06:00 [WRN] The LINQ expression 'FirstOrDefault()' could not be translated and will be evaluated locally.
+12-Sep-2020 11:15:32.048 +06:00 [WRN] The LINQ expression 'FirstOrDefault()' could not be translated and will be evaluated locally.
+12-Sep-2020 11:15:32.061 +06:00 [WRN] The LINQ expression 'Take(__p_1)' could not be translated and will be evaluated locally.
+12-Sep-2020 11:15:32.061 +06:00 [WRN] The LINQ expression 'Take(__p_1)' could not be translated and will be evaluated locally.
+12-Sep-2020 11:15:32.062 +06:00 [WRN] The LINQ expression 'FirstOrDefault()' could not be translated and will be evaluated locally.
+12-Sep-2020 11:15:32.062 +06:00 [WRN] The LINQ expression 'FirstOrDefault()' could not be translated and will be evaluated locally.
+12-Sep-2020 11:15:32.818 +06:00 [INF] Executed DbCommand (157ms) [Parameters=[@__companyId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [d].[TempJobId], [d].[Benefits], [d].[Closing], [d].[CompanyId], [d].[DistrictId], [d].[JobCategoryId], [d].[JobOverview], [d].[JobRequirements], [d].[JobStartingDate], [d].[JobStatus], [d].[JobTitle], [d].[MaxSalary], [d].[MinSalary], [d].[PerMonthYear], [d].[PostalCode], [d].[SeniorityLevel], [d].[SubmissionDeadline], [d].[YearsOfExperience]
+FROM [Temporary].[JobFirstStage] AS [d]
+WHERE [d].[CompanyId] = @__companyId_0
+ORDER BY [d].[TempJobId]
+12-Sep-2020 11:15:32.892 +06:00 [INF] Executed action method JobRecrutmentApi.Controllers.Employee.JobController.GetTemporaryJobFirstStage (JobRecrutmentApi), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 2272.4348ms.
+12-Sep-2020 11:15:32.933 +06:00 [INF] Executing ObjectResult, writing value of type 'null'.
+12-Sep-2020 11:15:32.944 +06:00 [INF] Executed action JobRecrutmentApi.Controllers.Employee.JobController.GetTemporaryJobFirstStage (JobRecrutmentApi) in 3027.8025000000002ms
+12-Sep-2020 11:15:32.949 +06:00 [INF] Request finished in 3439.9228ms 204 
+12-Sep-2020 11:15:55.120 +06:00 [INF] Request starting HTTP/1.1 GET http://localhost:58364/api/message/GetCandidateListForEmployerMessageList/1  
+12-Sep-2020 11:15:55.131 +06:00 [INF] Route matched with {action = "GetCandidateListForEmployerMessageList", controller = "Message"}. Executing action JobRecrutmentApi.Controllers.Common.MessageController.GetCandidateListForEmployerMessageList (JobRecrutmentApi)
+12-Sep-2020 11:15:55.213 +06:00 [INF] Executing action method JobRecrutmentApi.Controllers.Common.MessageController.GetCandidateListForEmployerMessageList (JobRecrutmentApi) with arguments (["1"]) - Validation state: "Valid"
+12-Sep-2020 11:15:55.256 +06:00 [INF] Entity Framework Core 2.2.6-servicing-10079 initialized 'SqlServerContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+12-Sep-2020 11:15:55.515 +06:00 [INF] Executed DbCommand (92ms) [Parameters=[@__companyId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT DISTINCT [m].[CandidateId], [c].[CandidateName], [m].[JobId], [j].[JobTitle], [m].[CompanyId], [a].[StatusId], [a].[ApplicationId], [m].[IsReceivedCandidate], [m].[IsReceivedEmploye], COALESCE((
+    SELECT TOP(1) [sm].[SendingTime]
+    FROM [Common].[Message] AS [sm]
+    WHERE (([sm].[CandidateId] = [m].[CandidateId]) AND ([sm].[JobId] = [m].[JobId])) AND ([sm].[CompanyId] = [m].[CompanyId])
+    ORDER BY [sm].[SendingTime] DESC
+), '0001-01-01T00:00:00.000') AS [LastSendingTime], (
+    SELECT TOP(1) [sm0].[MessageBody]
+    FROM [Common].[Message] AS [sm0]
+    WHERE ((([sm0].[CandidateId] = [m].[CandidateId]) AND ([sm0].[JobId] = [m].[JobId])) AND ([sm0].[CompanyId] = [m].[CompanyId])) AND ([sm0].[IsDelete] = 0)
+    ORDER BY [sm0].[SendingTime] DESC
+) AS [LastSendingMessage]
+FROM [Common].[Message] AS [m]
+INNER JOIN [Candidate].[Candidates] AS [c] ON [m].[CandidateId] = [c].[CandidateId]
+INNER JOIN [Job].[Jobs] AS [j] ON [m].[JobId] = [j].[JobId]
+INNER JOIN [Job].[AppliedJobs] AS [a] ON [m].[CandidateId] = [a].[CandidateId]
+WHERE (([a].[JobId] = [m].[JobId]) AND ([m].[CompanyId] = @__companyId_0)) AND ([m].[IsDelete] = 0)
+12-Sep-2020 11:15:55.564 +06:00 [INF] Executed action method JobRecrutmentApi.Controllers.Common.MessageController.GetCandidateListForEmployerMessageList (JobRecrutmentApi), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 350.9777ms.
+12-Sep-2020 11:15:55.576 +06:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Common.Domain.Entities.ViewModel.MessageUserViewModel, Common.Domain.Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+12-Sep-2020 11:15:55.645 +06:00 [INF] Executed action JobRecrutmentApi.Controllers.Common.MessageController.GetCandidateListForEmployerMessageList (JobRecrutmentApi) in 513.5963ms
+12-Sep-2020 11:15:55.648 +06:00 [INF] Request finished in 528.1761ms 200 application/json; charset=utf-8
+12-Sep-2020 11:16:44.120 +06:00 [INF] User profile is available. Using 'C:\Users\himu\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+12-Sep-2020 11:16:45.303 +06:00 [INF] Request starting HTTP/1.1 DEBUG http://localhost:58364/  0
+12-Sep-2020 11:16:45.303 +06:00 [INF] Request starting HTTP/1.1 GET http://localhost:58364/swagger/index.html  
+12-Sep-2020 11:16:45.354 +06:00 [INF] Request finished in 68.2929ms 200 
+12-Sep-2020 11:16:45.687 +06:00 [INF] Request finished in 403.8555ms 200 text/html
+12-Sep-2020 11:16:45.973 +06:00 [INF] Request starting HTTP/1.1 GET http://localhost:58364/swagger/v1.0/swagger.json  
+12-Sep-2020 11:16:46.747 +06:00 [INF] Request finished in 773.8514ms 200 application/json;charset=utf-8
+12-Sep-2020 11:17:21.585 +06:00 [INF] Request starting HTTP/1.1 POST http://localhost:58364/api/message/GetMessageDetails application/json-patch+json 54
+12-Sep-2020 11:17:21.594 +06:00 [INF] Policy execution failed.
+12-Sep-2020 11:17:21.594 +06:00 [INF] Request origin http://localhost:58364 does not have permission to access the resource.
+12-Sep-2020 11:17:21.623 +06:00 [INF] Policy execution failed.
+12-Sep-2020 11:17:21.623 +06:00 [INF] Request origin http://localhost:58364 does not have permission to access the resource.
+12-Sep-2020 11:17:22.111 +06:00 [INF] Route matched with {action = "GetMessageDetails", controller = "Message"}. Executing action JobRecrutmentApi.Controllers.Common.MessageController.GetMessageDetails (JobRecrutmentApi)
+12-Sep-2020 11:17:23.106 +06:00 [INF] Executing action method JobRecrutmentApi.Controllers.Common.MessageController.GetMessageDetails (JobRecrutmentApi) with arguments (["Common.Domain.Entities.BodyModel.MessageDetailsBodyModel"]) - Validation state: "Valid"
+12-Sep-2020 11:17:39.660 +06:00 [INF] Entity Framework Core 2.2.6-servicing-10079 initialized 'SqlServerContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+12-Sep-2020 11:17:40.371 +06:00 [INF] Executed action method JobRecrutmentApi.Controllers.Common.MessageController.GetMessageDetails (JobRecrutmentApi), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 17255.727300000002ms.
+12-Sep-2020 11:17:40.452 +06:00 [INF] Executing ObjectResult, writing value of type 'System.Threading.Tasks.Task`1[[System.Collections.Generic.IEnumerable`1[[Common.Domain.Entities.ViewModel.MessageDetailsViewModel, Common.Domain.Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+12-Sep-2020 11:17:40.970 +06:00 [INF] Executed DbCommand (182ms) [Parameters=[@__messageDetailsBodyModel_CandidateId_0='?' (DbType = Int32), @__messageDetailsBodyModel_CompanyId_1='?' (DbType = Int32), @__messageDetailsBodyModel_JobId_2='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT DISTINCT CONVERT(date, [m].[SendingTime]) AS [SendingDate]
+FROM [Common].[Message] AS [m]
+WHERE (([m].[CandidateId] = @__messageDetailsBodyModel_CandidateId_0) AND ([m].[CompanyId] = @__messageDetailsBodyModel_CompanyId_1)) AND ([m].[JobId] = @__messageDetailsBodyModel_JobId_2)
+12-Sep-2020 11:17:53.054 +06:00 [INF] Executed action JobRecrutmentApi.Controllers.Common.MessageController.GetMessageDetails (JobRecrutmentApi) in 30934.148500000003ms
+12-Sep-2020 11:17:53.062 +06:00 [INF] Request finished in 31476.9424ms 200 application/json; charset=utf-8
+12-Sep-2020 11:20:51.704 +06:00 [INF] User profile is available. Using 'C:\Users\himu\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+12-Sep-2020 11:20:53.027 +06:00 [INF] Request starting HTTP/1.1 GET http://localhost:58364/swagger/index.html  
+12-Sep-2020 11:20:53.027 +06:00 [INF] Request starting HTTP/1.1 DEBUG http://localhost:58364/  0
+12-Sep-2020 11:20:53.074 +06:00 [INF] Request finished in 66.6359ms 200 
+12-Sep-2020 11:20:53.423 +06:00 [INF] Request finished in 416.8573ms 200 text/html
+12-Sep-2020 11:20:53.717 +06:00 [INF] Request starting HTTP/1.1 GET http://localhost:58364/swagger/v1.0/swagger.json  
+12-Sep-2020 11:20:54.461 +06:00 [INF] Request finished in 744.2112ms 200 application/json;charset=utf-8
+12-Sep-2020 11:21:47.987 +06:00 [INF] Request starting HTTP/1.1 POST http://localhost:58364/api/message/GetMessageDetails application/json-patch+json 54
+12-Sep-2020 11:21:47.994 +06:00 [INF] Policy execution failed.
+12-Sep-2020 11:21:47.994 +06:00 [INF] Request origin http://localhost:58364 does not have permission to access the resource.
+12-Sep-2020 11:21:48.016 +06:00 [INF] Policy execution failed.
+12-Sep-2020 11:21:48.016 +06:00 [INF] Request origin http://localhost:58364 does not have permission to access the resource.
+12-Sep-2020 11:21:48.352 +06:00 [INF] Route matched with {action = "GetMessageDetails", controller = "Message"}. Executing action JobRecrutmentApi.Controllers.Common.MessageController.GetMessageDetails (JobRecrutmentApi)
+12-Sep-2020 11:21:49.230 +06:00 [INF] Executing action method JobRecrutmentApi.Controllers.Common.MessageController.GetMessageDetails (JobRecrutmentApi) with arguments (["Common.Domain.Entities.BodyModel.MessageDetailsBodyModel"]) - Validation state: "Valid"
+12-Sep-2020 11:21:49.919 +06:00 [INF] Entity Framework Core 2.2.6-servicing-10079 initialized 'SqlServerContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+12-Sep-2020 11:21:50.484 +06:00 [INF] Executed action method JobRecrutmentApi.Controllers.Common.MessageController.GetMessageDetails (JobRecrutmentApi), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 1246.5291ms.
+12-Sep-2020 11:21:50.543 +06:00 [INF] Executing ObjectResult, writing value of type 'System.Threading.Tasks.Task`1[[System.Collections.Generic.IEnumerable`1[[Common.Domain.Entities.ViewModel.MessageDetailsViewModel, Common.Domain.Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+12-Sep-2020 11:21:50.999 +06:00 [INF] Executed DbCommand (154ms) [Parameters=[@__messageDetailsBodyModel_CandidateId_0='?' (DbType = Int32), @__messageDetailsBodyModel_CompanyId_1='?' (DbType = Int32), @__messageDetailsBodyModel_JobId_2='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT DISTINCT CONVERT(date, [m].[SendingTime]) AS [SendingDate]
+FROM [Common].[Message] AS [m]
+WHERE (([m].[CandidateId] = @__messageDetailsBodyModel_CandidateId_0) AND ([m].[CompanyId] = @__messageDetailsBodyModel_CompanyId_1)) AND ([m].[JobId] = @__messageDetailsBodyModel_JobId_2)
+12-Sep-2020 11:21:51.125 +06:00 [INF] Executed action JobRecrutmentApi.Controllers.Common.MessageController.GetMessageDetails (JobRecrutmentApi) in 2767.2381ms
+12-Sep-2020 11:21:51.133 +06:00 [INF] Request finished in 3145.629ms 200 application/json; charset=utf-8
+12-Sep-2020 11:22:22.938 +06:00 [INF] Request starting HTTP/1.1 GET http://localhost:58364/api/candidatejob/getcandidatenewjobssummary/1  
+12-Sep-2020 11:22:22.987 +06:00 [INF] Route matched with {action = "GetCandidateNewJobsSummary", controller = "CandidateJob"}. Executing action JobRecrutmentApi.Controllers.Candidate.CandidateJobController.GetCandidateNewJobsSummary (JobRecrutmentApi)
+12-Sep-2020 11:22:23.030 +06:00 [INF] Executing action method JobRecrutmentApi.Controllers.Candidate.CandidateJobController.GetCandidateNewJobsSummary (JobRecrutmentApi) with arguments (["1"]) - Validation state: "Valid"
+12-Sep-2020 11:22:23.066 +06:00 [INF] Entity Framework Core 2.2.6-servicing-10079 initialized 'SqlServerContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+12-Sep-2020 11:22:23.311 +06:00 [INF] Executed DbCommand (108ms) [Parameters=[@__jobCategoryId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [j].[JobId], [j].[JobTitle], [j].[CompanyId], [c].[CompanyName], [j].[JobCategoryId], [jc].[JobCategoryName], [j].[MaxSalary], [j].[MinSalary], [j].[SeniorityLevel], [j].[JobStatus], [j].[JobLocation] AS [JobLocationId], [d].[DistrictName] AS [JobLocationName], [j].[PublishedDate], [j].[ExpiredDate]
+FROM [Job].[Jobs] AS [j]
+INNER JOIN [Job].[Companies] AS [c] ON [j].[CompanyId] = [c].[CompanyId]
+INNER JOIN [Common].[JobCategory] AS [jc] ON [j].[JobCategoryId] = [jc].[JobCategoryId]
+INNER JOIN [Common].[Districts] AS [d] ON [j].[JobLocation] = [d].[DistrictId]
+WHERE (([j].[JobCategoryId] = @__jobCategoryId_0) AND ([j].[IsActive] = 1)) AND ([j].[ExpiredDate] >= CONVERT(date, GETDATE()))
+ORDER BY [j].[JobId] DESC
+12-Sep-2020 11:22:23.336 +06:00 [INF] Executed action method JobRecrutmentApi.Controllers.Candidate.CandidateJobController.GetCandidateNewJobsSummary (JobRecrutmentApi), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 305.19030000000004ms.
+12-Sep-2020 11:22:23.336 +06:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Candidate.Domain.Entities.ViewModel.CandidateJobSummaryViewModel, Candidate.Domain.Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+12-Sep-2020 11:22:23.348 +06:00 [INF] Executed action JobRecrutmentApi.Controllers.Candidate.CandidateJobController.GetCandidateNewJobsSummary (JobRecrutmentApi) in 361.50820000000004ms
+12-Sep-2020 11:22:23.349 +06:00 [INF] Request finished in 411.7653ms 200 application/json; charset=utf-8
+12-Sep-2020 11:23:09.715 +06:00 [INF] User profile is available. Using 'C:\Users\himu\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+12-Sep-2020 11:23:11.006 +06:00 [INF] Request starting HTTP/1.1 DEBUG http://localhost:58364/  0
+12-Sep-2020 11:23:11.006 +06:00 [INF] Request starting HTTP/1.1 GET http://localhost:58364/swagger/index.html  
+12-Sep-2020 11:23:11.057 +06:00 [INF] Request finished in 66.7376ms 200 
+12-Sep-2020 11:23:11.418 +06:00 [INF] Request finished in 429.6769ms 200 text/html
+12-Sep-2020 11:23:11.739 +06:00 [INF] Request starting HTTP/1.1 GET http://localhost:58364/swagger/v1.0/swagger.json  
+12-Sep-2020 11:23:12.407 +06:00 [INF] Request finished in 668.1159ms 200 application/json;charset=utf-8
+12-Sep-2020 11:23:49.528 +06:00 [INF] Request starting HTTP/1.1 POST http://localhost:58364/api/message/GetMessageDetails application/json-patch+json 54
+12-Sep-2020 11:23:49.534 +06:00 [INF] Policy execution failed.
+12-Sep-2020 11:23:49.534 +06:00 [INF] Request origin http://localhost:58364 does not have permission to access the resource.
+12-Sep-2020 11:23:49.556 +06:00 [INF] Policy execution failed.
+12-Sep-2020 11:23:49.556 +06:00 [INF] Request origin http://localhost:58364 does not have permission to access the resource.
+12-Sep-2020 11:23:49.919 +06:00 [INF] Route matched with {action = "GetMessageDetails", controller = "Message"}. Executing action JobRecrutmentApi.Controllers.Common.MessageController.GetMessageDetails (JobRecrutmentApi)
+12-Sep-2020 11:23:50.656 +06:00 [INF] Executing action method JobRecrutmentApi.Controllers.Common.MessageController.GetMessageDetails (JobRecrutmentApi) with arguments (["Common.Domain.Entities.BodyModel.MessageDetailsBodyModel"]) - Validation state: "Valid"
+12-Sep-2020 11:23:51.394 +06:00 [INF] Entity Framework Core 2.2.6-servicing-10079 initialized 'SqlServerContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+12-Sep-2020 11:23:52.512 +06:00 [INF] Executed DbCommand (171ms) [Parameters=[@__messageDetailsBodyModel_CandidateId_0='?' (DbType = Int32), @__messageDetailsBodyModel_CompanyId_1='?' (DbType = Int32), @__messageDetailsBodyModel_JobId_2='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT DISTINCT CONVERT(date, [m].[SendingTime]) AS [SendingDate]
+FROM [Common].[Message] AS [m]
+WHERE (([m].[CandidateId] = @__messageDetailsBodyModel_CandidateId_0) AND ([m].[CompanyId] = @__messageDetailsBodyModel_CompanyId_1)) AND ([m].[JobId] = @__messageDetailsBodyModel_JobId_2)
+12-Sep-2020 11:23:52.595 +06:00 [INF] Executed action method JobRecrutmentApi.Controllers.Common.MessageController.GetMessageDetails (JobRecrutmentApi), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 1931.8206ms.
+12-Sep-2020 11:23:52.636 +06:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Common.Domain.Entities.ViewModel.MessageDetailsViewModel, Common.Domain.Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+12-Sep-2020 11:23:52.683 +06:00 [INF] Executed action JobRecrutmentApi.Controllers.Common.MessageController.GetMessageDetails (JobRecrutmentApi) in 2756.1361ms
+12-Sep-2020 11:23:52.691 +06:00 [INF] Request finished in 3163.5098ms 200 application/json; charset=utf-8
+12-Sep-2020 11:29:38.267 +06:00 [INF] User profile is available. Using 'C:\Users\himu\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+12-Sep-2020 11:29:39.562 +06:00 [INF] Request starting HTTP/1.1 DEBUG http://localhost:58364/  0
+12-Sep-2020 11:29:39.562 +06:00 [INF] Request starting HTTP/1.1 GET http://localhost:58364/swagger/index.html  
+12-Sep-2020 11:29:39.615 +06:00 [INF] Request finished in 68.033ms 200 
+12-Sep-2020 11:29:40.061 +06:00 [INF] Request finished in 514.9184ms 200 text/html
+12-Sep-2020 11:29:40.373 +06:00 [INF] Request starting HTTP/1.1 GET http://localhost:58364/swagger/v1.0/swagger.json  
+12-Sep-2020 11:29:41.204 +06:00 [INF] Request finished in 830.5063ms 200 application/json;charset=utf-8
+12-Sep-2020 11:29:57.942 +06:00 [INF] Request starting HTTP/1.1 POST http://localhost:58364/api/message/GetMessageDetails application/json-patch+json 54
+12-Sep-2020 11:29:57.949 +06:00 [INF] Policy execution failed.
+12-Sep-2020 11:29:57.950 +06:00 [INF] Request origin http://localhost:58364 does not have permission to access the resource.
+12-Sep-2020 11:29:57.975 +06:00 [INF] Policy execution failed.
+12-Sep-2020 11:29:57.975 +06:00 [INF] Request origin http://localhost:58364 does not have permission to access the resource.
+12-Sep-2020 11:29:58.264 +06:00 [INF] Route matched with {action = "GetMessageDetails", controller = "Message"}. Executing action JobRecrutmentApi.Controllers.Common.MessageController.GetMessageDetails (JobRecrutmentApi)
+12-Sep-2020 11:29:58.978 +06:00 [INF] Executing action method JobRecrutmentApi.Controllers.Common.MessageController.GetMessageDetails (JobRecrutmentApi) with arguments (["Common.Domain.Entities.BodyModel.MessageDetailsBodyModel"]) - Validation state: "Valid"
+12-Sep-2020 11:29:59.710 +06:00 [INF] Entity Framework Core 2.2.6-servicing-10079 initialized 'SqlServerContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+12-Sep-2020 11:30:00.213 +06:00 [WRN] The LINQ expression 'Distinct()' could not be translated and will be evaluated locally.
+12-Sep-2020 11:30:00.964 +06:00 [INF] Executed DbCommand (157ms) [Parameters=[@__messageDetailsBodyModel_CandidateId_0='?' (DbType = Int32), @__messageDetailsBodyModel_CompanyId_1='?' (DbType = Int32), @__messageDetailsBodyModel_JobId_2='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT CONVERT(date, [m].[SendingTime]) AS [SendingDate], [m].[SendingTime]
+FROM [Common].[Message] AS [m]
+WHERE (([m].[CandidateId] = @__messageDetailsBodyModel_CandidateId_0) AND ([m].[CompanyId] = @__messageDetailsBodyModel_CompanyId_1)) AND ([m].[JobId] = @__messageDetailsBodyModel_JobId_2)
+12-Sep-2020 11:30:01.129 +06:00 [INF] Executed DbCommand (63ms) [Parameters=[@__messageDetailsBodyModel_CandidateId_3='?' (DbType = Int32), @__messageDetailsBodyModel_CompanyId_4='?' (DbType = Int32), @__messageDetailsBodyModel_JobId_5='?' (DbType = Int32), @_outer_SendingTime='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SELECT [sm].[MessageId]
+FROM [Common].[Message] AS [sm]
+WHERE ((([sm].[CandidateId] = @__messageDetailsBodyModel_CandidateId_3) AND ([sm].[CompanyId] = @__messageDetailsBodyModel_CompanyId_4)) AND ([sm].[JobId] = @__messageDetailsBodyModel_JobId_5)) AND (CONVERT(date, [sm].[SendingTime]) = CONVERT(date, @_outer_SendingTime))
+12-Sep-2020 11:30:01.226 +06:00 [INF] Executed DbCommand (74ms) [Parameters=[@__messageDetailsBodyModel_CandidateId_3='?' (DbType = Int32), @__messageDetailsBodyModel_CompanyId_4='?' (DbType = Int32), @__messageDetailsBodyModel_JobId_5='?' (DbType = Int32), @_outer_SendingTime='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SELECT [sm].[MessageId]
+FROM [Common].[Message] AS [sm]
+WHERE ((([sm].[CandidateId] = @__messageDetailsBodyModel_CandidateId_3) AND ([sm].[CompanyId] = @__messageDetailsBodyModel_CompanyId_4)) AND ([sm].[JobId] = @__messageDetailsBodyModel_JobId_5)) AND (CONVERT(date, [sm].[SendingTime]) = CONVERT(date, @_outer_SendingTime))
+12-Sep-2020 11:30:01.288 +06:00 [INF] Executed DbCommand (61ms) [Parameters=[@__messageDetailsBodyModel_CandidateId_3='?' (DbType = Int32), @__messageDetailsBodyModel_CompanyId_4='?' (DbType = Int32), @__messageDetailsBodyModel_JobId_5='?' (DbType = Int32), @_outer_SendingTime='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SELECT [sm].[MessageId]
+FROM [Common].[Message] AS [sm]
+WHERE ((([sm].[CandidateId] = @__messageDetailsBodyModel_CandidateId_3) AND ([sm].[CompanyId] = @__messageDetailsBodyModel_CompanyId_4)) AND ([sm].[JobId] = @__messageDetailsBodyModel_JobId_5)) AND (CONVERT(date, [sm].[SendingTime]) = CONVERT(date, @_outer_SendingTime))
+12-Sep-2020 11:30:01.350 +06:00 [INF] Executed DbCommand (61ms) [Parameters=[@__messageDetailsBodyModel_CandidateId_3='?' (DbType = Int32), @__messageDetailsBodyModel_CompanyId_4='?' (DbType = Int32), @__messageDetailsBodyModel_JobId_5='?' (DbType = Int32), @_outer_SendingTime='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SELECT [sm].[MessageId]
+FROM [Common].[Message] AS [sm]
+WHERE ((([sm].[CandidateId] = @__messageDetailsBodyModel_CandidateId_3) AND ([sm].[CompanyId] = @__messageDetailsBodyModel_CompanyId_4)) AND ([sm].[JobId] = @__messageDetailsBodyModel_JobId_5)) AND (CONVERT(date, [sm].[SendingTime]) = CONVERT(date, @_outer_SendingTime))
+12-Sep-2020 11:30:01.355 +06:00 [INF] Executed action method JobRecrutmentApi.Controllers.Common.MessageController.GetMessageDetails (JobRecrutmentApi), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 2371.0012ms.
+12-Sep-2020 11:30:01.398 +06:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Common.Domain.Entities.ViewModel.MessageDetailsViewModel, Common.Domain.Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+12-Sep-2020 11:30:01.462 +06:00 [INF] Executed action JobRecrutmentApi.Controllers.Common.MessageController.GetMessageDetails (JobRecrutmentApi) in 3191.7598000000003ms
+12-Sep-2020 11:30:01.472 +06:00 [INF] Request finished in 3529.8246ms 200 application/json; charset=utf-8
+12-Sep-2020 11:30:54.766 +06:00 [INF] User profile is available. Using 'C:\Users\himu\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+12-Sep-2020 11:30:55.951 +06:00 [INF] Request starting HTTP/1.1 DEBUG http://localhost:58364/  0
+12-Sep-2020 11:30:55.951 +06:00 [INF] Request starting HTTP/1.1 GET http://localhost:58364/swagger/index.html  
+12-Sep-2020 11:30:55.993 +06:00 [INF] Request finished in 56.2177ms 200 
+12-Sep-2020 11:30:56.350 +06:00 [INF] Request finished in 414.0013ms 200 text/html
+12-Sep-2020 11:30:56.611 +06:00 [INF] Request starting HTTP/1.1 GET http://localhost:58364/swagger/v1.0/swagger.json  
+12-Sep-2020 11:30:57.373 +06:00 [INF] Request finished in 761.7429ms 200 application/json;charset=utf-8
+12-Sep-2020 11:31:15.331 +06:00 [INF] Request starting HTTP/1.1 POST http://localhost:58364/api/message/GetMessageDetails application/json-patch+json 54
+12-Sep-2020 11:31:15.338 +06:00 [INF] Policy execution failed.
+12-Sep-2020 11:31:15.339 +06:00 [INF] Request origin http://localhost:58364 does not have permission to access the resource.
+12-Sep-2020 11:31:15.362 +06:00 [INF] Policy execution failed.
+12-Sep-2020 11:31:15.362 +06:00 [INF] Request origin http://localhost:58364 does not have permission to access the resource.
+12-Sep-2020 11:31:15.711 +06:00 [INF] Route matched with {action = "GetMessageDetails", controller = "Message"}. Executing action JobRecrutmentApi.Controllers.Common.MessageController.GetMessageDetails (JobRecrutmentApi)
+12-Sep-2020 11:31:16.594 +06:00 [INF] Executing action method JobRecrutmentApi.Controllers.Common.MessageController.GetMessageDetails (JobRecrutmentApi) with arguments (["Common.Domain.Entities.BodyModel.MessageDetailsBodyModel"]) - Validation state: "Valid"
+12-Sep-2020 11:31:17.381 +06:00 [INF] Entity Framework Core 2.2.6-servicing-10079 initialized 'SqlServerContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+12-Sep-2020 11:31:17.953 +06:00 [WRN] The LINQ expression 'Distinct()' could not be translated and will be evaluated locally.
+12-Sep-2020 11:31:18.633 +06:00 [INF] Executed DbCommand (153ms) [Parameters=[@__messageDetailsBodyModel_CandidateId_0='?' (DbType = Int32), @__messageDetailsBodyModel_CompanyId_1='?' (DbType = Int32), @__messageDetailsBodyModel_JobId_2='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT CONVERT(date, [m].[SendingTime]) AS [SendingDate], [m].[SendingTime]
+FROM [Common].[Message] AS [m]
+WHERE (([m].[CandidateId] = @__messageDetailsBodyModel_CandidateId_0) AND ([m].[CompanyId] = @__messageDetailsBodyModel_CompanyId_1)) AND ([m].[JobId] = @__messageDetailsBodyModel_JobId_2)
+12-Sep-2020 11:31:18.807 +06:00 [INF] Executed DbCommand (87ms) [Parameters=[@__messageDetailsBodyModel_CandidateId_3='?' (DbType = Int32), @__messageDetailsBodyModel_CompanyId_4='?' (DbType = Int32), @__messageDetailsBodyModel_JobId_5='?' (DbType = Int32), @_outer_SendingTime='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SELECT DISTINCT [sm].[MessageId]
+FROM [Common].[Message] AS [sm]
+WHERE ((([sm].[CandidateId] = @__messageDetailsBodyModel_CandidateId_3) AND ([sm].[CompanyId] = @__messageDetailsBodyModel_CompanyId_4)) AND ([sm].[JobId] = @__messageDetailsBodyModel_JobId_5)) AND (CONVERT(date, [sm].[SendingTime]) = CONVERT(date, @_outer_SendingTime))
+12-Sep-2020 11:31:18.925 +06:00 [INF] Executed DbCommand (82ms) [Parameters=[@__messageDetailsBodyModel_CandidateId_3='?' (DbType = Int32), @__messageDetailsBodyModel_CompanyId_4='?' (DbType = Int32), @__messageDetailsBodyModel_JobId_5='?' (DbType = Int32), @_outer_SendingTime='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SELECT DISTINCT [sm].[MessageId]
+FROM [Common].[Message] AS [sm]
+WHERE ((([sm].[CandidateId] = @__messageDetailsBodyModel_CandidateId_3) AND ([sm].[CompanyId] = @__messageDetailsBodyModel_CompanyId_4)) AND ([sm].[JobId] = @__messageDetailsBodyModel_JobId_5)) AND (CONVERT(date, [sm].[SendingTime]) = CONVERT(date, @_outer_SendingTime))
+12-Sep-2020 11:31:18.985 +06:00 [INF] Executed DbCommand (59ms) [Parameters=[@__messageDetailsBodyModel_CandidateId_3='?' (DbType = Int32), @__messageDetailsBodyModel_CompanyId_4='?' (DbType = Int32), @__messageDetailsBodyModel_JobId_5='?' (DbType = Int32), @_outer_SendingTime='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SELECT DISTINCT [sm].[MessageId]
+FROM [Common].[Message] AS [sm]
+WHERE ((([sm].[CandidateId] = @__messageDetailsBodyModel_CandidateId_3) AND ([sm].[CompanyId] = @__messageDetailsBodyModel_CompanyId_4)) AND ([sm].[JobId] = @__messageDetailsBodyModel_JobId_5)) AND (CONVERT(date, [sm].[SendingTime]) = CONVERT(date, @_outer_SendingTime))
+12-Sep-2020 11:31:19.076 +06:00 [INF] Executed DbCommand (90ms) [Parameters=[@__messageDetailsBodyModel_CandidateId_3='?' (DbType = Int32), @__messageDetailsBodyModel_CompanyId_4='?' (DbType = Int32), @__messageDetailsBodyModel_JobId_5='?' (DbType = Int32), @_outer_SendingTime='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SELECT DISTINCT [sm].[MessageId]
+FROM [Common].[Message] AS [sm]
+WHERE ((([sm].[CandidateId] = @__messageDetailsBodyModel_CandidateId_3) AND ([sm].[CompanyId] = @__messageDetailsBodyModel_CompanyId_4)) AND ([sm].[JobId] = @__messageDetailsBodyModel_JobId_5)) AND (CONVERT(date, [sm].[SendingTime]) = CONVERT(date, @_outer_SendingTime))
+12-Sep-2020 11:31:19.082 +06:00 [INF] Executed action method JobRecrutmentApi.Controllers.Common.MessageController.GetMessageDetails (JobRecrutmentApi), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 2480.0837ms.
+12-Sep-2020 11:31:19.135 +06:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Common.Domain.Entities.ViewModel.MessageDetailsViewModel, Common.Domain.Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+12-Sep-2020 11:31:19.193 +06:00 [INF] Executed action JobRecrutmentApi.Controllers.Common.MessageController.GetMessageDetails (JobRecrutmentApi) in 3475.6801ms
+12-Sep-2020 11:31:19.203 +06:00 [INF] Request finished in 3872.6669ms 200 application/json; charset=utf-8
